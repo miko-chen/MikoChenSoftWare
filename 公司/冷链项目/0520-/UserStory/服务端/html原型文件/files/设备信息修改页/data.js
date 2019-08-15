@@ -1,0 +1,729 @@
+﻿$axure.loadCurrentPage({
+  "url":"设备信息修改页.html",
+  "generationDate":new Date(1557742126140.42),
+  "isCanvasEnabled":false,
+  "variables":["yys_name",
+"car_chePai_card",
+"car_chePai_color",
+"car_leixing",
+"car_ICcard",
+"yy_leixing",
+"car_InterNet_leixing",
+"car_jingYingLuXian",
+"car_zhuangTai",
+"quYu",
+"phone",
+"mail",
+"name"],
+  "page":{
+    "packageId":"dc9e9c8ed3e8415fac98aa16c83bbd57",
+    "type":"Axure:Page",
+    "name":"设备信息修改页",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"e8c736ebf5854dd48657f0587cbaca1e",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":278,
+              "y":232},
+            "size":{
+              "width":53,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"328de20d40064204804095d41b83280c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":278,
+                  "y":232},
+                "size":{
+                  "width":53,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"7d73871eee564f9fb59975192a6bb40c",
+          "label":"新增_车牌号",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":364,
+              "y":226},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"47fe777b97c442cb8c755584dae64335",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":278,
+              "y":372},
+            "size":{
+              "width":53,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a0f6b37fcd55457d9876302667607383",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":278,
+                  "y":372},
+                "size":{
+                  "width":53,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"b769daf8d68346e29469e14a43dc362d",
+          "label":"新增_车辆类型",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":364,
+              "y":366},
+            "size":{
+              "width":200,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"c4951bbb55c74a82a63832167b41cb52",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":278,
+              "y":404},
+            "size":{
+              "width":53,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d33e5114a97047e1b0da41e66113718e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":278,
+                  "y":404},
+                "size":{
+                  "width":53,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"a7e9999c8432488a857ac83ba51ed962",
+          "label":"新增_车辆类型",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":364,
+              "y":398},
+            "size":{
+              "width":200,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"aff30c9c8dea4fa7a968afdd7cccc343",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":278,
+              "y":267},
+            "size":{
+              "width":53,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"df50c1bb481648ddb2e0738532fef387",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":278,
+                  "y":267},
+                "size":{
+                  "width":53,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"9f4369cab9c84c97bd65e8eba93553e6",
+          "label":"新增_车牌号",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":364,
+              "y":261},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"075c6816502e48ca8d9931872ea52078",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":278,
+              "y":302},
+            "size":{
+              "width":53,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c3794383cb9e4b6aa36f3547549d7043",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":278,
+                  "y":302},
+                "size":{
+                  "width":53,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"270360dbfbe74c5ca443c9d5fc40dea8",
+          "label":"新增_车牌号",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":364,
+              "y":296},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"dbc729943f934dc8af476efdf6ef8dab",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":278,
+              "y":337},
+            "size":{
+              "width":53,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0ca6c892e4534de2b00a92472c0f6a3c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":278,
+                  "y":337},
+                "size":{
+                  "width":53,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"2fb06bc41f684e84a108153bc59dbdca",
+          "label":"新增_车牌号",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":364,
+              "y":331},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"f98a7af2115c412682db13b692f3bc8c",
+          "label":"设备信息保存1",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":308,
+              "y":441},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 设备信息保存1-1,<br>设备信息保存1-2,<br>设备信息保存1-3,<br>设备信息保存1-4",
+                      "objectsToFades":[{
+                          "objectPath":["df3b2891f7cd452b9cfcb4cbf9f30e6a"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["59e6ad97a5354554bc907d4d71c33451"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["3b5d67d587324527bc272f7ce08aaedd"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["8c7c07f0501445789194132e26df56c0"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"f8c163e6a6ec463cbd8f97d5f0cf82b9",
+          "label":"新增_关闭",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":438,
+              "y":441},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 变量 yys_name = &quot;&quot;, 且<br> 变量 car_chePai_card = &quot;&quot;, 且<br> 变量 car_chePai_color = &quot;&quot;, 且<br> 变量 car_leixing = &quot;&quot;, 且<br> 变量 car_ICcard = &quot;&quot;, 且<br> 变量 yy_leixing = &quot;&quot;, 且<br> 变量 car_InterNet_leixing = &quot;&quot;, 且<br> 变量 car_jingYingLuXian = &quot;&quot;, 且<br> 变量 car_zhuangTai = &quot;&quot;, 且<br> 变量 quYu = &quot;&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"yys_name"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"car_chePai_card"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"car_chePai_color"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"car_leixing"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"car_ICcard"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"yy_leixing"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"car_InterNet_leixing"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"car_jingYingLuXian"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"car_zhuangTai"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":"quYu"},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]}]}},
+{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 车辆保险",
+                      "target":{
+                        "targetType":"page",
+                        "url":"车辆保险_1.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"58b971d441054f0d8ad573fa684547dd",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Negreta', 'Arial'",
+            "fontSize":"36px",
+            "fontWeight":"700",
+            "location":{
+              "x":231,
+              "y":168},
+            "size":{
+              "width":100,
+              "height":39}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2d8231e47d25462284ac1d26b7e8fc21",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Negreta', 'Arial'",
+                "fontSize":"36px",
+                "fontWeight":"700",
+                "location":{
+                  "x":231,
+                  "y":168},
+                "size":{
+                  "width":100,
+                  "height":39}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"df3b2891f7cd452b9cfcb4cbf9f30e6a",
+          "label":"设备信息保存1-1",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF999999},
+            "location":{
+              "x":590,
+              "y":310},
+            "size":{
+              "width":184,
+              "height":78},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8cf954223c3141059ecf29ea91789608",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF999999},
+                "location":{
+                  "x":590,
+                  "y":310},
+                "size":{
+                  "width":184,
+                  "height":78},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/设备信息修改页/设备信息保存1-1_u22.png"}},
+{
+          "id":"59e6ad97a5354554bc907d4d71c33451",
+          "label":"设备信息保存1-2",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":620,
+              "y":320},
+            "size":{
+              "width":130,
+              "height":20},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"550f6c733ff0415799010b6662e5e1ab",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":620,
+                  "y":320},
+                "size":{
+                  "width":130,
+                  "height":20},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"3b5d67d587324527bc272f7ce08aaedd",
+          "label":"设备信息保存1-3",
+          "type":"button",
+          "styleType":"button",
+          "visible":false,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":600,
+              "y":350},
+            "size":{
+              "width":60,
+              "height":25},
+            "visible":false},
+          "adaptiveStyles":{
+}},
+{
+          "id":"8c7c07f0501445789194132e26df56c0",
+          "label":"设备信息保存1-4",
+          "type":"button",
+          "styleType":"button",
+          "visible":false,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":700,
+              "y":350},
+            "size":{
+              "width":60,
+              "height":25},
+            "visible":false},
+          "adaptiveStyles":{
+}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "e8c736ebf5854dd48657f0587cbaca1e":{
+      "scriptId":"u0"},
+    "328de20d40064204804095d41b83280c":{
+      "scriptId":"u1"},
+    "7d73871eee564f9fb59975192a6bb40c":{
+      "scriptId":"u2"},
+    "47fe777b97c442cb8c755584dae64335":{
+      "scriptId":"u3"},
+    "a0f6b37fcd55457d9876302667607383":{
+      "scriptId":"u4"},
+    "b769daf8d68346e29469e14a43dc362d":{
+      "scriptId":"u5"},
+    "c4951bbb55c74a82a63832167b41cb52":{
+      "scriptId":"u6"},
+    "d33e5114a97047e1b0da41e66113718e":{
+      "scriptId":"u7"},
+    "a7e9999c8432488a857ac83ba51ed962":{
+      "scriptId":"u8"},
+    "aff30c9c8dea4fa7a968afdd7cccc343":{
+      "scriptId":"u9"},
+    "df50c1bb481648ddb2e0738532fef387":{
+      "scriptId":"u10"},
+    "9f4369cab9c84c97bd65e8eba93553e6":{
+      "scriptId":"u11"},
+    "075c6816502e48ca8d9931872ea52078":{
+      "scriptId":"u12"},
+    "c3794383cb9e4b6aa36f3547549d7043":{
+      "scriptId":"u13"},
+    "270360dbfbe74c5ca443c9d5fc40dea8":{
+      "scriptId":"u14"},
+    "dbc729943f934dc8af476efdf6ef8dab":{
+      "scriptId":"u15"},
+    "0ca6c892e4534de2b00a92472c0f6a3c":{
+      "scriptId":"u16"},
+    "2fb06bc41f684e84a108153bc59dbdca":{
+      "scriptId":"u17"},
+    "f98a7af2115c412682db13b692f3bc8c":{
+      "scriptId":"u18"},
+    "f8c163e6a6ec463cbd8f97d5f0cf82b9":{
+      "scriptId":"u19"},
+    "58b971d441054f0d8ad573fa684547dd":{
+      "scriptId":"u20"},
+    "2d8231e47d25462284ac1d26b7e8fc21":{
+      "scriptId":"u21"},
+    "df3b2891f7cd452b9cfcb4cbf9f30e6a":{
+      "scriptId":"u22"},
+    "8cf954223c3141059ecf29ea91789608":{
+      "scriptId":"u23"},
+    "59e6ad97a5354554bc907d4d71c33451":{
+      "scriptId":"u24"},
+    "550f6c733ff0415799010b6662e5e1ab":{
+      "scriptId":"u25"},
+    "3b5d67d587324527bc272f7ce08aaedd":{
+      "scriptId":"u26"},
+    "8c7c07f0501445789194132e26df56c0":{
+      "scriptId":"u27"}}});

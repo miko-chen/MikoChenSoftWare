@@ -1,0 +1,2335 @@
+﻿$axure.loadCurrentPage({
+  "url":"车辆上线情况统计.html",
+  "generationDate":new Date(1558324042392.48),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"yys_name",
+"car_chePai_card",
+"car_chePai_color",
+"car_leixing",
+"car_ICcard",
+"yy_leixing",
+"car_InterNet_leixing",
+"car_jingYingLuXian",
+"car_zhuangTai",
+"quYu",
+"phone",
+"mail",
+"name",
+"NewVariable"],
+  "page":{
+    "packageId":"6186dc2fe4f24b3cba6992eead97f17e",
+    "type":"Axure:Page",
+    "name":"车辆上线情况统计",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"823a9dc113aa4b11a4c08db637135db9",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":205,
+              "y":78},
+            "size":{
+              "width":53,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e61895713a1841b9b58b1795317f0ba8",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":205,
+                  "y":78},
+                "size":{
+                  "width":53,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"4f46726c4e6d4b5db521e10ed867e617",
+          "label":"车牌号框",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":270,
+              "y":77},
+            "size":{
+              "width":140,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"c614e9cbd3324ce5b3a6382ec0357330",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":678,
+              "y":78},
+            "size":{
+              "width":53,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2af0d73e5dbf4571ae72ffb2beab18a5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":678,
+                  "y":78},
+                "size":{
+                  "width":53,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"1d124b0a3f1043f7b0fcf86e7507f947",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":218,
+              "y":133},
+            "size":{
+              "width":40,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"84b6a7b979ed4bfeb0e2cb2a114eda46",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":218,
+                  "y":133},
+                "size":{
+                  "width":40,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"cedf6c51b920494983a45e75ef4a7870",
+          "label":"IC卡号框",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":270,
+              "y":130},
+            "size":{
+              "width":140,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"10491e4d14b34abaad6a8e8e2b9b9783",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontSize":"16px",
+            "location":{
+              "x":160,
+              "y":35},
+            "size":{
+              "width":65,
+              "height":19}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"842ecc80e086453a86abef32d79881e8",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"16px",
+                "location":{
+                  "x":160,
+                  "y":35},
+                "size":{
+                  "width":65,
+                  "height":19}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"bf57c834e65640e3bdcfb8927c09122e",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":428,
+              "y":175},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"2127236a91b747d6bd4eba38e4d80144",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":205,
+              "y":175},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"车牌号判断<br> (If 部件文字 不明 ≠ &quot;&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"!=",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["81ada6f7cdfa49fdb449a9aea91d0dbc"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = 部件文字 不明",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]},
+{
+                  "description":"车牌为空<br> (Else If 部件文字 不明 = &quot;&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["81ada6f7cdfa49fdb449a9aea91d0dbc"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;鲁Y123456&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]},
+{
+                  "description":"车辆颜色框判断<br> (If 选中项值 不明 ≠ &quot;全部&quot;)",
+                  "isNewIfGroup":true,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"!=",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["352434ff53f148f98da2886e235bfbe2"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"全部",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = 选中项值 不明",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]},
+{
+                  "description":"车牌颜色默认<br> (Else If 选中项值 不明 = &quot;全部&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["352434ff53f148f98da2886e235bfbe2"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"全部",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;黄色&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]},
+{
+                  "description":"IC卡号判断<br> (If 部件文字 不明 ≠ &quot;&quot;)",
+                  "isNewIfGroup":true,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"!=",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["fcddb4293b8542828f598bb7c1ee579c"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = 部件文字 不明",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]},
+{
+                  "description":"IC卡号为空<br> (Else If 部件文字 不明 = &quot;&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["fcddb4293b8542828f598bb7c1ee579c"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;100110&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]},
+{
+                  "description":"经营路线判断<br> (If 选中项值 不明 ≠ &quot;全部&quot;)",
+                  "isNewIfGroup":true,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"!=",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["6c36205ea799465b91c56ec4b3138c47"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"全部",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = 选中项值 不明",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]},
+{
+                  "description":"经营路线默认<br> (Else If 选中项值 不明 = &quot;全部&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["6c36205ea799465b91c56ec4b3138c47"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"全部",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;芝罘区-莱山区&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]},
+{
+                  "description":"运营商判断<br> (If 选中项值 不明 ≠ &quot;请选择&quot;)",
+                  "isNewIfGroup":true,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"!=",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["7c11a9f125f94922bfe23419bfcedae4"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"请选择",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = 选中项值 不明",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]},
+{
+                  "description":"运营商默认<br> (Else If 选中项值 不明 = &quot;请选择&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["7c11a9f125f94922bfe23419bfcedae4"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"请选择",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;运营商test1&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]},
+{
+                  "description":"车辆状态判断<br> (If 选中项值 不明 ≠ &quot;请选择&quot;)",
+                  "isNewIfGroup":true,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"!=",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["a67a32829c0b4cada9da73f166322a68"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"请选择",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = 选中项值 不明",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]},
+{
+                  "description":"车辆状态默认<br> (Else If 选中项值 不明 = &quot;请选择&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["a67a32829c0b4cada9da73f166322a68"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"请选择",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;运营中&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]},
+{
+                  "description":"运营类型判断<br> (If 选中项值 不明 ≠ &quot;全部&quot;)",
+                  "isNewIfGroup":true,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"!=",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["440693046d434d6e9311907950ceca5f"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"全部",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = 选中项值 不明",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]},
+{
+                  "description":"运营类型默认<br> (Else If 选中项值 不明 = &quot;全部&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["440693046d434d6e9311907950ceca5f"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"全部",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;普通客运&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]},
+{
+                  "description":"终端判断<br> (If 选中项值 不明 ≠ &quot;全部&quot;)",
+                  "isNewIfGroup":true,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"!=",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["3db1a0f1e29447dda0f16043eb1721d1"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"全部",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = 选中项值 不明",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]},
+{
+                  "description":"终端分类默认<br> (Else If 选中项值 不明 = &quot;全部&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["3db1a0f1e29447dda0f16043eb1721d1"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"全部",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;4G&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]},
+{
+                  "description":"车辆类型<br> (If 选中项值 不明 ≠ &quot;全部&quot;)",
+                  "isNewIfGroup":true,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"!=",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["8f26e18c73384497b7ce904d908b0fec"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"全部",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = 选中项值 不明",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]},
+{
+                  "description":"车辆类型默认<br> (Else If 选中项值 不明 = &quot;全部&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["8f26e18c73384497b7ce904d908b0fec"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"全部",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;货车&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]},
+{
+                  "description":"所属区域框<br> (If 选中项值 不明 ≠ &quot;全部&quot;)",
+                  "isNewIfGroup":true,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"!=",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["9c9ed97f6e2a45dfa58e026646c8417b"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"全部",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = 选中项值 不明",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]},
+{
+                  "description":"所属区域默认<br> (Else If 选中项值 不明 = &quot;全部&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"==",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetSelectedOption",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["9c9ed97f6e2a45dfa58e026646c8417b"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"全部",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;芝罘区&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]},
+{
+                  "description":"用例 1<br> (If 部件文字 不明 = &quot;&quot; 和 部件文字 不明 = &quot;&quot; 和 选中项值 不明 = &quot;全部&quot; 和 选中项值 不明 = &quot;全部&quot; 和 选中项值 不明 = &quot;请选择&quot; 和 选中项值 不明 = &quot;请选择&quot; 和 选中项值 不明 = &quot;全部&quot; 和 选中项值 不明 = &quot;全部&quot; 和 选中项值 不明 = &quot;全部&quot; 和 选中项值 不明 = &quot;全部&quot;)",
+                  "isNewIfGroup":true,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"&&",
+                    "leftExpr":{
+                      "exprType":"binaryOp",
+                      "op":"==",
+                      "leftExpr":{
+                        "exprType":"fcall",
+                        "functionName":"GetWidgetText",
+                        "arguments":[{
+                            "exprType":"pathLiteral",
+                            "isThis":false,
+                            "isFocused":false,
+                            "isTarget":false,
+                            "value":["81ada6f7cdfa49fdb449a9aea91d0dbc"]}]},
+                      "rightExpr":{
+                        "exprType":"stringLiteral",
+                        "value":"",
+                        "stos":[]}},
+                    "rightExpr":{
+                      "exprType":"binaryOp",
+                      "op":"&&",
+                      "leftExpr":{
+                        "exprType":"binaryOp",
+                        "op":"==",
+                        "leftExpr":{
+                          "exprType":"fcall",
+                          "functionName":"GetWidgetText",
+                          "arguments":[{
+                              "exprType":"pathLiteral",
+                              "isThis":false,
+                              "isFocused":false,
+                              "isTarget":false,
+                              "value":["fcddb4293b8542828f598bb7c1ee579c"]}]},
+                        "rightExpr":{
+                          "exprType":"stringLiteral",
+                          "value":"",
+                          "stos":[]}},
+                      "rightExpr":{
+                        "exprType":"binaryOp",
+                        "op":"&&",
+                        "leftExpr":{
+                          "exprType":"binaryOp",
+                          "op":"==",
+                          "leftExpr":{
+                            "exprType":"fcall",
+                            "functionName":"GetSelectedOption",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["352434ff53f148f98da2886e235bfbe2"]}]},
+                          "rightExpr":{
+                            "exprType":"stringLiteral",
+                            "value":"全部",
+                            "stos":[]}},
+                        "rightExpr":{
+                          "exprType":"binaryOp",
+                          "op":"&&",
+                          "leftExpr":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetSelectedOption",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":false,
+                                  "isFocused":false,
+                                  "isTarget":false,
+                                  "value":["6c36205ea799465b91c56ec4b3138c47"]}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"全部",
+                              "stos":[]}},
+                          "rightExpr":{
+                            "exprType":"binaryOp",
+                            "op":"&&",
+                            "leftExpr":{
+                              "exprType":"binaryOp",
+                              "op":"==",
+                              "leftExpr":{
+                                "exprType":"fcall",
+                                "functionName":"GetSelectedOption",
+                                "arguments":[{
+                                    "exprType":"pathLiteral",
+                                    "isThis":false,
+                                    "isFocused":false,
+                                    "isTarget":false,
+                                    "value":["7c11a9f125f94922bfe23419bfcedae4"]}]},
+                              "rightExpr":{
+                                "exprType":"stringLiteral",
+                                "value":"请选择",
+                                "stos":[]}},
+                            "rightExpr":{
+                              "exprType":"binaryOp",
+                              "op":"&&",
+                              "leftExpr":{
+                                "exprType":"binaryOp",
+                                "op":"==",
+                                "leftExpr":{
+                                  "exprType":"fcall",
+                                  "functionName":"GetSelectedOption",
+                                  "arguments":[{
+                                      "exprType":"pathLiteral",
+                                      "isThis":false,
+                                      "isFocused":false,
+                                      "isTarget":false,
+                                      "value":["a67a32829c0b4cada9da73f166322a68"]}]},
+                                "rightExpr":{
+                                  "exprType":"stringLiteral",
+                                  "value":"请选择",
+                                  "stos":[]}},
+                              "rightExpr":{
+                                "exprType":"binaryOp",
+                                "op":"&&",
+                                "leftExpr":{
+                                  "exprType":"binaryOp",
+                                  "op":"==",
+                                  "leftExpr":{
+                                    "exprType":"fcall",
+                                    "functionName":"GetSelectedOption",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["440693046d434d6e9311907950ceca5f"]}]},
+                                  "rightExpr":{
+                                    "exprType":"stringLiteral",
+                                    "value":"全部",
+                                    "stos":[]}},
+                                "rightExpr":{
+                                  "exprType":"binaryOp",
+                                  "op":"&&",
+                                  "leftExpr":{
+                                    "exprType":"binaryOp",
+                                    "op":"==",
+                                    "leftExpr":{
+                                      "exprType":"fcall",
+                                      "functionName":"GetSelectedOption",
+                                      "arguments":[{
+                                          "exprType":"pathLiteral",
+                                          "isThis":false,
+                                          "isFocused":false,
+                                          "isTarget":false,
+                                          "value":["3db1a0f1e29447dda0f16043eb1721d1"]}]},
+                                    "rightExpr":{
+                                      "exprType":"stringLiteral",
+                                      "value":"全部",
+                                      "stos":[]}},
+                                  "rightExpr":{
+                                    "exprType":"binaryOp",
+                                    "op":"&&",
+                                    "leftExpr":{
+                                      "exprType":"binaryOp",
+                                      "op":"==",
+                                      "leftExpr":{
+                                        "exprType":"fcall",
+                                        "functionName":"GetSelectedOption",
+                                        "arguments":[{
+                                            "exprType":"pathLiteral",
+                                            "isThis":false,
+                                            "isFocused":false,
+                                            "isTarget":false,
+                                            "value":["8f26e18c73384497b7ce904d908b0fec"]}]},
+                                      "rightExpr":{
+                                        "exprType":"stringLiteral",
+                                        "value":"全部",
+                                        "stos":[]}},
+                                    "rightExpr":{
+                                      "exprType":"binaryOp",
+                                      "op":"==",
+                                      "leftExpr":{
+                                        "exprType":"fcall",
+                                        "functionName":"GetSelectedOption",
+                                        "arguments":[{
+                                            "exprType":"pathLiteral",
+                                            "isThis":false,
+                                            "isFocused":false,
+                                            "isTarget":false,
+                                            "value":["9c9ed97f6e2a45dfa58e026646c8417b"]}]},
+                                      "rightExpr":{
+                                        "exprType":"stringLiteral",
+                                        "value":"全部",
+                                        "stos":[]}}}}}}}}}}},
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;芝罘区&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;运营商test1&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;鲁Y789456&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;黄色&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;货车&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;7758666&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;普通客运&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;4G&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;芝罘区-莱山区&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;运营中&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;高新区&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;运营商test3&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;鲁Y934123&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;蓝色&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;罐车&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;5667895&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;危险货物运输&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;DSM+ADAS&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;芝罘区-高新区&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;停运&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;莱山区&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;运营商test4&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;鲁A369369&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;黄色&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;客车&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;54456564123&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;班线客运&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;2G&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;芝罘区-莱山区&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;已入网&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;莱山区&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;运营商test2&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;鲁C45820&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;蓝色&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;牵引车&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;23657247&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;旅游客运&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;4G&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;北京-芝罘&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;运营中&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示/隐藏部件",
+                      "objectsToFades":[]}]},
+{
+                  "description":"用例 2<br> (Else If 部件文字 不明 ≠ &quot;&quot;)",
+                  "isNewIfGroup":false,
+                  "condition":{
+                    "exprType":"binaryOp",
+                    "op":"!=",
+                    "leftExpr":{
+                      "exprType":"fcall",
+                      "functionName":"GetWidgetText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["685418ac213b4af2aaa5ef4f2c9c650c"]}]},
+                    "rightExpr":{
+                      "exprType":"stringLiteral",
+                      "value":"",
+                      "stos":[]}},
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示/隐藏部件",
+                      "objectsToFades":[]}]}]}},
+          "tabbable":true},
+{
+          "id":"71a3d06254494f44bbbc87f721ab7674",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":315,
+              "y":175},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"重置",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;&quot;, 且<br> 部件文字 不明 = &quot;&quot;, 且<br> 部件文字 不明 = &quot;&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示/隐藏部件",
+                      "objectsToFades":[]},
+{
+                      "action":"setFunction",
+                      "description":"设置 选中项值 不明 = &quot;全部&quot;, 且<br> 选中项值 不明 = &quot;全部&quot;, 且<br> 选中项值 不明 = &quot;请选择&quot;, 且<br> 选中项值 不明 = &quot;请选择&quot;, 且<br> 选中项值 不明 = &quot;全部&quot;, 且<br> 选中项值 不明 = &quot;全部&quot;, 且<br> 选中项值 不明 = &quot;全部&quot;, 且<br> 选中项值 不明 = &quot;全部&quot;, 且<br> 选中项值 不明 = &quot;全部&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]}]}},
+          "tabbable":true},
+{
+          "id":"3413a6baf313478fbfd4a464b110a60f",
+          "label":"",
+          "type":"table",
+          "styleType":"table",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":205,
+              "y":230},
+            "size":{
+              "width":725,
+              "height":105}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"faadb2182481430481ad92a369d9d24c",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC},
+                "location":{
+                  "x":101,
+                  "y":0},
+                "size":{
+                  "width":96,
+                  "height":69}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"a094ca54f24b4226896591db6d83daa2",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFCCCCCC},
+                    "location":{
+                      "x":101,
+                      "y":0},
+                    "size":{
+                      "width":96,
+                      "height":69}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆上线情况统计/u16.png"}},
+{
+              "id":"f854e00cd911439099f0ae6c812e980d",
+              "label":"运行商格1",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "location":{
+                  "x":101,
+                  "y":69},
+                "size":{
+                  "width":96,
+                  "height":36}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"cd7e2cf6f8f0496bb7bb67c5518c8013",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "location":{
+                      "x":101,
+                      "y":69},
+                    "size":{
+                      "width":96,
+                      "height":36}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆上线情况统计/运行商格1_u32.png"}},
+{
+              "id":"580f829066c2438ba48e5aa4f0129a33",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "stateStyles":{
+                  "mouseOver":{
+}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC},
+                "location":{
+                  "x":197,
+                  "y":0},
+                "size":{
+                  "width":103,
+                  "height":69}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"b2bc6cd598664f0e83060ae833f280ab",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "stateStyles":{
+                      "mouseOver":{
+}},
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFCCCCCC},
+                    "location":{
+                      "x":197,
+                      "y":0},
+                    "size":{
+                      "width":103,
+                      "height":69}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆上线情况统计/u18.png"}},
+{
+              "id":"d540153c3dd5486f80aed55d5986db76",
+              "label":"车牌号格1",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "location":{
+                  "x":197,
+                  "y":69},
+                "size":{
+                  "width":103,
+                  "height":36}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"2765323b734046508553a3dede6a4685",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "location":{
+                      "x":197,
+                      "y":69},
+                    "size":{
+                      "width":103,
+                      "height":36}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆上线情况统计/车牌号格1_u34.png"}},
+{
+              "id":"7a636519720946f78de707a377889e66",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC},
+                "location":{
+                  "x":300,
+                  "y":0},
+                "size":{
+                  "width":74,
+                  "height":69}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"5c89e5c11c9549f584bd170da68ad5b2",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFCCCCCC},
+                    "location":{
+                      "x":300,
+                      "y":0},
+                    "size":{
+                      "width":74,
+                      "height":69}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆基本信息/u11.png"}},
+{
+              "id":"1a5c3863e8034835a5415e30533ec2b1",
+              "label":"车牌颜色格1",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "location":{
+                  "x":300,
+                  "y":69},
+                "size":{
+                  "width":74,
+                  "height":36}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"3836eec37b8f4eb39a9041233200904b",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "location":{
+                      "x":300,
+                      "y":69},
+                    "size":{
+                      "width":74,
+                      "height":36}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆基本信息/u107.png"}},
+{
+              "id":"33492345b9a04a00b3dfe8873bd8bb3d",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC},
+                "location":{
+                  "x":452,
+                  "y":0},
+                "size":{
+                  "width":73,
+                  "height":69}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"64c8c6e939e84064acdee507ffb05743",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFCCCCCC},
+                    "location":{
+                      "x":452,
+                      "y":0},
+                    "size":{
+                      "width":73,
+                      "height":69}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/报警事件管理/u40.png"}},
+{
+              "id":"c7e7f2e027be4099a3d664eb5b9a7404",
+              "label":"IC卡号格1",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "location":{
+                  "x":452,
+                  "y":69},
+                "size":{
+                  "width":73,
+                  "height":36}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"e635bd3690cb42e3b43181f10faa0af6",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "location":{
+                      "x":452,
+                      "y":69},
+                    "size":{
+                      "width":73,
+                      "height":36}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆上线情况统计/ic卡号格1_u40.png"}},
+{
+              "id":"d4e6dd1609644f2db920f2ae68272be6",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC},
+                "location":{
+                  "x":374,
+                  "y":0},
+                "size":{
+                  "width":78,
+                  "height":69}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"9784a5a664dc4089a0f792104234eb14",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFCCCCCC},
+                    "location":{
+                      "x":374,
+                      "y":0},
+                    "size":{
+                      "width":78,
+                      "height":69}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/设备回传/u10.png"}},
+{
+              "id":"92f4ccccf3c348479ecdd35679603465",
+              "label":"车辆类型格1",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "location":{
+                  "x":374,
+                  "y":69},
+                "size":{
+                  "width":78,
+                  "height":36}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"b12eab88b3c7469ebbb93e42ad21578d",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "location":{
+                      "x":374,
+                      "y":69},
+                    "size":{
+                      "width":78,
+                      "height":36}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/角色管理/所属区域格6_u49.png"}},
+{
+              "id":"3809efa9c4b343f6b67be3434f6ac660",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC},
+                "location":{
+                  "x":525,
+                  "y":0},
+                "size":{
+                  "width":108,
+                  "height":69}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"2c0fc159edd348c8b07b345b0afeff16",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFCCCCCC},
+                    "location":{
+                      "x":525,
+                      "y":0},
+                    "size":{
+                      "width":108,
+                      "height":69}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆上线情况统计/u26.png"}},
+{
+              "id":"3d2bface358b4f2d98e06f510337201d",
+              "label":"运营类型格1",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "location":{
+                  "x":525,
+                  "y":69},
+                "size":{
+                  "width":108,
+                  "height":36}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"79adc7aa07ea4aec8f37bc7669cbbca7",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "location":{
+                      "x":525,
+                      "y":69},
+                    "size":{
+                      "width":108,
+                      "height":36}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆上线情况统计/运营类型格1_u42.png"}},
+{
+              "id":"e0ecdc3176964cedbff70624e5f71c64",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC},
+                "location":{
+                  "x":633,
+                  "y":0},
+                "size":{
+                  "width":92,
+                  "height":69}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"f2d16d328ec943a59f1c85c9e0fc54f5",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFCCCCCC},
+                    "location":{
+                      "x":633,
+                      "y":0},
+                    "size":{
+                      "width":92,
+                      "height":69}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆上线情况统计/u28.png"}},
+{
+              "id":"67cc596176e64d158c29afe8a4a0f2da",
+              "label":"网络类型格1",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "location":{
+                  "x":633,
+                  "y":69},
+                "size":{
+                  "width":92,
+                  "height":36}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"b34bcf890b4148a09aa37fc89c1b605c",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "location":{
+                      "x":633,
+                      "y":69},
+                    "size":{
+                      "width":92,
+                      "height":36}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆上线情况统计/网络类型格1_u44.png"}},
+{
+              "id":"73a317b8cf6643259ed1e09bcf4d4bbc",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC},
+                "size":{
+                  "width":101,
+                  "height":69}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"f123ff0dd25941a6a72c086078715ccc",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFCCCCCC},
+                    "size":{
+                      "width":101,
+                      "height":69}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆基本信息/u13.png"}},
+{
+              "id":"04328ea618a942658209072e608205c2",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "location":{
+                  "x":0,
+                  "y":69},
+                "size":{
+                  "width":101,
+                  "height":36}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"58d6db3b221b4e31b0f9defe28be1868",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "location":{
+                      "x":0,
+                      "y":69},
+                    "size":{
+                      "width":101,
+                      "height":36}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆基本信息/所属区域格4_u109.png"}}]},
+{
+          "id":"a95e36cfdc154a12853a1fe2300e1cae",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF999999,
+              "opacity":1},
+            "location":{
+              "x":280,
+              "y":80},
+            "size":{
+              "width":53,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0fb9840d68594138ae7c2ea58a41def3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF999999,
+                  "opacity":1},
+                "location":{
+                  "x":280,
+                  "y":80},
+                "size":{
+                  "width":53,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"b08331e7e16a4ab5b5cc4c1a1d5f1187",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF999999,
+              "opacity":1},
+            "location":{
+              "x":280,
+              "y":133},
+            "size":{
+              "width":66,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c1595a15bdfe406f9f8926ad2e0b4846",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF999999,
+                  "opacity":1},
+                "location":{
+                  "x":280,
+                  "y":133},
+                "size":{
+                  "width":66,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"f596e57ee828440186976b987fac287f",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":902,
+              "y":265},
+            "size":{
+              "width":20,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5ba983cd95f64b289e62f5f8d36e3651",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":902,
+                  "y":265},
+                "size":{
+                  "width":20,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"1e9d39b37dea4835b9f34bfbf05d35bf",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "horizontalAlignment":"center",
+            "location":{
+              "x":899,
+              "y":255},
+            "size":{
+              "width":20,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"54f7d4edccdb4f349e2672cf7f773060",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "location":{
+                  "x":899,
+                  "y":255},
+                "size":{
+                  "width":20,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"493e47124a234331a61a9ec3f40d3e4a",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":818,
+              "y":265},
+            "size":{
+              "width":20,
+              "height":15}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"fc81c33e78da4656b020ae79ebd7afd8",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":818,
+                  "y":265},
+                "size":{
+                  "width":20,
+                  "height":15}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"2c9282f042224406a0670ffb78ad3374",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "horizontalAlignment":"center",
+            "location":{
+              "x":814,
+              "y":255},
+            "size":{
+              "width":20,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9729497e2e1647ebb35f26e780daea02",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "location":{
+                  "x":814,
+                  "y":255},
+                "size":{
+                  "width":20,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"8806c11ffaa04e29b2fbdbe1365862be",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":428,
+              "y":80},
+            "size":{
+              "width":40,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"56b31fcd8385433aab448d057dbada94",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":428,
+                  "y":80},
+                "size":{
+                  "width":40,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"4b56b3dfbd0141c38aa808eb1cde563d",
+          "label":"",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":478,
+              "y":77},
+            "size":{
+              "width":57,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"005c389d388542a3a40e51c2a3008647",
+          "label":"",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":535,
+              "y":77},
+            "size":{
+              "width":55,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"bc068fa268734444bc82d84c61fbb4d5",
+          "label":"车牌号框",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":590,
+              "y":77},
+            "size":{
+              "width":68,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"e718181958f44da49bedc97073c7248f",
+          "label":"",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":750,
+              "y":74.5},
+            "size":{
+              "width":140,
+              "height":22}},
+          "adaptiveStyles":{
+}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "823a9dc113aa4b11a4c08db637135db9":{
+      "scriptId":"u0"},
+    "e61895713a1841b9b58b1795317f0ba8":{
+      "scriptId":"u1"},
+    "4f46726c4e6d4b5db521e10ed867e617":{
+      "scriptId":"u2"},
+    "c614e9cbd3324ce5b3a6382ec0357330":{
+      "scriptId":"u3"},
+    "2af0d73e5dbf4571ae72ffb2beab18a5":{
+      "scriptId":"u4"},
+    "1d124b0a3f1043f7b0fcf86e7507f947":{
+      "scriptId":"u5"},
+    "84b6a7b979ed4bfeb0e2cb2a114eda46":{
+      "scriptId":"u6"},
+    "cedf6c51b920494983a45e75ef4a7870":{
+      "scriptId":"u7"},
+    "10491e4d14b34abaad6a8e8e2b9b9783":{
+      "scriptId":"u8"},
+    "842ecc80e086453a86abef32d79881e8":{
+      "scriptId":"u9"},
+    "bf57c834e65640e3bdcfb8927c09122e":{
+      "scriptId":"u10"},
+    "2127236a91b747d6bd4eba38e4d80144":{
+      "scriptId":"u11"},
+    "71a3d06254494f44bbbc87f721ab7674":{
+      "scriptId":"u12"},
+    "3413a6baf313478fbfd4a464b110a60f":{
+      "scriptId":"u13"},
+    "73a317b8cf6643259ed1e09bcf4d4bbc":{
+      "scriptId":"u14"},
+    "f123ff0dd25941a6a72c086078715ccc":{
+      "scriptId":"u15"},
+    "faadb2182481430481ad92a369d9d24c":{
+      "scriptId":"u16"},
+    "a094ca54f24b4226896591db6d83daa2":{
+      "scriptId":"u17"},
+    "580f829066c2438ba48e5aa4f0129a33":{
+      "scriptId":"u18"},
+    "b2bc6cd598664f0e83060ae833f280ab":{
+      "scriptId":"u19"},
+    "7a636519720946f78de707a377889e66":{
+      "scriptId":"u20"},
+    "5c89e5c11c9549f584bd170da68ad5b2":{
+      "scriptId":"u21"},
+    "d4e6dd1609644f2db920f2ae68272be6":{
+      "scriptId":"u22"},
+    "9784a5a664dc4089a0f792104234eb14":{
+      "scriptId":"u23"},
+    "33492345b9a04a00b3dfe8873bd8bb3d":{
+      "scriptId":"u24"},
+    "64c8c6e939e84064acdee507ffb05743":{
+      "scriptId":"u25"},
+    "3809efa9c4b343f6b67be3434f6ac660":{
+      "scriptId":"u26"},
+    "2c0fc159edd348c8b07b345b0afeff16":{
+      "scriptId":"u27"},
+    "e0ecdc3176964cedbff70624e5f71c64":{
+      "scriptId":"u28"},
+    "f2d16d328ec943a59f1c85c9e0fc54f5":{
+      "scriptId":"u29"},
+    "04328ea618a942658209072e608205c2":{
+      "scriptId":"u30"},
+    "58d6db3b221b4e31b0f9defe28be1868":{
+      "scriptId":"u31"},
+    "f854e00cd911439099f0ae6c812e980d":{
+      "scriptId":"u32"},
+    "cd7e2cf6f8f0496bb7bb67c5518c8013":{
+      "scriptId":"u33"},
+    "d540153c3dd5486f80aed55d5986db76":{
+      "scriptId":"u34"},
+    "2765323b734046508553a3dede6a4685":{
+      "scriptId":"u35"},
+    "1a5c3863e8034835a5415e30533ec2b1":{
+      "scriptId":"u36"},
+    "3836eec37b8f4eb39a9041233200904b":{
+      "scriptId":"u37"},
+    "92f4ccccf3c348479ecdd35679603465":{
+      "scriptId":"u38"},
+    "b12eab88b3c7469ebbb93e42ad21578d":{
+      "scriptId":"u39"},
+    "c7e7f2e027be4099a3d664eb5b9a7404":{
+      "scriptId":"u40"},
+    "e635bd3690cb42e3b43181f10faa0af6":{
+      "scriptId":"u41"},
+    "3d2bface358b4f2d98e06f510337201d":{
+      "scriptId":"u42"},
+    "79adc7aa07ea4aec8f37bc7669cbbca7":{
+      "scriptId":"u43"},
+    "67cc596176e64d158c29afe8a4a0f2da":{
+      "scriptId":"u44"},
+    "b34bcf890b4148a09aa37fc89c1b605c":{
+      "scriptId":"u45"},
+    "a95e36cfdc154a12853a1fe2300e1cae":{
+      "scriptId":"u46"},
+    "0fb9840d68594138ae7c2ea58a41def3":{
+      "scriptId":"u47"},
+    "b08331e7e16a4ab5b5cc4c1a1d5f1187":{
+      "scriptId":"u48"},
+    "c1595a15bdfe406f9f8926ad2e0b4846":{
+      "scriptId":"u49"},
+    "f596e57ee828440186976b987fac287f":{
+      "scriptId":"u50"},
+    "5ba983cd95f64b289e62f5f8d36e3651":{
+      "scriptId":"u51"},
+    "1e9d39b37dea4835b9f34bfbf05d35bf":{
+      "scriptId":"u52"},
+    "54f7d4edccdb4f349e2672cf7f773060":{
+      "scriptId":"u53"},
+    "493e47124a234331a61a9ec3f40d3e4a":{
+      "scriptId":"u54"},
+    "fc81c33e78da4656b020ae79ebd7afd8":{
+      "scriptId":"u55"},
+    "2c9282f042224406a0670ffb78ad3374":{
+      "scriptId":"u56"},
+    "9729497e2e1647ebb35f26e780daea02":{
+      "scriptId":"u57"},
+    "8806c11ffaa04e29b2fbdbe1365862be":{
+      "scriptId":"u58"},
+    "56b31fcd8385433aab448d057dbada94":{
+      "scriptId":"u59"},
+    "4b56b3dfbd0141c38aa808eb1cde563d":{
+      "scriptId":"u60"},
+    "005c389d388542a3a40e51c2a3008647":{
+      "scriptId":"u61"},
+    "bc068fa268734444bc82d84c61fbb4d5":{
+      "scriptId":"u62"},
+    "e718181958f44da49bedc97073c7248f":{
+      "scriptId":"u63"}}});

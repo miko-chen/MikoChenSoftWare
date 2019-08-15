@@ -1,0 +1,546 @@
+﻿$axure.loadCurrentPage({
+  "url":"车辆事故新增页面.html",
+  "generationDate":new Date(1557742049786.22),
+  "isCanvasEnabled":false,
+  "variables":["yys_name",
+"car_chePai_card",
+"car_chePai_color",
+"car_leixing",
+"car_ICcard",
+"yy_leixing",
+"car_InterNet_leixing",
+"car_jingYingLuXian",
+"car_zhuangTai",
+"quYu",
+"phone",
+"mail",
+"name"],
+  "page":{
+    "packageId":"d117a82708f44185bd8d714736d0fe97",
+    "type":"Axure:Page",
+    "name":"车辆事故新增页面",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"f022e70755284761a47f707bd085fc0f",
+          "label":"编辑_弹框",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":350,
+              "height":425}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2b7c61ab3e044c908174d6768e90117a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":350,
+                  "height":425}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/车辆信息新增页面/编辑_弹框_u0.png"}},
+{
+          "id":"79321894464d4ddf9af35c6af28232c4",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":32,
+              "y":38},
+            "size":{
+              "width":40,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2387ad1dbd67436e99e5fb7cc6611a2c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":32,
+                  "y":38},
+                "size":{
+                  "width":40,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"2b30c7a6ad2d4bd5b01daaa44fa02067",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":32,
+              "y":95},
+            "size":{
+              "width":27,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4ae5b5215b2a45db86380fc4dfa63239",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":32,
+                  "y":95},
+                "size":{
+                  "width":27,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"64c04b03d3d742679ef347da44299c7d",
+          "label":"新增_车牌号",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":118,
+              "y":33},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"cd893023cab74c3392ff5c7ae7a93f7c",
+          "label":"新增_IC卡号",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":118,
+              "y":90},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"a70e591d1f9d4073af7699655898f338",
+          "label":"新增_保存",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":70,
+              "y":374},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"other",
+                      "description":"保存成功",
+                      "description":"保存成功",
+                      "popup":{
+                        "left":0,
+                        "top":0,
+                        "width":300,
+                        "height":300,
+                        "toolbar":false,
+                        "scrollbars":true,
+                        "location":false,
+                        "status":false,
+                        "menubar":false,
+                        "directories":false,
+                        "resizable":true,
+                        "centerwindow":true}}]}]}},
+          "tabbable":true},
+{
+          "id":"38dff6b414ed48bba50001dd0b6f0343",
+          "label":"新增_关闭",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":200,
+              "y":374},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 车辆事故",
+                      "target":{
+                        "targetType":"page",
+                        "url":"车辆事故.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"9a3ba67f254d4e4b862288fd78766bf7",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":32,
+              "y":157},
+            "size":{
+              "width":27,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"234f0a9782fe4b499f886f93f206fd5f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":32,
+                  "y":157},
+                "size":{
+                  "width":27,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"c25d11f8fd104bf093456c2261f912ae",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":118,
+              "y":152},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"d921d55411d94a38bdf07004b36ba811",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":32,
+              "y":215},
+            "size":{
+              "width":60,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"16dfc66ea1964edb849c4d0653469dd1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":32,
+                  "y":215},
+                "size":{
+                  "width":60,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"8054a277c96b487d934a147507678a0f",
+          "label":"",
+          "type":"textArea",
+          "styleType":"textArea",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":118,
+              "y":215},
+            "size":{
+              "width":200,
+              "height":125}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"63d4c939609f43d08a011d74b6094f32",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":318,
+              "y":33},
+            "size":{
+              "width":22,
+              "height":17}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"03cce68dd151479bb8996627126c1a0c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0000,
+                  "opacity":1},
+                "location":{
+                  "x":318,
+                  "y":33},
+                "size":{
+                  "width":22,
+                  "height":17}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"45dee1e5e35e4e71be6996e03cb63182",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":318,
+              "y":90},
+            "size":{
+              "width":22,
+              "height":17}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ffbab490052f4d28873dfe47301b8882",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0000,
+                  "opacity":1},
+                "location":{
+                  "x":318,
+                  "y":90},
+                "size":{
+                  "width":22,
+                  "height":17}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"4e0e25d5efed42788fb05a715e72a118",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":318,
+              "y":152},
+            "size":{
+              "width":22,
+              "height":17}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a414f33b729943a29174df51d572f6db",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0000,
+                  "opacity":1},
+                "location":{
+                  "x":318,
+                  "y":152},
+                "size":{
+                  "width":22,
+                  "height":17}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"7d766c1777554d2a9ae36f89f0bc6866",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":318,
+              "y":215},
+            "size":{
+              "width":22,
+              "height":17}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"09353f3c203c4be6bd619bbea90343ff",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0000,
+                  "opacity":1},
+                "location":{
+                  "x":318,
+                  "y":215},
+                "size":{
+                  "width":22,
+                  "height":17}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "f022e70755284761a47f707bd085fc0f":{
+      "scriptId":"u0"},
+    "2b7c61ab3e044c908174d6768e90117a":{
+      "scriptId":"u1"},
+    "79321894464d4ddf9af35c6af28232c4":{
+      "scriptId":"u2"},
+    "2387ad1dbd67436e99e5fb7cc6611a2c":{
+      "scriptId":"u3"},
+    "2b30c7a6ad2d4bd5b01daaa44fa02067":{
+      "scriptId":"u4"},
+    "4ae5b5215b2a45db86380fc4dfa63239":{
+      "scriptId":"u5"},
+    "64c04b03d3d742679ef347da44299c7d":{
+      "scriptId":"u6"},
+    "cd893023cab74c3392ff5c7ae7a93f7c":{
+      "scriptId":"u7"},
+    "a70e591d1f9d4073af7699655898f338":{
+      "scriptId":"u8"},
+    "38dff6b414ed48bba50001dd0b6f0343":{
+      "scriptId":"u9"},
+    "9a3ba67f254d4e4b862288fd78766bf7":{
+      "scriptId":"u10"},
+    "234f0a9782fe4b499f886f93f206fd5f":{
+      "scriptId":"u11"},
+    "c25d11f8fd104bf093456c2261f912ae":{
+      "scriptId":"u12"},
+    "d921d55411d94a38bdf07004b36ba811":{
+      "scriptId":"u13"},
+    "16dfc66ea1964edb849c4d0653469dd1":{
+      "scriptId":"u14"},
+    "8054a277c96b487d934a147507678a0f":{
+      "scriptId":"u15"},
+    "63d4c939609f43d08a011d74b6094f32":{
+      "scriptId":"u16"},
+    "03cce68dd151479bb8996627126c1a0c":{
+      "scriptId":"u17"},
+    "45dee1e5e35e4e71be6996e03cb63182":{
+      "scriptId":"u18"},
+    "ffbab490052f4d28873dfe47301b8882":{
+      "scriptId":"u19"},
+    "4e0e25d5efed42788fb05a715e72a118":{
+      "scriptId":"u20"},
+    "a414f33b729943a29174df51d572f6db":{
+      "scriptId":"u21"},
+    "7d766c1777554d2a9ae36f89f0bc6866":{
+      "scriptId":"u22"},
+    "09353f3c203c4be6bd619bbea90343ff":{
+      "scriptId":"u23"}}});

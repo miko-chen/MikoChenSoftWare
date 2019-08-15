@@ -1,0 +1,132 @@
+﻿$axure.loadCurrentPage({
+  "url":"test_main.html",
+  "generationDate":new Date(1557741996109.17),
+  "isCanvasEnabled":false,
+  "variables":["yys_name",
+"car_chePai_card",
+"car_chePai_color",
+"car_leixing",
+"car_ICcard",
+"yy_leixing",
+"car_InterNet_leixing",
+"car_jingYingLuXian",
+"car_zhuangTai",
+"quYu",
+"phone",
+"mail",
+"name"],
+  "page":{
+    "packageId":"efe49f46433e4507a9e1cbe1015809b5",
+    "type":"Axure:Page",
+    "name":"test_main",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+      "onLoad":{
+        "description":"OnLoad",
+        "cases":[{
+            "description":"用例 1<br> (If 变量 未指定 ≠ &quot;&quot;)",
+            "isNewIfGroup":false,
+            "condition":{
+              "exprType":"binaryOp",
+              "op":"!=",
+              "leftExpr":{
+                "exprType":"fcall",
+                "functionName":"GetGlobalVariableValue",
+                "arguments":[{
+                    "exprType":"globalVariableLiteral",
+                    "variableName":""}]},
+              "rightExpr":{
+                "exprType":"stringLiteral",
+                "value":"",
+                "stos":[]}},
+            "actions":[{
+                "action":"setFunction",
+                "description":"设置 部件文字 (文本框(单行)) = 变量 未指定",
+                "expr":{
+                  "exprType":"block",
+                  "subExprs":[{
+                      "exprType":"fcall",
+                      "functionName":"SetWidgetFormText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["b68dd7c1121c4d9f9db64c421e3a1973"]},
+{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":""}]}]}]}}]}]}},
+    "diagram":{
+      "objects":[{
+          "id":"b68dd7c1121c4d9f9db64c421e3a1973",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":90,
+              "y":90},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"749ed6f093b44a7a9091c353365c54f9",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":140,
+              "y":150},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 test",
+                      "target":{
+                        "targetType":"page",
+                        "url":"test.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "b68dd7c1121c4d9f9db64c421e3a1973":{
+      "scriptId":"u0"},
+    "749ed6f093b44a7a9091c353365c54f9":{
+      "scriptId":"u1"}}});

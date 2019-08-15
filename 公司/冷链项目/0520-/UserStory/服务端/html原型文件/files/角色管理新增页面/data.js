@@ -1,0 +1,818 @@
+﻿$axure.loadCurrentPage({
+  "url":"角色管理新增页面.html",
+  "generationDate":new Date(1557742167976),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"NewVariable"],
+  "page":{
+    "packageId":"c98fc295e3fb4447ae2ea868c9dbb8d3",
+    "type":"Axure:Page",
+    "name":"角色管理新增页面",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"9358a5180da24a8d9cddd2060e41fa43",
+          "label":"编辑_弹框",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":52.5,
+              "y":30},
+            "size":{
+              "width":350,
+              "height":325}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a9d6efdf50974993a8151e715470d0d1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":52.5,
+                  "y":30},
+                "size":{
+                  "width":350,
+                  "height":325}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/角色管理新增页面/编辑_弹框_u0.png"}},
+{
+          "id":"a1a65902f59a4d05b12ebe34cc30f81c",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":59,
+              "y":111},
+            "size":{
+              "width":53,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0663e14063884bc68650f00f11bbf4da",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":59,
+                  "y":111},
+                "size":{
+                  "width":53,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"759d240c6e7548d2964e10d025c647d4",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":59,
+              "y":179},
+            "size":{
+              "width":27,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"73fa0e2a2d454641a023475bdef19321",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":59,
+                  "y":179},
+                "size":{
+                  "width":27,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"6126c6033972485d9fc1121415e9bda6",
+          "label":"新增_保存",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":58,
+              "y":270},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 确定要保存吗,<br>确定,<br>取消",
+                      "objectsToFades":[{
+                          "objectPath":["e10178a2aacc42cba5e58f9671228a2b"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e7c9e45cad884b5bb5936c60a927886d"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["bb2e0396e57442f79a241963d440c20b"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"cf89ce04ad0a42d29c39518300d88ec4",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":58,
+              "y":48},
+            "size":{
+              "width":53,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0d9a49002c1f4316b93c1b2ba62df828",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":58,
+                  "y":48},
+                "size":{
+                  "width":53,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"79e87ec49d954abd9216b839193b3ac6",
+          "label":"新增_运营商名称",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":144,
+              "y":108},
+            "size":{
+              "width":200,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"65455f3426724105adb0b37f967f896f",
+          "label":"新增_关闭",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":244,
+              "y":270},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 变量 未指定 = &quot;&quot;, 且<br> 变量 未指定 = &quot;&quot;, 且<br> 变量 未指定 = &quot;&quot;, 且<br> 变量 未指定 = &quot;&quot;, 且<br> 变量 未指定 = &quot;&quot;, 且<br> 变量 未指定 = &quot;&quot;, 且<br> 变量 未指定 = &quot;&quot;, 且<br> 变量 未指定 = &quot;&quot;, 且<br> 变量 未指定 = &quot;&quot;, 且<br> 变量 未指定 = &quot;&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":""},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":""},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":""},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":""},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":""},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":""},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":""},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":""},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":""},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]},
+{
+                            "exprType":"fcall",
+                            "functionName":"SetGlobalVariableValue",
+                            "arguments":[{
+                                "exprType":"globalVariableLiteral",
+                                "variableName":""},
+{
+                                "exprType":"stringLiteral",
+                                "value":"",
+                                "stos":[]}]}]}},
+{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 链接",
+                      "target":{
+                        "targetType":"page",
+                        "includeVariables":true},
+                      "linkType":"current"}]},
+{
+                  "description":"用例 2",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"closeCurrent",
+                      "description":"关闭当前窗口"}]},
+{
+                  "description":"用例 3",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"closeCurrent",
+                      "description":"关闭当前窗口"}]}]}},
+          "tabbable":true},
+{
+          "id":"5f7ec60e23b24c33a7bc249004491a61",
+          "label":"新增_车辆状态",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":144,
+              "y":176},
+            "size":{
+              "width":200,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"9744e8350fa34cf79927165526c86949",
+          "label":"",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":481,
+              "y":88},
+            "size":{
+              "width":10,
+              "height":10}},
+          "adaptiveStyles":{
+},
+          "fixedHorizontal":"center",
+          "fixedMarginHorizontal":0,
+          "fixedVertical":"middle",
+          "fixedMarginVertical":0,
+          "fixedKeepInFront":true,
+          "scrollbars":"none",
+          "fitToContent":true,
+          "propagate":false,
+          "diagrams":[{
+              "id":"9c55e04a387c4110b62ad2143fdf5360",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"6f1d32c9dcab42b7abc3a53f9482c70b",
+                  "label":"新增未填提示",
+                  "parentDynamicPanel":"9744e8350fa34cf79927165526c86949",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":286,
+                      "height":120}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"307c4fbcbc8e4a88931d049a23af352c",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"9744e8350fa34cf79927165526c86949",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":286,
+                          "height":120}},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onMouseOver":{
+                      "description":"OnMouseOver",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"wait",
+                              "description":"等待1000毫秒",
+                              "waitTime":1000},
+{
+                              "action":"fadeWidget",
+                              "description":"隐藏 新增未填提示",
+                              "objectsToFades":[{
+                                  "objectPath":["6f1d32c9dcab42b7abc3a53f9482c70b"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]}]}]}},
+                  "images":{
+                    "normal~":"images/用户信息新增页面/新增未填提示_u16.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"7e32245a7d434c92bcff2eedf846f9b7",
+          "label":"新增_IC卡号",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":144,
+              "y":47},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"e10178a2aacc42cba5e58f9671228a2b",
+          "label":"确定要保存吗",
+          "type":"flowShape",
+          "styleType":"flowShape",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":87,
+              "y":95},
+            "size":{
+              "width":230,
+              "height":93},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8d4a8e6be55a4114a2a7729ff5374b1c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":87,
+                  "y":95},
+                "size":{
+                  "width":230,
+                  "height":93},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/用户信息新增页面/确定要保存吗_u63.png"}},
+{
+          "id":"e7c9e45cad884b5bb5936c60a927886d",
+          "label":"确定",
+          "type":"button",
+          "styleType":"button",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":86,
+              "y":188},
+            "size":{
+              "width":100,
+              "height":25},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 角色管理",
+                      "target":{
+                        "targetType":"page",
+                        "url":"角色管理.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"bb2e0396e57442f79a241963d440c20b",
+          "label":"取消",
+          "type":"button",
+          "styleType":"button",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":217,
+              "y":188},
+            "size":{
+              "width":100,
+              "height":25},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"隐藏 确定要保存吗,<br>确定,<br>取消",
+                      "objectsToFades":[{
+                          "objectPath":["e10178a2aacc42cba5e58f9671228a2b"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["e7c9e45cad884b5bb5936c60a927886d"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["bb2e0396e57442f79a241963d440c20b"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"f11d5908a6e84bf4907999c3344a9c68",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":344,
+              "y":57},
+            "size":{
+              "width":30,
+              "height":10}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"bb2234f893b94f56a1e6bc9b46e8a0f8",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0000,
+                  "opacity":1},
+                "location":{
+                  "x":344,
+                  "y":57},
+                "size":{
+                  "width":30,
+                  "height":10}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"1a2d80bf378b4a69baf9f7a4fbb81ac6",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":344,
+              "y":112},
+            "size":{
+              "width":30,
+              "height":10}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4a70b8c14cda4c0d81de06103958bc10",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0000,
+                  "opacity":1},
+                "location":{
+                  "x":344,
+                  "y":112},
+                "size":{
+                  "width":30,
+                  "height":10}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"618b12b27a64497b8e2bb0802612e100",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF999999,
+              "opacity":1},
+            "location":{
+              "x":144,
+              "y":80},
+            "size":{
+              "width":170,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"02b086fb458c4efd882a4626c1766652",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF999999,
+                  "opacity":1},
+                "location":{
+                  "x":144,
+                  "y":80},
+                "size":{
+                  "width":170,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"2afe84958c484f5299e9d7085e7eb6f2",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF999999,
+              "opacity":1},
+            "location":{
+              "x":144,
+              "y":140},
+            "size":{
+              "width":118,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"17d4a49edc34403db2f9b92050332e7e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF999999,
+                  "opacity":1},
+                "location":{
+                  "x":144,
+                  "y":140},
+                "size":{
+                  "width":118,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "9358a5180da24a8d9cddd2060e41fa43":{
+      "scriptId":"u0"},
+    "a9d6efdf50974993a8151e715470d0d1":{
+      "scriptId":"u1"},
+    "a1a65902f59a4d05b12ebe34cc30f81c":{
+      "scriptId":"u2"},
+    "0663e14063884bc68650f00f11bbf4da":{
+      "scriptId":"u3"},
+    "759d240c6e7548d2964e10d025c647d4":{
+      "scriptId":"u4"},
+    "73fa0e2a2d454641a023475bdef19321":{
+      "scriptId":"u5"},
+    "6126c6033972485d9fc1121415e9bda6":{
+      "scriptId":"u6"},
+    "cf89ce04ad0a42d29c39518300d88ec4":{
+      "scriptId":"u7"},
+    "0d9a49002c1f4316b93c1b2ba62df828":{
+      "scriptId":"u8"},
+    "79e87ec49d954abd9216b839193b3ac6":{
+      "scriptId":"u9"},
+    "65455f3426724105adb0b37f967f896f":{
+      "scriptId":"u10"},
+    "5f7ec60e23b24c33a7bc249004491a61":{
+      "scriptId":"u11"},
+    "9744e8350fa34cf79927165526c86949":{
+      "scriptId":"u12"},
+    "6f1d32c9dcab42b7abc3a53f9482c70b":{
+      "scriptId":"u13"},
+    "307c4fbcbc8e4a88931d049a23af352c":{
+      "scriptId":"u14"},
+    "7e32245a7d434c92bcff2eedf846f9b7":{
+      "scriptId":"u15"},
+    "e10178a2aacc42cba5e58f9671228a2b":{
+      "scriptId":"u16"},
+    "8d4a8e6be55a4114a2a7729ff5374b1c":{
+      "scriptId":"u17"},
+    "e7c9e45cad884b5bb5936c60a927886d":{
+      "scriptId":"u18"},
+    "bb2e0396e57442f79a241963d440c20b":{
+      "scriptId":"u19"},
+    "f11d5908a6e84bf4907999c3344a9c68":{
+      "scriptId":"u20"},
+    "bb2234f893b94f56a1e6bc9b46e8a0f8":{
+      "scriptId":"u21"},
+    "1a2d80bf378b4a69baf9f7a4fbb81ac6":{
+      "scriptId":"u22"},
+    "4a70b8c14cda4c0d81de06103958bc10":{
+      "scriptId":"u23"},
+    "618b12b27a64497b8e2bb0802612e100":{
+      "scriptId":"u24"},
+    "02b086fb458c4efd882a4626c1766652":{
+      "scriptId":"u25"},
+    "2afe84958c484f5299e9d7085e7eb6f2":{
+      "scriptId":"u26"},
+    "17d4a49edc34403db2f9b92050332e7e":{
+      "scriptId":"u27"}}});

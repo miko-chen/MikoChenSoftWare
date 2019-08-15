@@ -1,0 +1,153 @@
+﻿$axure.loadCurrentPage({
+  "url":"路线定制.html",
+  "generationDate":new Date(1558324038707.48),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"yys_name",
+"car_chePai_card",
+"car_chePai_color",
+"car_leixing",
+"car_ICcard",
+"yy_leixing",
+"car_InterNet_leixing",
+"car_jingYingLuXian",
+"car_zhuangTai",
+"quYu",
+"phone",
+"mail",
+"name",
+"NewVariable"],
+  "page":{
+    "packageId":"c4b24c476f164f90826e2732f5ebedda",
+    "type":"Axure:Page",
+    "name":"路线定制",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"90bb872d854e407cb1efc0dbea6239bb",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":36,
+              "y":30},
+            "size":{
+              "width":1024,
+              "height":548}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6b2499466e42432b804da9249acfa2b6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":36,
+                  "y":30},
+                "size":{
+                  "width":1024,
+                  "height":548}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/路线定制/u0.jpg"}},
+{
+          "id":"dc5b6c25ea4b4d25af70206f71966851",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":36,
+              "y":610},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"281fc3c5637a484f8927f0ddb5d7ef3a",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":170,
+              "y":610},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"5546766c586a4297a12d864a5c45cb9d",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":300,
+              "y":610},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"77922a3de5914f7688e778fd5c5040d9",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":430,
+              "y":610},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "90bb872d854e407cb1efc0dbea6239bb":{
+      "scriptId":"u0"},
+    "6b2499466e42432b804da9249acfa2b6":{
+      "scriptId":"u1"},
+    "dc5b6c25ea4b4d25af70206f71966851":{
+      "scriptId":"u2"},
+    "281fc3c5637a484f8927f0ddb5d7ef3a":{
+      "scriptId":"u3"},
+    "5546766c586a4297a12d864a5c45cb9d":{
+      "scriptId":"u4"},
+    "77922a3de5914f7688e778fd5c5040d9":{
+      "scriptId":"u5"}}});

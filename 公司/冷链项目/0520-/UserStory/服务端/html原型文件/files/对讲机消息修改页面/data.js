@@ -1,0 +1,682 @@
+﻿$axure.loadCurrentPage({
+  "url":"对讲机消息修改页面.html",
+  "generationDate":new Date(1557742125769.1),
+  "isCanvasEnabled":false,
+  "variables":["yys_name",
+"car_chePai_card",
+"car_chePai_color",
+"car_leixing",
+"car_ICcard",
+"yy_leixing",
+"car_InterNet_leixing",
+"car_jingYingLuXian",
+"car_zhuangTai",
+"quYu",
+"phone",
+"mail",
+"name"],
+  "page":{
+    "packageId":"62cb2cf4a00149edaf55563fd822263b",
+    "type":"Axure:Page",
+    "name":"对讲机消息修改页面",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+      "onLoad":{
+        "description":"OnLoad",
+        "cases":[{
+            "description":"用例 1",
+            "isNewIfGroup":false,
+            "actions":[{
+                "action":"fadeWidget",
+                "description":"隐藏 新增未填提示",
+                "objectsToFades":[{
+                    "objectPath":["cfc294824ce04241b1918c9c101e2afd"],
+                    "fadeInfo":{
+                      "fadeType":"hide",
+                      "options":{
+                        "showType":"none"}}}]}]}]}},
+    "diagram":{
+      "objects":[{
+          "id":"e352ae0983e540809168db0fa728cdab",
+          "label":"编辑_弹框",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontSize":"16px",
+            "location":{
+              "x":38,
+              "y":-23},
+            "size":{
+              "width":620,
+              "height":863}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e784f2fc702143279635c0bddbaddb6f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"16px",
+                "location":{
+                  "x":38,
+                  "y":-23},
+                "size":{
+                  "width":620,
+                  "height":863}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/车辆保险新增页面/编辑_弹框_u0.png"}},
+{
+          "id":"95fd5f0a89f046d3ab55e3a304058987",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":60,
+              "y":82},
+            "size":{
+              "width":53,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"65dffacd13ed40178291669b83656752",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":60,
+                  "y":82},
+                "size":{
+                  "width":53,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"4d8adff86be6469c88cd8fc2765ed4fb",
+          "label":"",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":1074,
+              "y":177},
+            "size":{
+              "width":10,
+              "height":10}},
+          "adaptiveStyles":{
+},
+          "fixedHorizontal":"center",
+          "fixedMarginHorizontal":0,
+          "fixedVertical":"middle",
+          "fixedMarginVertical":0,
+          "fixedKeepInFront":true,
+          "scrollbars":"none",
+          "fitToContent":true,
+          "propagate":false,
+          "diagrams":[{
+              "id":"35eeae21b28448fd8ca6fac033b5e906",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"cfc294824ce04241b1918c9c101e2afd",
+                  "label":"新增未填提示",
+                  "parentDynamicPanel":"4d8adff86be6469c88cd8fc2765ed4fb",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":286,
+                      "height":120}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"5da83d3f86154f3eade7a4b23860301f",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"4d8adff86be6469c88cd8fc2765ed4fb",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":286,
+                          "height":120}},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onMouseOver":{
+                      "description":"OnMouseOver",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"wait",
+                              "description":"等待1000毫秒",
+                              "waitTime":1000},
+{
+                              "action":"fadeWidget",
+                              "description":"隐藏 新增未填提示",
+                              "objectsToFades":[{
+                                  "objectPath":["cfc294824ce04241b1918c9c101e2afd"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]}]}]}},
+                  "images":{
+                    "normal~":"images/运单信息评价新增页面/新增未填提示_u5.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"60755fc0ef2d46039533731c8bb087fe",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h1",
+          "visible":true,
+          "style":{
+            "fontSize":"20px",
+            "location":{
+              "x":10,
+              "y":37},
+            "size":{
+              "width":152,
+              "height":24}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c2c84e5638874e4cae11e9655d29dd43",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"20px",
+                "location":{
+                  "x":10,
+                  "y":37},
+                "size":{
+                  "width":152,
+                  "height":24}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"fb46979f5ded41978368d56cc3b7e523",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":57,
+              "y":424},
+            "size":{
+              "width":14,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"67c3e4a5ade54497ac1a2658da76277c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":57,
+                  "y":424},
+                "size":{
+                  "width":14,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"dcb7afa0fc5e41ed943fc935ab8f84fe",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":38,
+              "y":418},
+            "size":{
+              "width":14,
+              "height":14}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0b90f6e9129848aabaffde4b8c552426",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":38,
+                  "y":418},
+                "size":{
+                  "width":14,
+                  "height":14}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"ba4af9f9daea436bbc09e20e4b986c67",
+          "label":"对讲机修改信息修改1",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":98,
+              "y":184},
+            "size":{
+              "width":130,
+              "height":28}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 对讲机修改信息修改1-1,<br>对讲机修改信息修改1-2,<br>对讲机修改信息修改1-3,<br>对讲机修改信息修改1-4",
+                      "objectsToFades":[{
+                          "objectPath":["67122c808a814c1abb8198702646cf85"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["8c2b70b262d54faabdd2c2c6283b6283"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["612f8e6d017342efa0d4661c54980e3c"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["ee0ae07e6cce49a6b15eef8e779a2e3f"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"59aeb488835444a99b79df03838096b5",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":248,
+              "y":181},
+            "size":{
+              "width":119,
+              "height":34}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"420efedc638c44cf9ad17d68207ee00c",
+          "label":"",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":156,
+              "y":82},
+            "size":{
+              "width":200,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"f78b18b4ea2b4f1384518800b3c37d6c",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":60,
+              "y":114},
+            "size":{
+              "width":57,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"66e0b75ed21449829ed1bfd2cd05cadd",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":60,
+                  "y":114},
+                "size":{
+                  "width":57,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"d12561060ff34c8482afb9fe4b158852",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":159,
+              "y":114},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"f69a953485ae403b91a7b0971cdb2d41",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":60,
+              "y":148},
+            "size":{
+              "width":57,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2c0bd0520dff43f79f2087d86b7d6d4c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":60,
+                  "y":148},
+                "size":{
+                  "width":57,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"61f9b4816f8d409d9495abb9b380f7b6",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":159,
+              "y":144},
+            "size":{
+              "width":42,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8e030b13d2ef4e29b84b4970ec4a37f5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":159,
+                  "y":144},
+                "size":{
+                  "width":42,
+                  "height":25}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/对讲机消息/u59.png"}},
+{
+          "id":"67122c808a814c1abb8198702646cf85",
+          "label":"对讲机修改信息修改1-1",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":false,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFCCCCCC},
+            "location":{
+              "x":400,
+              "y":82},
+            "size":{
+              "width":210,
+              "height":108},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d6d6860c0c3d47a0b6d0dd92f40508d6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC},
+                "location":{
+                  "x":400,
+                  "y":82},
+                "size":{
+                  "width":210,
+                  "height":108},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/对讲机消息修改页面/对讲机修改信息修改1-1_u23.png"}},
+{
+          "id":"8c2b70b262d54faabdd2c2c6283b6283",
+          "label":"对讲机修改信息修改1-2",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":415,
+              "y":90},
+            "size":{
+              "width":195,
+              "height":40},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"54d55ea8b6684b2e881eb53f9a1ca693",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "location":{
+                  "x":415,
+                  "y":90},
+                "size":{
+                  "width":195,
+                  "height":40},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"612f8e6d017342efa0d4661c54980e3c",
+          "label":"对讲机修改信息修改1-3",
+          "type":"button",
+          "styleType":"button",
+          "visible":false,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":415,
+              "y":148},
+            "size":{
+              "width":75,
+              "height":25},
+            "visible":false},
+          "adaptiveStyles":{
+}},
+{
+          "id":"ee0ae07e6cce49a6b15eef8e779a2e3f",
+          "label":"对讲机修改信息修改1-4",
+          "type":"button",
+          "styleType":"button",
+          "visible":false,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":520,
+              "y":148},
+            "size":{
+              "width":80,
+              "height":25},
+            "visible":false},
+          "adaptiveStyles":{
+}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "e352ae0983e540809168db0fa728cdab":{
+      "scriptId":"u0"},
+    "e784f2fc702143279635c0bddbaddb6f":{
+      "scriptId":"u1"},
+    "95fd5f0a89f046d3ab55e3a304058987":{
+      "scriptId":"u2"},
+    "65dffacd13ed40178291669b83656752":{
+      "scriptId":"u3"},
+    "4d8adff86be6469c88cd8fc2765ed4fb":{
+      "scriptId":"u4"},
+    "cfc294824ce04241b1918c9c101e2afd":{
+      "scriptId":"u5"},
+    "5da83d3f86154f3eade7a4b23860301f":{
+      "scriptId":"u6"},
+    "60755fc0ef2d46039533731c8bb087fe":{
+      "scriptId":"u7"},
+    "c2c84e5638874e4cae11e9655d29dd43":{
+      "scriptId":"u8"},
+    "fb46979f5ded41978368d56cc3b7e523":{
+      "scriptId":"u9"},
+    "67c3e4a5ade54497ac1a2658da76277c":{
+      "scriptId":"u10"},
+    "dcb7afa0fc5e41ed943fc935ab8f84fe":{
+      "scriptId":"u11"},
+    "0b90f6e9129848aabaffde4b8c552426":{
+      "scriptId":"u12"},
+    "ba4af9f9daea436bbc09e20e4b986c67":{
+      "scriptId":"u13"},
+    "59aeb488835444a99b79df03838096b5":{
+      "scriptId":"u14"},
+    "420efedc638c44cf9ad17d68207ee00c":{
+      "scriptId":"u15"},
+    "f78b18b4ea2b4f1384518800b3c37d6c":{
+      "scriptId":"u16"},
+    "66e0b75ed21449829ed1bfd2cd05cadd":{
+      "scriptId":"u17"},
+    "d12561060ff34c8482afb9fe4b158852":{
+      "scriptId":"u18"},
+    "f69a953485ae403b91a7b0971cdb2d41":{
+      "scriptId":"u19"},
+    "2c0bd0520dff43f79f2087d86b7d6d4c":{
+      "scriptId":"u20"},
+    "61f9b4816f8d409d9495abb9b380f7b6":{
+      "scriptId":"u21"},
+    "8e030b13d2ef4e29b84b4970ec4a37f5":{
+      "scriptId":"u22"},
+    "67122c808a814c1abb8198702646cf85":{
+      "scriptId":"u23"},
+    "d6d6860c0c3d47a0b6d0dd92f40508d6":{
+      "scriptId":"u24"},
+    "8c2b70b262d54faabdd2c2c6283b6283":{
+      "scriptId":"u25"},
+    "54d55ea8b6684b2e881eb53f9a1ca693":{
+      "scriptId":"u26"},
+    "612f8e6d017342efa0d4661c54980e3c":{
+      "scriptId":"u27"},
+    "ee0ae07e6cce49a6b15eef8e779a2e3f":{
+      "scriptId":"u28"}}});

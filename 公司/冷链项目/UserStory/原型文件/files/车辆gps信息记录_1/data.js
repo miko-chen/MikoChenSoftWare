@@ -1,0 +1,1596 @@
+﻿$axure.loadCurrentPage({
+  "url":"车辆gps信息记录_1.html",
+  "generationDate":new Date(1558324040158.48),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"yys_name",
+"car_chePai_card",
+"car_chePai_color",
+"car_leixing",
+"car_ICcard",
+"yy_leixing",
+"car_InterNet_leixing",
+"car_jingYingLuXian",
+"car_zhuangTai",
+"quYu",
+"phone",
+"mail",
+"name",
+"NewVariable"],
+  "page":{
+    "packageId":"78d977bc133c43c5a66f12a88f8afc33",
+    "type":"Axure:Page",
+    "name":"车辆GPS信息记录",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+      "onLoad":{
+        "description":"OnLoad",
+        "cases":[{
+            "description":"用例 2<br> (If 变量 yys_name ≠ &quot;&quot;)",
+            "isNewIfGroup":true,
+            "condition":{
+              "exprType":"binaryOp",
+              "op":"!=",
+              "leftExpr":{
+                "exprType":"fcall",
+                "functionName":"GetGlobalVariableValue",
+                "arguments":[{
+                    "exprType":"globalVariableLiteral",
+                    "variableName":"yys_name"}]},
+              "rightExpr":{
+                "exprType":"stringLiteral",
+                "value":"",
+                "stos":[]}},
+            "actions":[{
+                "action":"setFunction",
+                "description":"设置 部件文字 不明 = 变量 quYu, 且<br> 部件文字 不明 = 变量 yys_name, 且<br> 部件文字 车牌号格1 = 变量 car_chePai_card, 且<br> 部件文字 不明 = 变量 car_chePai_color, 且<br> 部件文字 不明 = 变量 car_leixing, 且<br> 部件文字 不明 = 变量 car_ICcard, 且<br> 部件文字 运营类型格1 = 变量 yy_leixing, 且<br> 部件文字 不明 = 变量 car_InterNet_leixing, 且<br> 部件文字 经营路线格1 = 变量 car_jingYingLuXian, 且<br> 部件文字 车辆状态格1 = 变量 car_zhuangTai",
+                "expr":{
+                  "exprType":"block",
+                  "subExprs":[{
+                      "exprType":"fcall",
+                      "functionName":"SetWidgetRichText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["b877d2abb37649bfbb001facebb33be8"]},
+{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":"car_chePai_card"}]},
+{
+                          "exprType":"booleanLiteral",
+                          "value":true}]},
+{
+                      "exprType":"fcall",
+                      "functionName":"SetWidgetRichText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["ed9ee33cf216453191bed3f737523b90"]},
+{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":"yy_leixing"}]},
+{
+                          "exprType":"booleanLiteral",
+                          "value":true}]},
+{
+                      "exprType":"fcall",
+                      "functionName":"SetWidgetRichText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["5b7c2ffb76de40f486cf5f0d25d6c534"]},
+{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":"car_jingYingLuXian"}]},
+{
+                          "exprType":"booleanLiteral",
+                          "value":true}]},
+{
+                      "exprType":"fcall",
+                      "functionName":"SetWidgetRichText",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["6ee89387bd5d40b5a9ad8bb2f249cefe"]},
+{
+                          "exprType":"fcall",
+                          "functionName":"GetGlobalVariableValue",
+                          "arguments":[{
+                              "exprType":"globalVariableLiteral",
+                              "variableName":"car_zhuangTai"}]},
+{
+                          "exprType":"booleanLiteral",
+                          "value":true}]}]}},
+{
+                "action":"fadeWidget",
+                "description":"显示/隐藏部件",
+                "objectsToFades":[]}]}]}},
+    "diagram":{
+      "objects":[{
+          "id":"a59a1135e29b4cd2b89325efd38c7dfc",
+          "label":"",
+          "type":"table",
+          "styleType":"table",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":30,
+              "y":188},
+            "size":{
+              "width":971,
+              "height":187}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1abc0b4cf7db4c83a86db3c8004296cf",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "stateStyles":{
+                  "mouseOver":{
+}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC},
+                "location":{
+                  "x":162,
+                  "y":0},
+                "size":{
+                  "width":119,
+                  "height":70}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"272ba2c6010741eabe87072d5ea0fbd4",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "stateStyles":{
+                      "mouseOver":{
+}},
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFCCCCCC},
+                    "location":{
+                      "x":162,
+                      "y":0},
+                    "size":{
+                      "width":119,
+                      "height":70}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆gps信息记录_1/u3.png"}},
+{
+              "id":"c10a18ae84bf4d87948c5792b7644ccf",
+              "label":"车牌号格1",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "location":{
+                  "x":162,
+                  "y":70},
+                "size":{
+                  "width":119,
+                  "height":117}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"b877d2abb37649bfbb001facebb33be8",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "location":{
+                      "x":162,
+                      "y":70},
+                    "size":{
+                      "width":119,
+                      "height":117}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆gps信息记录_1/车牌号格1_u15.png"}},
+{
+              "id":"acf64ff434e2464c98374b515826c11e",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC},
+                "location":{
+                  "x":281,
+                  "y":0},
+                "size":{
+                  "width":103,
+                  "height":70}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"2e43cf86dc394bf683d7f0d23e310ab2",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFCCCCCC},
+                    "location":{
+                      "x":281,
+                      "y":0},
+                    "size":{
+                      "width":103,
+                      "height":70}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆gps信息记录_1/u5.png"}},
+{
+              "id":"a5ff6f6afa3a4afeb1e1cea1670f37a8",
+              "label":"运营类型格1",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "location":{
+                  "x":281,
+                  "y":70},
+                "size":{
+                  "width":103,
+                  "height":117}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"ed9ee33cf216453191bed3f737523b90",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "location":{
+                      "x":281,
+                      "y":70},
+                    "size":{
+                      "width":103,
+                      "height":117}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆gps信息记录_1/运营类型格1_u17.png"}},
+{
+              "id":"9081995a933b42489169bc600697efbe",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC},
+                "location":{
+                  "x":384,
+                  "y":0},
+                "size":{
+                  "width":173,
+                  "height":70}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"df902645e09b43c89ac75652508b49ca",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFCCCCCC},
+                    "location":{
+                      "x":384,
+                      "y":0},
+                    "size":{
+                      "width":173,
+                      "height":70}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆gps信息记录_1/u7.png"}},
+{
+              "id":"b753a2ea60ae45498a6b0e5068566794",
+              "label":"经营路线格1",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "location":{
+                  "x":384,
+                  "y":70},
+                "size":{
+                  "width":173,
+                  "height":117}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"5b7c2ffb76de40f486cf5f0d25d6c534",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "location":{
+                      "x":384,
+                      "y":70},
+                    "size":{
+                      "width":173,
+                      "height":117}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆gps信息记录_1/经营路线格1_u19.png"}},
+{
+              "id":"8de407131b784b728b817cc1eebfe60b",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC},
+                "location":{
+                  "x":557,
+                  "y":0},
+                "size":{
+                  "width":163,
+                  "height":70}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"ae16b8afd01c4922a65c5a678fa3e968",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFCCCCCC},
+                    "location":{
+                      "x":557,
+                      "y":0},
+                    "size":{
+                      "width":163,
+                      "height":70}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆gps信息记录_1/u9.png"}},
+{
+              "id":"21aa03406b2447b29ed40ad5f4c67675",
+              "label":"车辆状态格1",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "location":{
+                  "x":557,
+                  "y":70},
+                "size":{
+                  "width":163,
+                  "height":117}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"6ee89387bd5d40b5a9ad8bb2f249cefe",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "location":{
+                      "x":557,
+                      "y":70},
+                    "size":{
+                      "width":163,
+                      "height":117}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆gps信息记录_1/车辆状态格1_u21.png"}},
+{
+              "id":"6638dd3b8f6c47aea7e771073d8bd0e5",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC},
+                "location":{
+                  "x":720,
+                  "y":0},
+                "size":{
+                  "width":251,
+                  "height":70}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"4c75177f3cc644d4a30fd1a60233030c",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFCCCCCC},
+                    "location":{
+                      "x":720,
+                      "y":0},
+                    "size":{
+                      "width":251,
+                      "height":70}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆gps信息记录_1/u11.png"}},
+{
+              "id":"2d8589c9ae954e27aecc1aa1551054db",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "location":{
+                  "x":720,
+                  "y":70},
+                "size":{
+                  "width":251,
+                  "height":117}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"56c80c5211474e008775e96216ee3c6a",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "location":{
+                      "x":720,
+                      "y":70},
+                    "size":{
+                      "width":251,
+                      "height":117}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆gps信息记录_1/u23.png"}},
+{
+              "id":"3a47d356118b450db3c0dd9f382c51e7",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "stateStyles":{
+                  "mouseOver":{
+}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC},
+                "size":{
+                  "width":162,
+                  "height":70}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"60a43f0c3a5947dc818788b15d85b897",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "stateStyles":{
+                      "mouseOver":{
+}},
+                    "fill":{
+                      "fillType":"solid",
+                      "color":0xFFCCCCCC},
+                    "size":{
+                      "width":162,
+                      "height":70}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆gps信息记录_1/u1.png"}},
+{
+              "id":"0271b72614324423b4d8283e04b2d7ea",
+              "label":"",
+              "type":"tableCell",
+              "styleType":"tableCell",
+              "visible":true,
+              "style":{
+                "horizontalAlignment":"center",
+                "verticalAlignment":"middle",
+                "location":{
+                  "x":0,
+                  "y":70},
+                "size":{
+                  "width":162,
+                  "height":117}},
+              "adaptiveStyles":{
+},
+              "objects":[{
+                  "id":"1abaeff0c5b1411cb8e8a13a68704692",
+                  "label":"",
+                  "isContained":true,
+                  "type":"richTextPanel",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "horizontalAlignment":"center",
+                    "verticalAlignment":"middle",
+                    "location":{
+                      "x":0,
+                      "y":70},
+                    "size":{
+                      "width":162,
+                      "height":117}},
+                  "adaptiveStyles":{
+}}],
+              "images":{
+                "normal~":"images/车辆gps信息记录_1/u13.png"}}]},
+{
+          "id":"337dc535c4ec4164a5caab3e5d1093f7",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":30,
+              "y":48},
+            "size":{
+              "width":64,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1c906ae1142c4be4b90d8682253db097",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":30,
+                  "y":48},
+                "size":{
+                  "width":64,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"608d1c70bcdf4bc79e7dd216620a1247",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":36,
+              "y":389},
+            "size":{
+              "width":282,
+              "height":12}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"aa16f3753aa74c60a65ea8be8c7c1a57",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":36,
+                  "y":389},
+                "size":{
+                  "width":282,
+                  "height":12}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"44f4e19b6ca64effb20b2adbba284dae",
+          "label":"",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":363,
+              "y":389},
+            "size":{
+              "width":81,
+              "height":21}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"747e243ad15d43efbde6ff67613478aa",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":454,
+              "y":389},
+            "size":{
+              "width":40,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"bdb18b92caba4cc3b2fa013391b671cc",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":454,
+                  "y":389},
+                "size":{
+                  "width":40,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"0025d3d1b5c44780ab2ba82a70cd07e2",
+          "label":"新增_面板",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":692,
+              "y":516},
+            "size":{
+              "width":10,
+              "height":10}},
+          "adaptiveStyles":{
+},
+          "fixedHorizontal":"center",
+          "fixedMarginHorizontal":0,
+          "fixedVertical":"middle",
+          "fixedMarginVertical":0,
+          "fixedKeepInFront":true,
+          "scrollbars":"none",
+          "fitToContent":true,
+          "propagate":false,
+          "diagrams":[{
+              "id":"d629475864a247858f89ba98446b7967",
+              "label":"",
+              "type":"Axure:PanelDiagram",
+              "objects":[],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"b03a3d2752a7407d8ae66acb1f353e9f",
+          "label":"车辆GPS删除1",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":830,
+              "y":310},
+            "size":{
+              "width":92,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 确认,<br>取消,<br>确认要删除么",
+                      "objectsToFades":[{
+                          "objectPath":["b840455b1a1e4426ac163c67caadce55"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["fb477912375041ca81dcc4b3cd49aaab"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["c8c2f7b20c4b4307a288b38dfea9fb70"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"2955eadd15094ad49d21f9596cdd3d47",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":433,
+              "y":52},
+            "size":{
+              "width":81,
+              "height":1}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2d13a66d617b433687d7ae576ae8ccfd",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":433,
+                  "y":52},
+                "size":{
+                  "width":81,
+                  "height":1}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"7628796ed7254a15b906a715a5943f34",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":460,
+              "y":310},
+            "size":{
+              "width":70,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a7c95a0cc27743728e665bb3517114c2",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":460,
+                  "y":310},
+                "size":{
+                  "width":70,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"e66fa0df53ff46e5adfff6e25df94b28",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":634,
+              "y":314},
+            "size":{
+              "width":80,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ca34d7dcc0e1464887cd77ed79f82abc",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":634,
+                  "y":314},
+                "size":{
+                  "width":80,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"328b0a6a0fab454d8eb2595befcb2767",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":746,
+              "y":397},
+            "size":{
+              "width":40,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2d7a846f34634b11a5af81978cdb4fa9",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":746,
+                  "y":397},
+                "size":{
+                  "width":40,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"518715f7f4d54af7b902cb80cd01a1bd",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "horizontalAlignment":"center",
+            "location":{
+              "x":815,
+              "y":397},
+            "size":{
+              "width":46,
+              "height":23}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"44def9c0e2634f2e9f7fcd4f5f09916d",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":874,
+              "y":397},
+            "size":{
+              "width":14,
+              "height":23}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"355df4f097144eb3b49504d2bd2aede0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":874,
+                  "y":397},
+                "size":{
+                  "width":14,
+                  "height":23}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"490e866b810e42398f37322e08fed093",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "mouseOver":{
+                "underline":true,
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF0066FF,
+                  "opacity":1}}},
+            "location":{
+              "x":688,
+              "y":399},
+            "size":{
+              "width":40,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b6f14e060d724b638f880c6ebda7a9cf",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "stateStyles":{
+                  "mouseOver":{
+                    "underline":true,
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF0066FF,
+                      "opacity":1}}},
+                "location":{
+                  "x":688,
+                  "y":399},
+                "size":{
+                  "width":40,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif",
+            "mouseOver~":"resources/images/transparent.gif"}},
+{
+          "id":"de8b737d9664449495a1fe378551d020",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "underline":true,
+            "stateStyles":{
+              "mouseOver":{
+                "underline":true,
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF0066FF,
+                  "opacity":1}}},
+            "location":{
+              "x":901,
+              "y":397},
+            "size":{
+              "width":40,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1e202156fbb9481596ca62b29fe1373b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "underline":true,
+                "stateStyles":{
+                  "mouseOver":{
+                    "underline":true,
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF0066FF,
+                      "opacity":1}}},
+                "location":{
+                  "x":901,
+                  "y":397},
+                "size":{
+                  "width":40,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif",
+            "mouseOver~":"resources/images/transparent.gif"}},
+{
+          "id":"986fe7cc38f94ca8855fbd97c01f6622",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":959,
+              "y":397},
+            "size":{
+              "width":42,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9823ba0865814ec5be34d7ed17697156",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":959,
+                  "y":397},
+                "size":{
+                  "width":42,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"e3e58f62d11645f384ffe12435147123",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":30,
+              "y":120},
+            "size":{
+              "width":105,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"重置",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"设置 部件文字 不明 = &quot;&quot;, 且<br> 部件文字 不明 = &quot;&quot;, 且<br> 部件文字 不明 = &quot;&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}},
+{
+                      "action":"fadeWidget",
+                      "description":"显示/隐藏部件",
+                      "objectsToFades":[]},
+{
+                      "action":"setFunction",
+                      "description":"设置 选中项值 不明 = &quot;全部&quot;, 且<br> 选中项值 不明 = &quot;全部&quot;, 且<br> 选中项值 不明 = &quot;请选择&quot;, 且<br> 选中项值 不明 = &quot;请选择&quot;, 且<br> 选中项值 不明 = &quot;全部&quot;, 且<br> 选中项值 不明 = &quot;全部&quot;, 且<br> 选中项值 不明 = &quot;全部&quot;, 且<br> 选中项值 不明 = &quot;全部&quot;, 且<br> 选中项值 不明 = &quot;全部&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[]}}]}]}},
+          "tabbable":true},
+{
+          "id":"07300b36c70740a6acbd9a1e1bfd543e",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":303,
+              "y":120},
+            "size":{
+              "width":93,
+              "height":36}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 车辆信息新增页面",
+                      "target":{
+                        "targetType":"page",
+                        "url":"车辆信息新增页面.html",
+                        "includeVariables":true},
+                      "linkType":"current"},
+{
+                      "action":"linkWindow",
+                      "description":"在 新窗口/标签页 打开 车辆信息新增页面",
+                      "target":{
+                        "targetType":"page",
+                        "url":"车辆信息新增页面.html",
+                        "includeVariables":true},
+                      "linkType":"new"}]}]}},
+          "tabbable":true},
+{
+          "id":"78dc86f2ef30485d9bdc1b5012a2f3f1",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":158,
+              "y":120},
+            "size":{
+              "width":116,
+              "height":36}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"c9a5e39fa2844918b2ff3adfc9333f38",
+          "label":"",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":94,
+              "y":40},
+            "size":{
+              "width":48,
+              "height":32}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"450be6ee6f294717b99d03a1431687d9",
+          "label":"",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":141,
+              "y":40},
+            "size":{
+              "width":46,
+              "height":32}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"e571327f9c8b4e42b21dc1cc6773ca53",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":187,
+              "y":40},
+            "size":{
+              "width":105,
+              "height":32}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"3a8095e3e3a840ab8ed941c1a6bca0f0",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":524,
+              "y":44},
+            "size":{
+              "width":139,
+              "height":32}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"bea31bdb915c4c648c3a6c59c9d7894f",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":664,
+              "y":44},
+            "size":{
+              "width":46,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a5713c0741674d0cb1ab86ca6627816f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":664,
+                  "y":44},
+                "size":{
+                  "width":46,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/车辆gps信息记录_1/u58.png"}},
+{
+          "id":"995c14e7e3e5496a937f312db5eb2246",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":711,
+              "y":44},
+            "size":{
+              "width":128,
+              "height":32}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"b840455b1a1e4426ac163c67caadce55",
+          "label":"确认",
+          "type":"button",
+          "styleType":"button",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":582,
+              "y":160.5},
+            "size":{
+              "width":100,
+              "height":25},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"closeCurrent",
+                      "description":"关闭当前窗口"}]}]}},
+          "tabbable":true},
+{
+          "id":"fb477912375041ca81dcc4b3cd49aaab",
+          "label":"取消",
+          "type":"button",
+          "styleType":"button",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":722,
+              "y":160.5},
+            "size":{
+              "width":96,
+              "height":25},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"隐藏 确认要删除么,<br>确认,<br>取消",
+                      "objectsToFades":[{
+                          "objectPath":["c8c2f7b20c4b4307a288b38dfea9fb70"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["b840455b1a1e4426ac163c67caadce55"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["fb477912375041ca81dcc4b3cd49aaab"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true},
+{
+          "id":"c8c2f7b20c4b4307a288b38dfea9fb70",
+          "label":"确认要删除么",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":false,
+          "style":{
+            "horizontalAlignment":"center",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFCCCCCC},
+            "location":{
+              "x":582,
+              "y":90},
+            "size":{
+              "width":236,
+              "height":70},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0a99f700a8ad48e2a1584c004bde12b3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "horizontalAlignment":"center",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFCCCCCC},
+                "location":{
+                  "x":582,
+                  "y":90},
+                "size":{
+                  "width":236,
+                  "height":70},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/设备基本信息管理/确认要删除么_u76.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "a59a1135e29b4cd2b89325efd38c7dfc":{
+      "scriptId":"u0"},
+    "3a47d356118b450db3c0dd9f382c51e7":{
+      "scriptId":"u1"},
+    "60a43f0c3a5947dc818788b15d85b897":{
+      "scriptId":"u2"},
+    "1abc0b4cf7db4c83a86db3c8004296cf":{
+      "scriptId":"u3"},
+    "272ba2c6010741eabe87072d5ea0fbd4":{
+      "scriptId":"u4"},
+    "acf64ff434e2464c98374b515826c11e":{
+      "scriptId":"u5"},
+    "2e43cf86dc394bf683d7f0d23e310ab2":{
+      "scriptId":"u6"},
+    "9081995a933b42489169bc600697efbe":{
+      "scriptId":"u7"},
+    "df902645e09b43c89ac75652508b49ca":{
+      "scriptId":"u8"},
+    "8de407131b784b728b817cc1eebfe60b":{
+      "scriptId":"u9"},
+    "ae16b8afd01c4922a65c5a678fa3e968":{
+      "scriptId":"u10"},
+    "6638dd3b8f6c47aea7e771073d8bd0e5":{
+      "scriptId":"u11"},
+    "4c75177f3cc644d4a30fd1a60233030c":{
+      "scriptId":"u12"},
+    "0271b72614324423b4d8283e04b2d7ea":{
+      "scriptId":"u13"},
+    "1abaeff0c5b1411cb8e8a13a68704692":{
+      "scriptId":"u14"},
+    "c10a18ae84bf4d87948c5792b7644ccf":{
+      "scriptId":"u15"},
+    "b877d2abb37649bfbb001facebb33be8":{
+      "scriptId":"u16"},
+    "a5ff6f6afa3a4afeb1e1cea1670f37a8":{
+      "scriptId":"u17"},
+    "ed9ee33cf216453191bed3f737523b90":{
+      "scriptId":"u18"},
+    "b753a2ea60ae45498a6b0e5068566794":{
+      "scriptId":"u19"},
+    "5b7c2ffb76de40f486cf5f0d25d6c534":{
+      "scriptId":"u20"},
+    "21aa03406b2447b29ed40ad5f4c67675":{
+      "scriptId":"u21"},
+    "6ee89387bd5d40b5a9ad8bb2f249cefe":{
+      "scriptId":"u22"},
+    "2d8589c9ae954e27aecc1aa1551054db":{
+      "scriptId":"u23"},
+    "56c80c5211474e008775e96216ee3c6a":{
+      "scriptId":"u24"},
+    "337dc535c4ec4164a5caab3e5d1093f7":{
+      "scriptId":"u25"},
+    "1c906ae1142c4be4b90d8682253db097":{
+      "scriptId":"u26"},
+    "608d1c70bcdf4bc79e7dd216620a1247":{
+      "scriptId":"u27"},
+    "aa16f3753aa74c60a65ea8be8c7c1a57":{
+      "scriptId":"u28"},
+    "44f4e19b6ca64effb20b2adbba284dae":{
+      "scriptId":"u29"},
+    "747e243ad15d43efbde6ff67613478aa":{
+      "scriptId":"u30"},
+    "bdb18b92caba4cc3b2fa013391b671cc":{
+      "scriptId":"u31"},
+    "0025d3d1b5c44780ab2ba82a70cd07e2":{
+      "scriptId":"u32"},
+    "b03a3d2752a7407d8ae66acb1f353e9f":{
+      "scriptId":"u33"},
+    "2955eadd15094ad49d21f9596cdd3d47":{
+      "scriptId":"u34"},
+    "2d13a66d617b433687d7ae576ae8ccfd":{
+      "scriptId":"u35"},
+    "7628796ed7254a15b906a715a5943f34":{
+      "scriptId":"u36"},
+    "a7c95a0cc27743728e665bb3517114c2":{
+      "scriptId":"u37"},
+    "e66fa0df53ff46e5adfff6e25df94b28":{
+      "scriptId":"u38"},
+    "ca34d7dcc0e1464887cd77ed79f82abc":{
+      "scriptId":"u39"},
+    "328b0a6a0fab454d8eb2595befcb2767":{
+      "scriptId":"u40"},
+    "2d7a846f34634b11a5af81978cdb4fa9":{
+      "scriptId":"u41"},
+    "518715f7f4d54af7b902cb80cd01a1bd":{
+      "scriptId":"u42"},
+    "44def9c0e2634f2e9f7fcd4f5f09916d":{
+      "scriptId":"u43"},
+    "355df4f097144eb3b49504d2bd2aede0":{
+      "scriptId":"u44"},
+    "490e866b810e42398f37322e08fed093":{
+      "scriptId":"u45"},
+    "b6f14e060d724b638f880c6ebda7a9cf":{
+      "scriptId":"u46"},
+    "de8b737d9664449495a1fe378551d020":{
+      "scriptId":"u47"},
+    "1e202156fbb9481596ca62b29fe1373b":{
+      "scriptId":"u48"},
+    "986fe7cc38f94ca8855fbd97c01f6622":{
+      "scriptId":"u49"},
+    "9823ba0865814ec5be34d7ed17697156":{
+      "scriptId":"u50"},
+    "e3e58f62d11645f384ffe12435147123":{
+      "scriptId":"u51"},
+    "07300b36c70740a6acbd9a1e1bfd543e":{
+      "scriptId":"u52"},
+    "78dc86f2ef30485d9bdc1b5012a2f3f1":{
+      "scriptId":"u53"},
+    "c9a5e39fa2844918b2ff3adfc9333f38":{
+      "scriptId":"u54"},
+    "450be6ee6f294717b99d03a1431687d9":{
+      "scriptId":"u55"},
+    "e571327f9c8b4e42b21dc1cc6773ca53":{
+      "scriptId":"u56"},
+    "3a8095e3e3a840ab8ed941c1a6bca0f0":{
+      "scriptId":"u57"},
+    "bea31bdb915c4c648c3a6c59c9d7894f":{
+      "scriptId":"u58"},
+    "a5713c0741674d0cb1ab86ca6627816f":{
+      "scriptId":"u59"},
+    "995c14e7e3e5496a937f312db5eb2246":{
+      "scriptId":"u60"},
+    "b840455b1a1e4426ac163c67caadce55":{
+      "scriptId":"u61"},
+    "fb477912375041ca81dcc4b3cd49aaab":{
+      "scriptId":"u62"},
+    "c8c2f7b20c4b4307a288b38dfea9fb70":{
+      "scriptId":"u63"},
+    "0a99f700a8ad48e2a1584c004bde12b3":{
+      "scriptId":"u64"}}});

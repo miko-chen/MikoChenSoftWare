@@ -1,0 +1,295 @@
+﻿$axure.loadCurrentPage({
+  "url":"查看货物实时位置.html",
+  "generationDate":new Date(1557736362591),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"1f4239677c214cfb92a157b683e1a105",
+    "type":"Axure:Page",
+    "name":"查看货物实时位置",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"5094b885f0de454f95fb2e6919259fb7",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":418,
+              "y":174},
+            "size":{
+              "width":53,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f387b8993d1f4678bf3d598599c920b9",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":418,
+                  "y":174},
+                "size":{
+                  "width":53,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"a63877058fb64c8c88ada376a8292bd2",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":490,
+              "y":169.5},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"dd4066f988994b38b69e6c833d62ff3c",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":720,
+              "y":170},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"9d8b8ea5d7bd4dc78bbc02d0d88eabb2",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":410,
+              "y":220},
+            "size":{
+              "width":410,
+              "height":210}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"94d13677e06041a6bf6fce70917bb1f5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":410,
+                  "y":220},
+                "size":{
+                  "width":410,
+                  "height":210}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/查看货物实时位置/u4.png"}},
+{
+          "id":"5d4847e69c3a4d10a11c6f8021fac4a0",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Cursiva', 'Arial'",
+            "fontSize":"18px",
+            "fontStyle":"italic",
+            "location":{
+              "x":530,
+              "y":290},
+            "size":{
+              "width":140,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"14cc99cd742240d6a3a85a91bff9f5c3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Cursiva', 'Arial'",
+                "fontSize":"18px",
+                "fontStyle":"italic",
+                "location":{
+                  "x":530,
+                  "y":290},
+                "size":{
+                  "width":140,
+                  "height":50}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/查看货物实时位置/u6.png"}},
+{
+          "id":"6c0938cebb7245f3b21ac9c9b7b95fef",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontSize":"14px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF330033,
+              "opacity":1},
+            "location":{
+              "x":401,
+              "y":490},
+            "size":{
+              "width":70,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"aee98b20cdfc4b28a82cd630cfff31d5",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontSize":"14px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF330033,
+              "opacity":1},
+            "location":{
+              "x":490,
+              "y":490},
+            "size":{
+              "width":70,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"a3cbe0a84a744387bcc8fbe6a39c36dd",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontSize":"14px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF330033,
+              "opacity":1},
+            "location":{
+              "x":580,
+              "y":490},
+            "size":{
+              "width":70,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"5745b8c618cd4995b985a6454da4b6b6",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontSize":"14px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF330033,
+              "opacity":1},
+            "location":{
+              "x":674,
+              "y":490},
+            "size":{
+              "width":80,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"9d2632950d0c4b59ad95db00585192ec",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "fontSize":"14px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF330033,
+              "opacity":1},
+            "location":{
+              "x":770,
+              "y":490},
+            "size":{
+              "width":70,
+              "height":25}},
+          "adaptiveStyles":{
+}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "5094b885f0de454f95fb2e6919259fb7":{
+      "scriptId":"u0"},
+    "f387b8993d1f4678bf3d598599c920b9":{
+      "scriptId":"u1"},
+    "a63877058fb64c8c88ada376a8292bd2":{
+      "scriptId":"u2"},
+    "dd4066f988994b38b69e6c833d62ff3c":{
+      "scriptId":"u3"},
+    "9d8b8ea5d7bd4dc78bbc02d0d88eabb2":{
+      "scriptId":"u4"},
+    "94d13677e06041a6bf6fce70917bb1f5":{
+      "scriptId":"u5"},
+    "5d4847e69c3a4d10a11c6f8021fac4a0":{
+      "scriptId":"u6"},
+    "14cc99cd742240d6a3a85a91bff9f5c3":{
+      "scriptId":"u7"},
+    "6c0938cebb7245f3b21ac9c9b7b95fef":{
+      "scriptId":"u8"},
+    "aee98b20cdfc4b28a82cd630cfff31d5":{
+      "scriptId":"u9"},
+    "a3cbe0a84a744387bcc8fbe6a39c36dd":{
+      "scriptId":"u10"},
+    "5745b8c618cd4995b985a6454da4b6b6":{
+      "scriptId":"u11"},
+    "9d2632950d0c4b59ad95db00585192ec":{
+      "scriptId":"u12"}}});

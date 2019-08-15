@@ -1,0 +1,633 @@
+﻿$axure.loadCurrentPage({
+  "url":"车辆维护保养修改页面.html",
+  "generationDate":new Date(1558324038830.48),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"yys_name",
+"car_chePai_card",
+"car_chePai_color",
+"car_leixing",
+"car_ICcard",
+"yy_leixing",
+"car_InterNet_leixing",
+"car_jingYingLuXian",
+"car_zhuangTai",
+"quYu",
+"phone",
+"mail",
+"name",
+"NewVariable"],
+  "page":{
+    "packageId":"756a7794851c41118bb8350f8cd42374",
+    "type":"Axure:Page",
+    "name":"车辆维护保养修改页面",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+      "onLoad":{
+        "description":"OnLoad",
+        "cases":[{
+            "description":"用例 1",
+            "isNewIfGroup":false,
+            "actions":[{
+                "action":"fadeWidget",
+                "description":"隐藏 新增未填提示",
+                "objectsToFades":[{
+                    "objectPath":["cfc294824ce04241b1918c9c101e2afd"],
+                    "fadeInfo":{
+                      "fadeType":"hide",
+                      "options":{
+                        "showType":"none"}}}]}]}]}},
+    "diagram":{
+      "objects":[{
+          "id":"4d8adff86be6469c88cd8fc2765ed4fb",
+          "label":"",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":454,
+              "y":83},
+            "size":{
+              "width":10,
+              "height":10}},
+          "adaptiveStyles":{
+},
+          "fixedHorizontal":"center",
+          "fixedMarginHorizontal":0,
+          "fixedVertical":"middle",
+          "fixedMarginVertical":0,
+          "fixedKeepInFront":true,
+          "scrollbars":"none",
+          "fitToContent":true,
+          "propagate":false,
+          "diagrams":[{
+              "id":"35eeae21b28448fd8ca6fac033b5e906",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"cfc294824ce04241b1918c9c101e2afd",
+                  "label":"新增未填提示",
+                  "parentDynamicPanel":"4d8adff86be6469c88cd8fc2765ed4fb",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":286,
+                      "height":120}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"5da83d3f86154f3eade7a4b23860301f",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"4d8adff86be6469c88cd8fc2765ed4fb",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":286,
+                          "height":120}},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onMouseOver":{
+                      "description":"OnMouseOver",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"wait",
+                              "description":"等待1000毫秒",
+                              "waitTime":1000},
+{
+                              "action":"fadeWidget",
+                              "description":"隐藏 新增未填提示",
+                              "objectsToFades":[{
+                                  "objectPath":["cfc294824ce04241b1918c9c101e2afd"],
+                                  "fadeInfo":{
+                                    "fadeType":"hide",
+                                    "options":{
+                                      "showType":"none"}}}]}]}]}},
+                  "images":{
+                    "normal~":"images/车辆维护保养新增页面/新增未填提示_u1.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"c27130af040d4b1890ba34ac23a5ca5f",
+          "label":"编辑_弹框",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":30,
+              "y":40},
+            "size":{
+              "width":350,
+              "height":240}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c2327f28ffc64dfca1dc2e65e21d7487",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":30,
+                  "y":40},
+                "size":{
+                  "width":350,
+                  "height":240}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/车辆维护保养新增页面/编辑_弹框_u3.png"}},
+{
+          "id":"8bf899ffc46c48cdb55efe3f7d89ccc2",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":62,
+              "y":104},
+            "size":{
+              "width":53,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a589c2a846064c30a6bc0ff8c3c61658",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":62,
+                  "y":104},
+                "size":{
+                  "width":53,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"7ff65c6eebb944c3914386b8bafb54d1",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":62,
+              "y":140},
+            "size":{
+              "width":53,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"79199588c4b6493f969dd7a24d58f164",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":62,
+                  "y":140},
+                "size":{
+                  "width":53,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"b547290c242645adbcf2d86a71ad3b26",
+          "label":"新增_保存",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":100,
+              "y":203},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 车辆基本信息",
+                      "target":{
+                        "targetType":"page",
+                        "url":"车辆基本信息.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"944f659b946b455da2f1ce78fbaa0413",
+          "label":"新增_",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":61,
+              "y":73},
+            "size":{
+              "width":40,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6af5c9e018bf446a96ef67ba35f11ee5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":61,
+                  "y":73},
+                "size":{
+                  "width":40,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"5ab2feb2f88b4265a0d8fd05cd76b202",
+          "label":"新增_运营商名称",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":147,
+              "y":102},
+            "size":{
+              "width":200,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"ad739ef5932f42e4a40db69878523c03",
+          "label":"新增_关闭",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":230,
+              "y":203},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示/隐藏部件",
+                      "objectsToFades":[]}]}]}},
+          "tabbable":true},
+{
+          "id":"d4ff14649021425481cfeffba838d4c1",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":347,
+              "y":70},
+            "size":{
+              "width":23,
+              "height":20}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5e1311651b5b4a04ac90799f608b24a1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0000,
+                  "opacity":1},
+                "location":{
+                  "x":347,
+                  "y":70},
+                "size":{
+                  "width":23,
+                  "height":20}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"5aa651bcdfaa4b939fbe718c5db30e06",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":347,
+              "y":104},
+            "size":{
+              "width":23,
+              "height":20}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8cfee0ab750f4a70a8726d2186a34563",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0000,
+                  "opacity":1},
+                "location":{
+                  "x":347,
+                  "y":104},
+                "size":{
+                  "width":23,
+                  "height":20}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"959fdf328f5c436585da5dfdd57f6393",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":348,
+              "y":134},
+            "size":{
+              "width":23,
+              "height":20}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e124cb65cf6a49718ae4fc7ceaf638c3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0000,
+                  "opacity":1},
+                "location":{
+                  "x":348,
+                  "y":134},
+                "size":{
+                  "width":23,
+                  "height":20}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"deb7ebd45af8430f9d30d8fcb4236ae1",
+          "label":"车牌号框",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":217,
+              "y":68},
+            "size":{
+              "width":130,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"5fec071846d340c9828d78c7408e09fd",
+          "label":"",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":147,
+              "y":67},
+            "size":{
+              "width":35,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"72bbae4c6f554515af01661c1a310ea0",
+          "label":"",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":182,
+              "y":67},
+            "size":{
+              "width":35,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"b56c78b03fe64b4d94df7177976ebf42",
+          "label":"车牌号框",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":253,
+              "y":134},
+            "size":{
+              "width":95,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"97a473d3903e42d99f3006113a4aaee7",
+          "label":"",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":183,
+              "y":134},
+            "size":{
+              "width":35,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"5216a28252c24f4185435464228ccf41",
+          "label":"",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":218,
+              "y":134},
+            "size":{
+              "width":35,
+              "height":22}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"4b94438cd75c4ff797243bec245b69aa",
+          "label":"",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":148,
+              "y":134},
+            "size":{
+              "width":35,
+              "height":22}},
+          "adaptiveStyles":{
+}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "4d8adff86be6469c88cd8fc2765ed4fb":{
+      "scriptId":"u0"},
+    "cfc294824ce04241b1918c9c101e2afd":{
+      "scriptId":"u1"},
+    "5da83d3f86154f3eade7a4b23860301f":{
+      "scriptId":"u2"},
+    "c27130af040d4b1890ba34ac23a5ca5f":{
+      "scriptId":"u3"},
+    "c2327f28ffc64dfca1dc2e65e21d7487":{
+      "scriptId":"u4"},
+    "8bf899ffc46c48cdb55efe3f7d89ccc2":{
+      "scriptId":"u5"},
+    "a589c2a846064c30a6bc0ff8c3c61658":{
+      "scriptId":"u6"},
+    "7ff65c6eebb944c3914386b8bafb54d1":{
+      "scriptId":"u7"},
+    "79199588c4b6493f969dd7a24d58f164":{
+      "scriptId":"u8"},
+    "b547290c242645adbcf2d86a71ad3b26":{
+      "scriptId":"u9"},
+    "944f659b946b455da2f1ce78fbaa0413":{
+      "scriptId":"u10"},
+    "6af5c9e018bf446a96ef67ba35f11ee5":{
+      "scriptId":"u11"},
+    "5ab2feb2f88b4265a0d8fd05cd76b202":{
+      "scriptId":"u12"},
+    "ad739ef5932f42e4a40db69878523c03":{
+      "scriptId":"u13"},
+    "d4ff14649021425481cfeffba838d4c1":{
+      "scriptId":"u14"},
+    "5e1311651b5b4a04ac90799f608b24a1":{
+      "scriptId":"u15"},
+    "5aa651bcdfaa4b939fbe718c5db30e06":{
+      "scriptId":"u16"},
+    "8cfee0ab750f4a70a8726d2186a34563":{
+      "scriptId":"u17"},
+    "959fdf328f5c436585da5dfdd57f6393":{
+      "scriptId":"u18"},
+    "e124cb65cf6a49718ae4fc7ceaf638c3":{
+      "scriptId":"u19"},
+    "deb7ebd45af8430f9d30d8fcb4236ae1":{
+      "scriptId":"u20"},
+    "5fec071846d340c9828d78c7408e09fd":{
+      "scriptId":"u21"},
+    "72bbae4c6f554515af01661c1a310ea0":{
+      "scriptId":"u22"},
+    "b56c78b03fe64b4d94df7177976ebf42":{
+      "scriptId":"u23"},
+    "97a473d3903e42d99f3006113a4aaee7":{
+      "scriptId":"u24"},
+    "5216a28252c24f4185435464228ccf41":{
+      "scriptId":"u25"},
+    "4b94438cd75c4ff797243bec245b69aa":{
+      "scriptId":"u26"}}});

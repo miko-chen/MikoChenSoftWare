@@ -1,0 +1,163 @@
+﻿$axure.loadCurrentPage({
+  "url":"帮助.html",
+  "generationDate":new Date(1557736120550.22),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"sfz",
+"sfz_n",
+"rl_date",
+"rl_day"],
+  "page":{
+    "packageId":"eee195fe325b4693868507649727964a",
+    "type":"Axure:Page",
+    "name":"帮助",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"84e1a3a797154eaa893a201ec9b9c01c",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":510,
+              "y":140},
+            "size":{
+              "width":96,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3aca7e58827449e7943248f6249239fb",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":510,
+                  "y":140},
+                "size":{
+                  "width":96,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"029f0288d0374e70a985e075ec468e30",
+          "label":"",
+          "type":"textArea",
+          "styleType":"textArea",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":510,
+              "y":190},
+            "size":{
+              "width":460,
+              "height":100}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"5faf3f072032496e90b12daeefdf082b",
+          "label":"",
+          "type":"textArea",
+          "styleType":"textArea",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":510,
+              "y":420},
+            "size":{
+              "width":470,
+              "height":100}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"0d75784bbcb6433b9dac28b7299f2dc2",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":510,
+              "y":380},
+            "size":{
+              "width":27,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"12a63a4169934f45bb7e2281ec2b3009",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":510,
+                  "y":380},
+                "size":{
+                  "width":27,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"4a25f52de74d467f8bdf33414478de62",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":510,
+              "y":90},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "84e1a3a797154eaa893a201ec9b9c01c":{
+      "scriptId":"u0"},
+    "3aca7e58827449e7943248f6249239fb":{
+      "scriptId":"u1"},
+    "029f0288d0374e70a985e075ec468e30":{
+      "scriptId":"u2"},
+    "5faf3f072032496e90b12daeefdf082b":{
+      "scriptId":"u3"},
+    "0d75784bbcb6433b9dac28b7299f2dc2":{
+      "scriptId":"u4"},
+    "12a63a4169934f45bb7e2281ec2b3009":{
+      "scriptId":"u5"},
+    "4a25f52de74d467f8bdf33414478de62":{
+      "scriptId":"u6"}}});

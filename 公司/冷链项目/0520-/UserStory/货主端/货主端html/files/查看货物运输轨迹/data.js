@@ -1,0 +1,252 @@
+﻿$axure.loadCurrentPage({
+  "url":"查看货物运输轨迹.html",
+  "generationDate":new Date(1557736121182.26),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"sfz",
+"sfz_n",
+"rl_date",
+"rl_day"],
+  "page":{
+    "packageId":"5019bfec0e814b37b08bec286f4dfbb4",
+    "type":"Axure:Page",
+    "name":"查看货物运输轨迹",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"6470aab140df4b73990a76623d0296cc",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":380,
+              "y":230},
+            "size":{
+              "width":410,
+              "height":170}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"76e96619b8844a339f5e13bb149e2bbb",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":380,
+                  "y":230},
+                "size":{
+                  "width":410,
+                  "height":170}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/查看货物运输轨迹/u0.png"}},
+{
+          "id":"2aba295c8a61461081edeb635efa4e74",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Cursiva', 'Arial'",
+            "fontSize":"18px",
+            "fontStyle":"italic",
+            "location":{
+              "x":510,
+              "y":290},
+            "size":{
+              "width":130,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"08343034662148e2a67fa10c8e85f3be",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Cursiva', 'Arial'",
+                "fontSize":"18px",
+                "fontStyle":"italic",
+                "location":{
+                  "x":510,
+                  "y":290},
+                "size":{
+                  "width":130,
+                  "height":50}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/查看货物运输轨迹/u2.png"}},
+{
+          "id":"6b47c6ff051545569c8557362d4612fa",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":710,
+              "y":230},
+            "size":{
+              "width":80,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"30bf4bad39614958985b9d73ca8902cb",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":710,
+                  "y":230},
+                "size":{
+                  "width":80,
+                  "height":50}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/查看运营商信息/u37.png"}},
+{
+          "id":"f36dec5bc08e4ab0a97ef649f0075507",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Iaxurefont Regular', 'Iaxurefont'",
+            "fontSize":"36px",
+            "fontWeight":"500",
+            "location":{
+              "x":380,
+              "y":169},
+            "size":{
+              "width":20,
+              "height":20}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0c012c366f7d4da9a19673b61f5528ef",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Iaxurefont Regular', 'Iaxurefont'",
+                "fontSize":"36px",
+                "fontWeight":"500",
+                "location":{
+                  "x":380,
+                  "y":169},
+                "size":{
+                  "width":20,
+                  "height":20}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/查看运单评价信息及评分/u9.png"}},
+{
+          "id":"496e50a2b1c5447f819b1a28a40e737a",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":410,
+              "y":170},
+            "size":{
+              "width":79,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3bc5b8210f4843b1924dde96bd8d10f3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":410,
+                  "y":170},
+                "size":{
+                  "width":79,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"d284d3556ffb4b6da314a6394a9dbb71",
+          "label":"",
+          "type":"comboBox",
+          "styleType":"comboBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":630,
+              "y":164},
+            "size":{
+              "width":160,
+              "height":22}},
+          "adaptiveStyles":{
+}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "6470aab140df4b73990a76623d0296cc":{
+      "scriptId":"u0"},
+    "76e96619b8844a339f5e13bb149e2bbb":{
+      "scriptId":"u1"},
+    "2aba295c8a61461081edeb635efa4e74":{
+      "scriptId":"u2"},
+    "08343034662148e2a67fa10c8e85f3be":{
+      "scriptId":"u3"},
+    "6b47c6ff051545569c8557362d4612fa":{
+      "scriptId":"u4"},
+    "30bf4bad39614958985b9d73ca8902cb":{
+      "scriptId":"u5"},
+    "f36dec5bc08e4ab0a97ef649f0075507":{
+      "scriptId":"u6"},
+    "0c012c366f7d4da9a19673b61f5528ef":{
+      "scriptId":"u7"},
+    "496e50a2b1c5447f819b1a28a40e737a":{
+      "scriptId":"u8"},
+    "3bc5b8210f4843b1924dde96bd8d10f3":{
+      "scriptId":"u9"},
+    "d284d3556ffb4b6da314a6394a9dbb71":{
+      "scriptId":"u10"}}});
