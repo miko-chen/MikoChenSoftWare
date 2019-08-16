@@ -1,0 +1,420 @@
+2019-05-15 18:36:34 -Starting TemplateApplication on HY-PC with PID 23056 (D:\simple\simple-template-2.0\cold_chain\template\target\classes started by Administrator in D:\simple\simple-template-2.0\cold_chain)
+2019-05-15 18:36:34 -Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-05-15 18:36:34 -The following profiles are active: dev
+2019-05-15 18:36:34 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1fe4644: startup date [Wed May 15 18:36:34 CST 2019]; root of context hierarchy
+2019-05-15 18:36:35 -No MyBatis mapper was found in '[com.template.*.mapper]' package. Please check your configuration.
+2019-05-15 18:36:35 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-15 18:36:36 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$563ad5e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-15 18:36:36 -Bean 'shiroConfig' of type [com.template.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$a4ed0329] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-15 18:36:37 -Bean 'userRealm' of type [com.template.system.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-15 18:36:37 -Bean 'cacheManager2' of type [net.sf.ehcache.CacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-15 18:36:37 -Bean 'ehCacheManager' of type [org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-15 18:36:37 -Cache with name 'com.template.system.shiro.UserRealm.authorizationCache' does not yet exist.  Creating now.
+2019-05-15 18:36:37 -Added EhCache named [com.template.system.shiro.UserRealm.authorizationCache]
+2019-05-15 18:36:37 -Bean 'sessionDAO' of type [org.apache.shiro.session.mgt.eis.MemorySessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-15 18:36:37 -Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-15 18:36:37 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-15 18:36:37 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-15 18:36:37 -Tomcat initialized with port(s): 8080 (http)
+2019-05-15 18:36:38 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-15 18:36:38 -Starting service [Tomcat]
+2019-05-15 18:36:38 -Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-05-15 18:36:38 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files (x86)\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\GtkSharp\2.12\bin;D:\Work\mongo-cxx-driver-legacy-1.1.2\build\win32\32\dynamic-windows;D:\Work\mongo-cxx-driver-legacy-1.1.2\build\win32\32\dbg_on\dynamic-windows;D:\Work\mongo-cxx-driver-legacy-1.1.2\src;D:\Work\boost_1_60_0;D:\Work\boost_1_60_0\boost;D:\Work\kafka-gj\librdkafka-master\src;D:\Work\kafka-gj\librdkafka-master\src-cpp;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;D:\mongodb\bin;C:\Program Files\TortoiseGit\bin;D:\Program Files (x86)\Java\jdk1.8.0_73\bin;D:\Program Files (x86)\Java\jdk1.8.0_73\jre\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\IntelliJ IDEA 2019.1\bin;;.]
+2019-05-15 18:36:38 -Initializing Spring embedded WebApplicationContext
+2019-05-15 18:36:38 -Root WebApplicationContext: initialization completed in 3796 ms
+2019-05-15 18:36:38 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-15 18:36:38 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-15 18:36:38 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-15 18:36:38 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-15 18:36:38 -Filter xssFilter was not registered (disabled)
+2019-05-15 18:36:38 -Mapping filter: 'webStatFilter' to urls: [/*]
+2019-05-15 18:36:38 -Mapping filter: 'shiroFilterFactoryBean' to: [/*]
+2019-05-15 18:36:38 -Servlet statViewServlet mapped to [/druid/*]
+2019-05-15 18:36:38 -Servlet dispatcherServlet mapped to [/]
+2019-05-15 18:36:39 -{dataSource-1} inited
+2019-05-15 18:36:39 -ApplicationContext registed-->org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1fe4644: startup date [Wed May 15 18:36:34 CST 2019]; root of context hierarchy
+2019-05-15 18:36:40 -Using default implementation for ThreadExecutor
+2019-05-15 18:36:40 -Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-05-15 18:36:40 -Quartz Scheduler v.2.2.1 created.
+2019-05-15 18:36:40 -RAMJobStore initialized.
+2019-05-15 18:36:40 -Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-05-15 18:36:40 -Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2019-05-15 18:36:40 -Quartz scheduler version: 2.2.1
+2019-05-15 18:36:40 -JobFactory set to: com.template.common.quartz.factory.JobFactory@1d7bc1a
+2019-05-15 18:36:40 -Initializing ExecutorService  'clientInboundChannelExecutor'
+2019-05-15 18:36:40 -Initializing ExecutorService  'clientOutboundChannelExecutor'
+2019-05-15 18:36:42 -Mapped "{[/common/dict/add],methods=[GET]}" onto java.lang.String com.template.common.controller.DictController.add()
+2019-05-15 18:36:42 -Mapped "{[/common/dict/remove],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.DictController.remove(java.lang.Long)
+2019-05-15 18:36:42 -Mapped "{[/common/dict/batchRemove],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.DictController.remove(java.lang.Long[])
+2019-05-15 18:36:42 -Mapped "{[/common/dict/update]}" onto public com.template.common.utils.R com.template.common.controller.DictController.update(com.template.common.domain.DictDO)
+2019-05-15 18:36:42 -Mapped "{[/common/dict/list],methods=[GET]}" onto public com.template.common.utils.PageUtils com.template.common.controller.DictController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-05-15 18:36:42 -Mapped "{[/common/dict/save],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.DictController.save(com.template.common.domain.DictDO)
+2019-05-15 18:36:42 -Mapped "{[/common/dict/type],methods=[GET]}" onto public java.util.List<com.template.common.domain.DictDO> com.template.common.controller.DictController.listType()
+2019-05-15 18:36:42 -Mapped "{[/common/dict/list/{type}],methods=[GET]}" onto public java.util.List<com.template.common.domain.DictDO> com.template.common.controller.DictController.listByType(java.lang.String)
+2019-05-15 18:36:42 -Mapped "{[/common/dict],methods=[GET]}" onto java.lang.String com.template.common.controller.DictController.dict()
+2019-05-15 18:36:42 -Mapped "{[/common/dict/edit/{id}],methods=[GET]}" onto java.lang.String com.template.common.controller.DictController.edit(java.lang.Long,org.springframework.ui.Model)
+2019-05-15 18:36:42 -Mapped "{[/common/dict/add/{type}/{description}],methods=[GET]}" onto java.lang.String com.template.common.controller.DictController.addD(org.springframework.ui.Model,java.lang.String,java.lang.String)
+2019-05-15 18:36:42 -Mapped "{[/common/sysFile/add],methods=[GET]}" onto java.lang.String com.template.common.controller.FileController.add()
+2019-05-15 18:36:42 -Mapped "{[/common/sysFile/remove],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.FileController.remove(java.lang.Long,javax.servlet.http.HttpServletRequest)
+2019-05-15 18:36:42 -Mapped "{[/common/sysFile/batchRemove],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.FileController.remove(java.lang.Long[])
+2019-05-15 18:36:42 -Mapped "{[/common/sysFile/update]}" onto public com.template.common.utils.R com.template.common.controller.FileController.update(com.template.common.domain.FileDO)
+2019-05-15 18:36:42 -Mapped "{[/common/sysFile/list],methods=[GET]}" onto public com.template.common.utils.PageUtils com.template.common.controller.FileController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-05-15 18:36:42 -Mapped "{[/common/sysFile/save],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.FileController.save(com.template.common.domain.FileDO)
+2019-05-15 18:36:42 -Mapped "{[/common/sysFile/info/{id}]}" onto public com.template.common.utils.R com.template.common.controller.FileController.info(java.lang.Long)
+2019-05-15 18:36:42 -Mapped "{[/common/sysFile/edit],methods=[GET]}" onto java.lang.String com.template.common.controller.FileController.edit(java.lang.Long,org.springframework.ui.Model)
+2019-05-15 18:36:42 -Mapped "{[/common/sysFile],methods=[GET]}" onto java.lang.String com.template.common.controller.FileController.sysFile(org.springframework.ui.Model)
+2019-05-15 18:36:42 -Mapped "{[/common/sysFile/upload],methods=[POST]}" onto com.template.common.utils.R com.template.common.controller.FileController.upload(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2019-05-15 18:36:42 -Mapped "{[/common/generator/update],methods=[POST]}" onto com.template.common.utils.R com.template.common.controller.GeneratorController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-05-15 18:36:42 -Mapped "{[/common/generator/list],methods=[GET]}" onto java.util.List<java.util.Map<java.lang.String, java.lang.Object>> com.template.common.controller.GeneratorController.list()
+2019-05-15 18:36:42 -Mapped "{[/common/generator/code/{tableName}]}" onto public void com.template.common.controller.GeneratorController.code(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.io.IOException
+2019-05-15 18:36:42 -Mapped "{[/common/generator],methods=[GET]}" onto java.lang.String com.template.common.controller.GeneratorController.generator()
+2019-05-15 18:36:42 -Mapped "{[/common/generator/batchCode]}" onto public void com.template.common.controller.GeneratorController.batchCode(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.io.IOException
+2019-05-15 18:36:42 -Mapped "{[/common/generator/edit],methods=[GET]}" onto public java.lang.String com.template.common.controller.GeneratorController.edit(org.springframework.ui.Model)
+2019-05-15 18:36:42 -Mapped "{[/common/job/add],methods=[GET]}" onto java.lang.String com.template.common.controller.JobController.add()
+2019-05-15 18:36:42 -Mapped "{[/common/job/remove],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.JobController.remove(java.lang.Long)
+2019-05-15 18:36:42 -Mapped "{[/common/job/batchRemove],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.JobController.remove(java.lang.Long[])
+2019-05-15 18:36:42 -Mapped "{[/common/job/update],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.JobController.update(com.template.common.domain.TaskDO)
+2019-05-15 18:36:42 -Mapped "{[/common/job/list],methods=[GET]}" onto public com.template.common.utils.PageUtils com.template.common.controller.JobController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-05-15 18:36:42 -Mapped "{[/common/job/save],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.JobController.save(com.template.common.domain.TaskDO)
+2019-05-15 18:36:42 -Mapped "{[/common/job/info/{id}]}" onto public com.template.common.utils.R com.template.common.controller.JobController.info(java.lang.Long)
+2019-05-15 18:36:42 -Mapped "{[/common/job],methods=[GET]}" onto java.lang.String com.template.common.controller.JobController.taskScheduleJob()
+2019-05-15 18:36:42 -Mapped "{[/common/job/changeJobStatus],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.JobController.changeJobStatus(java.lang.Long,java.lang.String)
+2019-05-15 18:36:42 -Mapped "{[/common/job/edit/{id}],methods=[GET]}" onto java.lang.String com.template.common.controller.JobController.edit(java.lang.Long,org.springframework.ui.Model)
+2019-05-15 18:36:42 -Mapped "{[/common/log/remove],methods=[POST]}" onto com.template.common.utils.R com.template.common.controller.LogController.remove(java.lang.Long)
+2019-05-15 18:36:42 -Mapped "{[/common/log],methods=[GET]}" onto java.lang.String com.template.common.controller.LogController.log()
+2019-05-15 18:36:42 -Mapped "{[/common/log/list],methods=[GET]}" onto com.template.common.domain.PageDO<com.template.common.domain.LogDO> com.template.common.controller.LogController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-05-15 18:36:42 -Mapped "{[/common/log/batchRemove],methods=[POST]}" onto com.template.common.utils.R com.template.common.controller.LogController.batchRemove(java.lang.Long[])
+2019-05-15 18:36:42 -Mapped "{[/error]}" onto public com.template.common.utils.R com.template.common.exception.MainsiteErrorController.handleError(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-15 18:36:42 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.template.common.exception.MainsiteErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-15 18:36:42 -Mapped "{[/oa/notify/add],methods=[GET]}" onto java.lang.String com.template.oa.controller.NotifyController.add()
+2019-05-15 18:36:42 -Mapped "{[/oa/notify/remove],methods=[POST]}" onto public com.template.common.utils.R com.template.oa.controller.NotifyController.remove(java.lang.Long)
+2019-05-15 18:36:42 -Mapped "{[/oa/notify/batchRemove],methods=[POST]}" onto public com.template.common.utils.R com.template.oa.controller.NotifyController.remove(java.lang.Long[])
+2019-05-15 18:36:42 -Mapped "{[/oa/notify/update]}" onto public com.template.common.utils.R com.template.oa.controller.NotifyController.update(com.template.oa.domain.NotifyDO)
+2019-05-15 18:36:42 -Mapped "{[/oa/notify/read/{id}],methods=[GET]}" onto java.lang.String com.template.oa.controller.NotifyController.read(java.lang.Long,org.springframework.ui.Model)
+2019-05-15 18:36:42 -Mapped "{[/oa/notify/list],methods=[GET]}" onto public com.template.common.utils.PageUtils com.template.oa.controller.NotifyController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-05-15 18:36:42 -Mapped "{[/oa/notify/save],methods=[POST]}" onto public com.template.common.utils.R com.template.oa.controller.NotifyController.save(com.template.oa.domain.NotifyDO)
+2019-05-15 18:36:42 -Mapped "{[/oa/notify/message],methods=[GET]}" onto com.template.common.utils.PageUtils com.template.oa.controller.NotifyController.message()
+2019-05-15 18:36:42 -Mapped "{[/oa/notify/selfNotify],methods=[GET]}" onto java.lang.String com.template.oa.controller.NotifyController.selefNotify()
+2019-05-15 18:36:42 -Mapped "{[/oa/notify/edit/{id}],methods=[GET]}" onto java.lang.String com.template.oa.controller.NotifyController.edit(java.lang.Long,org.springframework.ui.Model)
+2019-05-15 18:36:42 -Mapped "{[/oa/notify],methods=[GET]}" onto java.lang.String com.template.oa.controller.NotifyController.oaNotify()
+2019-05-15 18:36:42 -Mapped "{[/oa/notify/selfList],methods=[GET]}" onto com.template.common.utils.PageUtils com.template.oa.controller.NotifyController.selfList(java.util.Map<java.lang.String, java.lang.Object>)
+2019-05-15 18:36:42 -Mapped "{[/system/sysDept/add/{pId}],methods=[GET]}" onto java.lang.String com.template.system.controller.DeptController.add(java.lang.Long,org.springframework.ui.Model)
+2019-05-15 18:36:42 -Mapped "{[/system/sysDept/remove],methods=[POST]}" onto public com.template.common.utils.R com.template.system.controller.DeptController.remove(java.lang.Long)
+2019-05-15 18:36:42 -Mapped "{[/system/sysDept/batchRemove],methods=[POST]}" onto public com.template.common.utils.R com.template.system.controller.DeptController.remove(java.lang.Long[])
+2019-05-15 18:36:42 -Mapped "{[/system/sysDept/update]}" onto public com.template.common.utils.R com.template.system.controller.DeptController.update(com.template.system.domain.DeptDO)
+2019-05-15 18:36:42 -Mapped "{[/system/sysDept/list],methods=[GET]}" onto public java.util.List<com.template.system.domain.DeptDO> com.template.system.controller.DeptController.list()
+2019-05-15 18:36:42 -Mapped "{[/system/sysDept/save],methods=[POST]}" onto public com.template.common.utils.R com.template.system.controller.DeptController.save(com.template.system.domain.DeptDO)
+2019-05-15 18:36:42 -Mapped "{[/system/sysDept/tree],methods=[GET]}" onto public com.template.common.domain.Tree<com.template.system.domain.DeptDO> com.template.system.controller.DeptController.tree()
+2019-05-15 18:36:42 -Mapped "{[/system/sysDept/edit/{deptId}],methods=[GET]}" onto java.lang.String com.template.system.controller.DeptController.edit(java.lang.Long,org.springframework.ui.Model)
+2019-05-15 18:36:42 -Mapped "{[/system/sysDept],methods=[GET]}" onto java.lang.String com.template.system.controller.DeptController.dept()
+2019-05-15 18:36:42 -Mapped "{[/system/sysDept/treeView],methods=[GET]}" onto java.lang.String com.template.system.controller.DeptController.treeView()
+2019-05-15 18:36:42 -Mapped "{[/index],methods=[GET]}" onto java.lang.String com.template.system.controller.LoginController.index(org.springframework.ui.Model)
+2019-05-15 18:36:42 -Mapped "{[/main],methods=[GET]}" onto java.lang.String com.template.system.controller.LoginController.main()
+2019-05-15 18:36:42 -Mapped "{[/login],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.LoginController.ajaxLogin(java.lang.String,java.lang.String)
+2019-05-15 18:36:42 -Mapped "{[/login],methods=[GET]}" onto java.lang.String com.template.system.controller.LoginController.login(org.springframework.ui.Model)
+2019-05-15 18:36:42 -Mapped "{[/logout],methods=[GET]}" onto java.lang.String com.template.system.controller.LoginController.logout()
+2019-05-15 18:36:42 -Mapped "{[/ || ],methods=[GET]}" onto java.lang.String com.template.system.controller.LoginController.welcome(org.springframework.ui.Model)
+2019-05-15 18:36:42 -Mapped "{[/sys/menu/add/{pId}],methods=[GET]}" onto java.lang.String com.template.system.controller.MenuController.add(org.springframework.ui.Model,java.lang.Long)
+2019-05-15 18:36:42 -Mapped "{[/sys/menu/remove],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.MenuController.remove(java.lang.Long)
+2019-05-15 18:36:42 -Mapped "{[/sys/menu/update],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.MenuController.update(com.template.system.domain.MenuDO)
+2019-05-15 18:36:42 -Mapped "{[/sys/menu/list]}" onto java.util.List<com.template.system.domain.MenuDO> com.template.system.controller.MenuController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-05-15 18:36:42 -Mapped "{[/sys/menu/save],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.MenuController.save(com.template.system.domain.MenuDO)
+2019-05-15 18:36:42 -Mapped "{[/sys/menu/tree/{roleId}],methods=[GET]}" onto com.template.common.domain.Tree<com.template.system.domain.MenuDO> com.template.system.controller.MenuController.tree(java.lang.Long)
+2019-05-15 18:36:42 -Mapped "{[/sys/menu/tree],methods=[GET]}" onto com.template.common.domain.Tree<com.template.system.domain.MenuDO> com.template.system.controller.MenuController.tree()
+2019-05-15 18:36:42 -Mapped "{[/sys/menu/edit/{id}],methods=[GET]}" onto java.lang.String com.template.system.controller.MenuController.edit(org.springframework.ui.Model,java.lang.Long)
+2019-05-15 18:36:42 -Mapped "{[/sys/menu],methods=[GET]}" onto java.lang.String com.template.system.controller.MenuController.menu(org.springframework.ui.Model)
+2019-05-15 18:36:42 -Mapped "{[/sys/role/add],methods=[GET]}" onto java.lang.String com.template.system.controller.RoleController.add()
+2019-05-15 18:36:42 -Mapped "{[/sys/role/update],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.RoleController.update(com.template.system.domain.RoleDO)
+2019-05-15 18:36:42 -Mapped "{[/sys/role/list],methods=[GET]}" onto java.util.List<com.template.system.domain.RoleDO> com.template.system.controller.RoleController.list()
+2019-05-15 18:36:42 -Mapped "{[/sys/role/remove],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.RoleController.save(java.lang.Long)
+2019-05-15 18:36:42 -Mapped "{[/sys/role/save],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.RoleController.save(com.template.system.domain.RoleDO)
+2019-05-15 18:36:42 -Mapped "{[/sys/role/batchRemove],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.RoleController.batchRemove(java.lang.Long[])
+2019-05-15 18:36:42 -Mapped "{[/sys/role],methods=[GET]}" onto java.lang.String com.template.system.controller.RoleController.role()
+2019-05-15 18:36:42 -Mapped "{[/sys/role/edit/{id}],methods=[GET]}" onto java.lang.String com.template.system.controller.RoleController.edit(java.lang.Long,org.springframework.ui.Model)
+2019-05-15 18:36:42 -Mapped "{[/sys/online/list]}" onto public java.util.List<com.template.system.domain.UserOnline> com.template.system.controller.SessionController.list()
+2019-05-15 18:36:42 -Mapped "{[/sys/online],methods=[GET]}" onto public java.lang.String com.template.system.controller.SessionController.online()
+2019-05-15 18:36:42 -Mapped "{[/sys/online/forceLogout/{sessionId}]}" onto public com.template.common.utils.R com.template.system.controller.SessionController.forceLogout(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-05-15 18:36:42 -Mapped "{[/sys/online/sessionList]}" onto public java.util.Collection<org.apache.shiro.session.Session> com.template.system.controller.SessionController.sessionList()
+2019-05-15 18:36:42 -Mapped "{[/sys/user/exit],methods=[POST]}" onto boolean com.template.system.controller.UserController.exit(java.util.Map<java.lang.String, java.lang.Object>)
+2019-05-15 18:36:42 -Mapped "{[/sys/user/add],methods=[GET]}" onto java.lang.String com.template.system.controller.UserController.add(org.springframework.ui.Model)
+2019-05-15 18:36:42 -Mapped "{[/sys/user/remove],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.UserController.remove(java.lang.Long)
+2019-05-15 18:36:42 -Mapped "{[/sys/user/update],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.UserController.update(com.template.system.domain.UserDO)
+2019-05-15 18:36:42 -Mapped "{[/sys/user/list],methods=[GET]}" onto com.template.common.utils.PageUtils com.template.system.controller.UserController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-05-15 18:36:42 -Mapped "{[/sys/user/save],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.UserController.save(com.template.system.domain.UserDO)
+2019-05-15 18:36:42 -Mapped "{[/sys/user/batchRemove],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.UserController.batchRemove(java.lang.Long[])
+2019-05-15 18:36:42 -Mapped "{[/sys/user/tree],methods=[GET]}" onto public com.template.common.domain.Tree<com.template.system.domain.DeptDO> com.template.system.controller.UserController.tree()
+2019-05-15 18:36:42 -Mapped "{[/sys/user],methods=[GET]}" onto java.lang.String com.template.system.controller.UserController.user(org.springframework.ui.Model)
+2019-05-15 18:36:42 -Mapped "{[/sys/user/edit/{id}],methods=[GET]}" onto java.lang.String com.template.system.controller.UserController.edit(org.springframework.ui.Model,java.lang.Long)
+2019-05-15 18:36:42 -Mapped "{[/sys/user/treeView],methods=[GET]}" onto java.lang.String com.template.system.controller.UserController.treeView()
+2019-05-15 18:36:42 -Mapped "{[/sys/user/resetPwd],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.UserController.resetPwd(com.template.system.vo.UserVO)
+2019-05-15 18:36:42 -Mapped "{[/sys/user/resetPwd/{id}],methods=[GET]}" onto java.lang.String com.template.system.controller.UserController.resetPwd(java.lang.Long,org.springframework.ui.Model)
+2019-05-15 18:36:42 -Mapped "{[/sys/user/personal],methods=[GET]}" onto java.lang.String com.template.system.controller.UserController.personal(org.springframework.ui.Model)
+2019-05-15 18:36:42 -Mapped "{[/sys/user/updatePeronal],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.UserController.updatePeronal(com.template.system.domain.UserDO)
+2019-05-15 18:36:42 -Mapped "{[/sys/user/adminResetPwd],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.UserController.adminResetPwd(com.template.system.vo.UserVO)
+2019-05-15 18:36:42 -Mapped "{[/sys/user/uploadImg],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.UserController.uploadImg(org.springframework.web.multipart.MultipartFile,java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-05-15 18:36:42 -Mapped "{[/test/test/add],methods=[GET]}" onto java.lang.String com.template.test.controller.TestController.add()
+2019-05-15 18:36:42 -Mapped "{[/test/test/batchRemove],methods=[POST]}" onto public com.template.common.utils.R com.template.test.controller.TestController.remove(java.lang.Integer[])
+2019-05-15 18:36:42 -Mapped "{[/test/test/remove],methods=[POST]}" onto public com.template.common.utils.R com.template.test.controller.TestController.remove(java.lang.Integer)
+2019-05-15 18:36:42 -Mapped "{[/test/test/update],methods=[POST]}" onto public com.template.common.utils.R com.template.test.controller.TestController.update(com.template.test.domain.TestDO)
+2019-05-15 18:36:42 -Mapped "{[/test/test/testPush],methods=[POST]}" onto public java.lang.String com.template.test.controller.TestController.push()
+2019-05-15 18:36:42 -Mapped "{[/test/test/list],methods=[GET]}" onto public com.template.common.utils.PageUtils com.template.test.controller.TestController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-05-15 18:36:42 -Mapped "{[/test/test/save],methods=[POST]}" onto public com.template.common.utils.R com.template.test.controller.TestController.save(com.template.test.domain.TestDO)
+2019-05-15 18:36:42 -Mapped "{[/test/test/test],methods=[POST]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> com.template.test.controller.TestController.test()
+2019-05-15 18:36:42 -Mapped "{[/test/test/edit/{id}],methods=[GET]}" onto java.lang.String com.template.test.controller.TestController.edit(java.lang.Integer,org.springframework.ui.Model)
+2019-05-15 18:36:42 -Mapped "{[/test/test],methods=[GET]}" onto java.lang.String com.template.test.controller.TestController.Test()
+2019-05-15 18:36:42 -Mapped "{[/test/test/testId],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.template.test.controller.TestController.testId(java.lang.Integer)
+2019-05-15 18:36:42 -Mapped "{[/test/test/go],methods=[GET]}" onto public java.lang.String com.template.test.controller.TestController.go()
+2019-05-15 18:36:42 -Mapped "{[/test/test/go1],methods=[GET]}" onto public java.lang.Object com.template.test.controller.TestController.gettest1(java.lang.Integer,java.lang.String,java.lang.Integer)
+2019-05-15 18:36:42 -Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-05-15 18:36:42 -Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-05-15 18:36:42 -Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-05-15 18:36:42 -Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-05-15 18:36:42 -Initializing ExecutorService  'messageBrokerTaskScheduler'
+2019-05-15 18:36:42 -Mapped URL path [/endpointChat/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2019-05-15 18:36:42 -Initializing ExecutorService  'brokerChannelExecutor'
+2019-05-15 18:36:42 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 18:36:42 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1fe4644: startup date [Wed May 15 18:36:34 CST 2019]; root of context hierarchy
+2019-05-15 18:36:43 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 18:36:43 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 18:36:43 -Mapped URL path [/files/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-15 18:36:43 -Detected @ExceptionHandler methods in BDExceptionHandler
+2019-05-15 18:36:43 -[THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-05-15 18:36:44 -Registering beans for JMX exposure on startup
+2019-05-15 18:36:44 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-15 18:36:44 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-05-15 18:36:44 -Starting beans in phase 2147483647
+2019-05-15 18:36:44 -Context refreshed
+2019-05-15 18:36:44 -Found 1 custom documentation plugin(s)
+2019-05-15 18:36:44 -Scanning for api listing references
+2019-05-15 18:36:44 -Generating unique operation named: removeUsingPOST_1
+2019-05-15 18:36:44 -Generating unique operation named: addUsingGET_1
+2019-05-15 18:36:44 -Generating unique operation named: editUsingGET_1
+2019-05-15 18:36:44 -Generating unique operation named: listUsingGET_1
+2019-05-15 18:36:44 -Generating unique operation named: removeUsingPOST_2
+2019-05-15 18:36:44 -Generating unique operation named: removeUsingPOST_3
+2019-05-15 18:36:44 -Generating unique operation named: saveUsingPOST_1
+2019-05-15 18:36:44 -Generating unique operation named: updateUsingGET_1
+2019-05-15 18:36:44 -Generating unique operation named: updateUsingHEAD_1
+2019-05-15 18:36:44 -Generating unique operation named: updateUsingPOST_1
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingPUT_1
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingPATCH_1
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingDELETE_1
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingOPTIONS_1
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingTRACE_1
+2019-05-15 18:36:45 -Generating unique operation named: addUsingGET_2
+2019-05-15 18:36:45 -Generating unique operation named: editUsingGET_2
+2019-05-15 18:36:45 -Generating unique operation named: listUsingGET_2
+2019-05-15 18:36:45 -Generating unique operation named: removeUsingPOST_4
+2019-05-15 18:36:45 -Generating unique operation named: removeUsingPOST_5
+2019-05-15 18:36:45 -Generating unique operation named: saveUsingPOST_2
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingGET_2
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingHEAD_2
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingPOST_2
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingPUT_2
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingPATCH_2
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingDELETE_2
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingOPTIONS_2
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingTRACE_2
+2019-05-15 18:36:45 -Generating unique operation named: editUsingGET_3
+2019-05-15 18:36:45 -Generating unique operation named: listUsingGET_3
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingPOST_3
+2019-05-15 18:36:45 -Generating unique operation named: addUsingGET_3
+2019-05-15 18:36:45 -Generating unique operation named: editUsingGET_4
+2019-05-15 18:36:45 -Generating unique operation named: infoUsingGET_1
+2019-05-15 18:36:45 -Generating unique operation named: infoUsingHEAD_1
+2019-05-15 18:36:45 -Generating unique operation named: infoUsingPOST_1
+2019-05-15 18:36:45 -Generating unique operation named: infoUsingPUT_1
+2019-05-15 18:36:45 -Generating unique operation named: infoUsingPATCH_1
+2019-05-15 18:36:45 -Generating unique operation named: infoUsingDELETE_1
+2019-05-15 18:36:45 -Generating unique operation named: infoUsingOPTIONS_1
+2019-05-15 18:36:45 -Generating unique operation named: infoUsingTRACE_1
+2019-05-15 18:36:45 -Generating unique operation named: listUsingGET_4
+2019-05-15 18:36:45 -Generating unique operation named: removeUsingPOST_6
+2019-05-15 18:36:45 -Generating unique operation named: removeUsingPOST_7
+2019-05-15 18:36:45 -Generating unique operation named: saveUsingPOST_3
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingPOST_4
+2019-05-15 18:36:45 -Generating unique operation named: listUsingGET_5
+2019-05-15 18:36:45 -Generating unique operation named: removeUsingPOST_8
+2019-05-15 18:36:45 -Generating unique operation named: welcomeUsingGET_1
+2019-05-15 18:36:45 -Generating unique operation named: addUsingGET_4
+2019-05-15 18:36:45 -Generating unique operation named: editUsingGET_5
+2019-05-15 18:36:45 -Generating unique operation named: listUsingGET_6
+2019-05-15 18:36:45 -Generating unique operation named: removeUsingPOST_9
+2019-05-15 18:36:45 -Generating unique operation named: saveUsingPOST_4
+2019-05-15 18:36:45 -Generating unique operation named: treeUsingGET_1
+2019-05-15 18:36:45 -Generating unique operation named: treeUsingGET_2
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingPOST_5
+2019-05-15 18:36:45 -Generating unique operation named: addUsingGET_5
+2019-05-15 18:36:45 -Generating unique operation named: editUsingGET_6
+2019-05-15 18:36:45 -Generating unique operation named: listUsingGET_7
+2019-05-15 18:36:45 -Generating unique operation named: removeUsingPOST_10
+2019-05-15 18:36:45 -Generating unique operation named: removeUsingPOST_11
+2019-05-15 18:36:45 -Generating unique operation named: saveUsingPOST_5
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingGET_3
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingHEAD_3
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingPOST_6
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingPUT_3
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingPATCH_3
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingDELETE_3
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingOPTIONS_3
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingTRACE_3
+2019-05-15 18:36:45 -Generating unique operation named: addUsingGET_6
+2019-05-15 18:36:45 -Generating unique operation named: batchRemoveUsingPOST_1
+2019-05-15 18:36:45 -Generating unique operation named: editUsingGET_7
+2019-05-15 18:36:45 -Generating unique operation named: listUsingGET_8
+2019-05-15 18:36:45 -Generating unique operation named: saveUsingPOST_6
+2019-05-15 18:36:45 -Generating unique operation named: saveUsingPOST_7
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingPOST_7
+2019-05-15 18:36:45 -Generating unique operation named: listUsingGET_9
+2019-05-15 18:36:45 -Generating unique operation named: listUsingHEAD_1
+2019-05-15 18:36:45 -Generating unique operation named: listUsingPOST_1
+2019-05-15 18:36:45 -Generating unique operation named: listUsingPUT_1
+2019-05-15 18:36:45 -Generating unique operation named: listUsingPATCH_1
+2019-05-15 18:36:45 -Generating unique operation named: listUsingDELETE_1
+2019-05-15 18:36:45 -Generating unique operation named: listUsingOPTIONS_1
+2019-05-15 18:36:45 -Generating unique operation named: listUsingTRACE_1
+2019-05-15 18:36:45 -Generating unique operation named: addUsingGET_7
+2019-05-15 18:36:45 -Generating unique operation named: editUsingGET_8
+2019-05-15 18:36:45 -Generating unique operation named: listUsingGET_10
+2019-05-15 18:36:45 -Generating unique operation named: removeUsingPOST_12
+2019-05-15 18:36:45 -Generating unique operation named: removeUsingPOST_13
+2019-05-15 18:36:45 -Generating unique operation named: saveUsingPOST_8
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingPOST_8
+2019-05-15 18:36:45 -Generating unique operation named: addUsingGET_8
+2019-05-15 18:36:45 -Generating unique operation named: batchRemoveUsingPOST_2
+2019-05-15 18:36:45 -Generating unique operation named: editUsingGET_9
+2019-05-15 18:36:45 -Generating unique operation named: listUsingGET_11
+2019-05-15 18:36:45 -Generating unique operation named: removeUsingPOST_14
+2019-05-15 18:36:45 -Generating unique operation named: saveUsingPOST_9
+2019-05-15 18:36:45 -Generating unique operation named: treeUsingGET_3
+2019-05-15 18:36:45 -Generating unique operation named: treeViewUsingGET_1
+2019-05-15 18:36:45 -Generating unique operation named: updateUsingPOST_9
+2019-05-15 18:36:45 -Starting Quartz Scheduler now
+2019-05-15 18:36:45 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2019-05-15 18:36:45 -Starting...
+2019-05-15 18:36:45 -BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-05-15 18:36:45 -Started.
+2019-05-15 18:36:45 -Starting ProtocolHandler ["http-nio-8080"]
+2019-05-15 18:36:45 -Using a shared selector for servlet write/read
+2019-05-15 18:36:45 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-15 18:36:45 -Started TemplateApplication in 11.878 seconds (JVM running for 13.469)
+2019-05-15 18:36:45 -==>  Preparing: select `id`,`cron_expression`,`method_name`,`is_concurrent`,`description`,`update_by`,`bean_class`,`create_date`,`job_status`,`job_group`,`update_date`,`create_by`,`spring_bean`,`job_name` from sys_task order by id desc 
+2019-05-15 18:36:45 -==> Parameters: 
+2019-05-15 18:36:45 -<==      Total: 1
+2019-05-15 18:37:12 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-15 18:37:12 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-05-15 18:37:12 -FrameworkServlet 'dispatcherServlet': initialization completed in 47 ms
+2019-05-15 18:37:12 -Enabling session validation scheduler...
+2019-05-15 18:37:12 -请求地址 : http://localhost:8080/
+2019-05-15 18:37:12 -HTTP METHOD : GET
+2019-05-15 18:37:12 -CLASS_METHOD : com.template.system.controller.LoginController.welcome
+2019-05-15 18:37:12 -参数 : [{}]
+2019-05-15 18:37:12 -耗时 : 3
+2019-05-15 18:37:12 -返回值 : redirect:/index
+2019-05-15 18:37:12 -请求地址 : http://localhost:8080/login;JSESSIONID=19842fd6-929e-4aa3-b766-3920a8368aa9
+2019-05-15 18:37:12 -HTTP METHOD : GET
+2019-05-15 18:37:12 -CLASS_METHOD : com.template.system.controller.LoginController.login
+2019-05-15 18:37:12 -参数 : [{}]
+2019-05-15 18:37:12 -耗时 : 0
+2019-05-15 18:37:12 -返回值 : login
+2019-05-15 18:37:14 -请求地址 : http://localhost:8080/login
+2019-05-15 18:37:14 -HTTP METHOD : POST
+2019-05-15 18:37:14 -CLASS_METHOD : com.template.system.controller.LoginController.ajaxLogin
+2019-05-15 18:37:14 -参数 : [admin, 111111]
+2019-05-15 18:37:14 -==>  Preparing: select `user_id`,`username`,`name`,`password`,`dept_id`,`email`,`mobile`,`status`,`user_id_create`,`gmt_create`,`gmt_modified`,`sex`,`birth`,`pic_id`,`live_address`,`hobby`,`province`,`city`,`district` from sys_user WHERE username = ? order by user_id desc 
+2019-05-15 18:37:14 -==> Parameters: admin(String)
+2019-05-15 18:37:14 -<==      Total: 1
+2019-05-15 18:37:14 -耗时 : 57
+2019-05-15 18:37:14 -返回值 : {msg=操作成功, code=0}
+2019-05-15 18:37:14 -More than one TaskExecutor bean found within the context, and none is named 'taskExecutor'. Mark one of them as primary or name it 'taskExecutor' (possibly as an alias) in order to use it for async processing: [clientInboundChannelExecutor, clientOutboundChannelExecutor, brokerChannelExecutor, messageBrokerTaskScheduler]
+2019-05-15 18:37:14 -==>  Preparing: insert into sys_log ( `user_id`, `username`, `operation`, `time`, `method`, `params`, `ip`, `gmt_create` ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2019-05-15 18:37:14 -==> Parameters: 1(Long), admin(String), 登录(String), 57(Integer), com.template.system.controller.LoginController.ajaxLogin()(String), null, 127.0.0.1(String), 2019-05-15 18:37:14.704(Timestamp)
+2019-05-15 18:37:14 -<==    Updates: 1
+2019-05-15 18:37:14 -请求地址 : http://localhost:8080/index
+2019-05-15 18:37:14 -HTTP METHOD : GET
+2019-05-15 18:37:14 -CLASS_METHOD : com.template.system.controller.LoginController.index
+2019-05-15 18:37:14 -参数 : [{}]
+2019-05-15 18:37:14 -==>  Preparing: select distinct m.menu_id , parent_id, name, url, perms,`type`,icon,order_num,gmt_create, gmt_modified from sys_menu m left join sys_role_menu rm on m.menu_id = rm.menu_id left join sys_user_role ur on rm.role_id =ur.role_id where ur.user_id = ? and m.type in(0,1) order by m.order_num 
+2019-05-15 18:37:14 -==> Parameters: 1(Long)
+2019-05-15 18:37:14 -<==      Total: 21
+2019-05-15 18:37:14 -==>  Preparing: select `id`,`type`,`url`,`create_date` from sys_file where id = ? 
+2019-05-15 18:37:14 -==> Parameters: 150(Long)
+2019-05-15 18:37:14 -<==      Total: 1
+2019-05-15 18:37:14 -耗时 : 90
+2019-05-15 18:37:14 -返回值 : index_v1
+2019-05-15 18:37:14 -==>  Preparing: insert into sys_log ( `user_id`, `username`, `operation`, `time`, `method`, `params`, `ip`, `gmt_create` ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2019-05-15 18:37:14 -==> Parameters: 1(Long), admin(String), 请求访问主页(String), 90(Integer), com.template.system.controller.LoginController.index()(String), null, 127.0.0.1(String), 2019-05-15 18:37:14.882(Timestamp)
+2019-05-15 18:37:14 -<==    Updates: 1
+2019-05-15 18:37:14 -请求地址 : http://localhost:8080/main
+2019-05-15 18:37:14 -HTTP METHOD : GET
+2019-05-15 18:37:14 -CLASS_METHOD : com.template.system.controller.LoginController.main
+2019-05-15 18:37:14 -参数 : []
+2019-05-15 18:37:14 -耗时 : 0
+2019-05-15 18:37:14 -返回值 : main
+2019-05-15 18:37:15 -请求地址 : http://localhost:8080/oa/notify/message
+2019-05-15 18:37:15 -HTTP METHOD : GET
+2019-05-15 18:37:15 -CLASS_METHOD : com.template.oa.controller.NotifyController.message
+2019-05-15 18:37:15 -参数 : []
+2019-05-15 18:37:15 -==>  Preparing: select DISTINCT n.id ,`type`,`title`,`content`,`files`,r.is_read,`status`,`create_by`,`create_date`,`update_by`,`update_date`,`remarks`,`del_flag` from oa_notify_record r right JOIN oa_notify n on r.notify_id = n.id WHERE r.is_read = ? and r.user_id = ? order by is_read ASC, update_date DESC limit ?, ? 
+2019-05-15 18:37:15 -==> Parameters: 0(String), 1(Long), 0(Integer), 3(Integer)
+2019-05-15 18:37:15 -<==      Total: 0
+2019-05-15 18:37:15 -==>  Preparing: select count(*) from oa_notify_record r right JOIN oa_notify n on r.notify_id = n.id where r.user_id =? and r.is_read = ? 
+2019-05-15 18:37:15 -==> Parameters: 1(Long), 0(String)
+2019-05-15 18:37:15 -<==      Total: 1
+2019-05-15 18:37:15 -耗时 : 25
+2019-05-15 18:37:15 -请求地址 : http://localhost:8080/main
+2019-05-15 18:37:15 -HTTP METHOD : GET
+2019-05-15 18:37:15 -返回值 : com.template.common.utils.PageUtils@1b7da27
+2019-05-15 18:37:15 -CLASS_METHOD : com.template.system.controller.LoginController.main
+2019-05-15 18:37:15 -参数 : []
+2019-05-15 18:37:15 -耗时 : 0
+2019-05-15 18:37:15 -返回值 : main
+2019-05-15 18:37:20 -请求地址 : http://localhost:8080/common/generator
+2019-05-15 18:37:20 -HTTP METHOD : GET
+2019-05-15 18:37:20 -CLASS_METHOD : com.template.common.controller.GeneratorController.generator
+2019-05-15 18:37:20 -参数 : []
+2019-05-15 18:37:20 -耗时 : 0
+2019-05-15 18:37:20 -返回值 : common/generator/list
+2019-05-15 18:37:21 -请求地址 : http://localhost:8080/common/generator/list
+2019-05-15 18:37:21 -HTTP METHOD : GET
+2019-05-15 18:37:21 -CLASS_METHOD : com.template.common.controller.GeneratorController.list
+2019-05-15 18:37:21 -参数 : []
+2019-05-15 18:37:21 -==>  Preparing: select table_name tableName, engine, table_comment tableComment, create_time createTime from information_schema.tables where table_schema = (select database()) 
+2019-05-15 18:37:21 -==> Parameters: 
+2019-05-15 18:37:21 -<==      Total: 50
+2019-05-15 18:37:21 -耗时 : 120
+2019-05-15 18:37:21 -返回值 : [{engine=InnoDB, createTime=2019-05-13 15:39:59.0, tableComment=, tableName=hy_base_code}, {engine=InnoDB, createTime=2019-05-13 15:39:59.0, tableComment=, tableName=hy_basic_vehicle_info}, {engine=InnoDB, createTime=2019-05-13 15:39:59.0, tableComment=, tableName=hy_basicequipment_info}, {engine=InnoDB, createTime=2019-05-13 15:40:00.0, tableComment=, tableName=hy_business_info}, {engine=InnoDB, createTime=2019-05-13 15:40:00.0, tableComment=, tableName=hy_bussiness_leader}, {engine=InnoDB, createTime=2019-05-13 15:40:00.0, tableComment=, tableName=hy_car_evaluate}, {engine=InnoDB, createTime=2019-05-13 15:40:00.0, tableComment=, tableName=hy_dispatch}, {engine=InnoDB, createTime=2019-05-13 15:40:00.0, tableComment=, tableName=hy_dispatch_driver_relation}, {engine=InnoDB, createTime=2019-05-13 15:40:00.0, tableComment=, tableName=hy_driver_info}, {engine=InnoDB, createTime=2019-05-13 15:40:00.0, tableComment=, tableName=hy_equipment_return_info}, {engine=InnoDB, createTime=2019-05-13 15:40:00.0, tableComment=, tableName=hy_equipment_use_info}, {engine=InnoDB, createTime=2019-05-13 15:40:00.0, tableComment=, tableName=hy_event_record}, {engine=InnoDB, createTime=2019-05-13 15:40:00.0, tableComment=, tableName=hy_goods_info}, {engine=InnoDB, createTime=2019-05-13 15:40:00.0, tableComment=, tableName=hy_goods_owner}, {engine=InnoDB, createTime=2019-05-13 15:40:00.0, tableComment=, tableName=hy_ic_card_info}, {engine=InnoDB, createTime=2019-05-13 15:40:00.0, tableComment=
+
+, tableName=hy_ic_use_info}, {engine=InnoDB, createTime=2019-05-13 15:40:00.0, tableComment=, tableName=hy_illegal_driver_info}, {engine=InnoDB, createTime=2019-05-13 15:40:00.0, tableComment=, tableName=hy_message_record}, {engine=InnoDB, createTime=2019-05-13 15:39:59.0, tableComment=, tableName=hy_monitor_video_info}, {engine=InnoDB, createTime=2019-05-13 15:40:00.0, tableComment=, tableName=hy_operator_info}, {engine=InnoDB, createTime=2019-05-13 15:40:00.0, tableComment=, tableName=hy_order_evaluate}, {engine=InnoDB, createTime=2019-05-13 15:40:00.0, tableComment=, tableName=hy_order_info}, {engine=InnoDB, createTime=2019-05-13 15:40:00.0, tableComment=, tableName=hy_order_pay_info}, {engine=InnoDB, createTime=2019-05-13 15:40:00.0, tableComment=, tableName=hy_pub_message}, {engine=InnoDB, createTime=2019-05-13 15:40:01.0, tableComment=, tableName=hy_route}, {engine=InnoDB, createTime=2019-05-13 15:40:01.0, tableComment=, tableName=hy_route_order_relation}, {engine=InnoDB, createTime=2019-05-13 15:40:01.0, tableComment=, tableName=hy_settlement_rules}, {engine=InnoDB, createTime=2019-05-13 15:40:01.0, tableComment=, tableName=hy_system_role}, {engine=InnoDB, createTime=2019-05-13 15:40:01.0, tableComment=, tableName=hy_user}, {engine=InnoDB, createTime=2019-05-13 15:40:01.0, tableComment=, tableName=hy_vehicle_accident_info}, {engine=InnoDB, createTime=2019-05-13 15:40:01.0, tableComment=, tableName=hy_vehicle_gps_info}, {engine=InnoDB, createTime=2019-05-13 15:40:01.0, tableComment=, tableName=hy_vehicle_insurance}, {engine=InnoDB, createTime=2019-05-13 15:40:01.0, tableComment=, tableName=hy_vehicle_protect_info}, {engine=InnoDB, createTime=2019-05-13 15:40:01.0, tableComment=, tableName=hy_vehicle_review_info}, {engine=InnoDB, createTime=2019-05-13 15:40:01.0, tableComment=, tableName=hy_vehicle_violation_info}, {engine=InnoDB, createTime=2019-05-13 15:40:18.0, tableComment=通知通告, tableName=oa_notify}, {engine=InnoDB, createTime=2019-05-13 15:40:18.0, tableComment=通知通告发送记录, tableName=oa_notify_record}, {engine=InnoDB, createTime=2019-05-13 15:40:18.0, tableComment=部门管理, tableName=sys_dept}, {engine=InnoDB, createTime=2019-05-13 15:40:18.0, tableComment=字典表, tableName=sys_dict}, {engine=InnoDB, createTime=2019-05-13 15:40:18.0, tableComment=文件上传, tableName=sys_file}, {engine=InnoDB, createTime=2019-05-13 15:40:18.0, tableComment=系统日志, tableName=sys_log}, {engine=InnoDB, createTime=2019-05-13 15:40:19.0, tableComment=菜单管理, tableName=sys_menu}, {engine=InnoDB, createTime=2019-05-15 10:59:51.0, tableComment=地区信息表, tableName=sys_region}, {engine=InnoDB, createTime=2019-05-13 15:40:19.0, tableComment=角色, tableName=sys_role}, {engine=InnoDB, createTime=2019-05-13 15:40:19.0, tableComment=角色与菜单对应关系, tableName=sys_role_menu}, {engine=MyISAM, createTime=2019-05-13 15:40:19.0, tableComment=, tableName=sys_task}, {engine=InnoDB, createTime=2019-05-13 15:40:19.0, tableComment=, tableName=sys_user}, {engine=InnoDB, createTime=2019-05-13 15:40:19.0, tableComment=用户与角色对应关系, tableName=sys_user_role}, {engine=InnoDB, createTime=2019-05-13 15:40:19.0, tableComment=用户Token, tableName=tb_token}, {engine=InnoDB, createTime=2019-05-13 15:40:19.0, tableComment=用户, tableName=tb_user}]
+2019-05-15 18:37:35 -请求地址 : http://localhost:8080/common/generator/edit
+2019-05-15 18:37:35 -HTTP METHOD : GET
+2019-05-15 18:37:35 -CLASS_METHOD : com.template.common.controller.GeneratorController.edit
+2019-05-15 18:37:35 -参数 : [{}]
+2019-05-15 18:37:35 -耗时 : 48
+2019-05-15 18:37:35 -返回值 : common/generator/edit
+2019-05-15 18:37:42 -WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannelpool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 2, completed tasks = 7]
+2019-05-15 18:56:15 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1fe4644: startup date [Wed May 15 18:36:34 CST 2019]; root of context hierarchy
+2019-05-15 18:56:15 -Stopping beans in phase 2147483647
+2019-05-15 18:56:15 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2019-05-15 18:56:15 -Stopping...
+2019-05-15 18:56:15 -BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-05-15 18:56:15 -Stopped.
+2019-05-15 18:56:15 -Unregistering JMX-exposed beans on shutdown
+2019-05-15 18:56:15 -Unregistering JMX-exposed beans
+2019-05-15 18:56:15 -Shutting down ExecutorService 'brokerChannelExecutor'
+2019-05-15 18:56:15 -Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2019-05-15 18:56:15 -Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2019-05-15 18:56:15 -Shutting down ExecutorService 'clientInboundChannelExecutor'
+2019-05-15 18:56:15 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2019-05-15 18:56:15 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2019-05-15 18:56:15 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2019-05-15 18:56:15 -Shutting down Quartz Scheduler
+2019-05-15 18:56:15 -{dataSource-1} closed
+2019-05-15 18:56:15 -Disabled session validation scheduler.

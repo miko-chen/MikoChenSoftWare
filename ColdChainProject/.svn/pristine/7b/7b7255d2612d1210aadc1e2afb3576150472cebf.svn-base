@@ -1,0 +1,28 @@
+2019-05-23 13:59:45 -Starting ApiApplication on LAPTOP-N86DJV10 with PID 9732 (started by ASUS in E:\项目代码\cold_chain)
+2019-05-23 13:59:45 -The following profiles are active: dev
+2019-05-23 13:59:46 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd6eadbd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-23 13:59:47 -Tomcat initialized with port(s): 8080 (http)
+2019-05-23 13:59:47 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-23 13:59:47 -Starting service [Tomcat]
+2019-05-23 13:59:47 -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-23 13:59:47 -Initializing Spring embedded WebApplicationContext
+2019-05-23 13:59:47 -Root WebApplicationContext: initialization completed in 1456 ms
+2019-05-23 13:59:48 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-23 13:59:48 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-05-23 13:59:48 -Context refreshed
+2019-05-23 13:59:48 -Found 1 custom documentation plugin(s)
+2019-05-23 13:59:48 -Scanning for api listing references
+2019-05-23 13:59:48 -Generating unique operation named: userInfoUsingGET_1
+2019-05-23 13:59:48 -Starting ProtocolHandler ["http-nio-8080"]
+2019-05-23 13:59:48 -Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-05-23 13:59:48 -Started ApiApplication in 3.666 seconds (JVM running for 4.562)
+2019-05-23 14:00:16 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-23 14:00:16 -Initializing Servlet 'dispatcherServlet'
+2019-05-23 14:00:16 -Completed initialization in 12 ms
+2019-05-23 14:01:19 -请求地址 : http://localhost:8080/api/api/login
+2019-05-23 14:01:19 -HTTP METHOD : POST
+2019-05-23 14:01:19 -CLASS_METHOD : com.template.api.login.controller.ApiLoginController.login
+2019-05-23 14:01:19 -参数 : [LoginForm(mobile=admin, password=111111)]
+2019-05-23 14:01:19 -{dataSource-1} inited
+2019-05-23 16:58:39 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-23 16:58:39 -{dataSource-1} closed

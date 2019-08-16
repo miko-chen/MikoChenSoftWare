@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.template.vehicle.domain.VehicleViolationInfoDO">
+
+	<select id="get" resultType="com.template.vehicle.domain.VehicleViolationInfoDO">
+		select `vehicle_violation_id`,`vehicle_no`,`time`,`place`,`illegal_code`,`illegal_describe`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time`,`status` from hy_vehicle_violation_info where vehicle_violation_id = #{value}
+	</select>
+
+	<select id="list" resultType="com.template.vehicle.domain.VehicleViolationInfoDO">
+		select `vehicle_violation_id`,`vehicle_no`,`time`,`place`,`illegal_code`,`illegal_describe`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time`,`status` from hy_vehicle_violation_info
+        <where>  
+		  		  <if test="vehicleViolationId != null and vehicleViolationId != ''"> and vehicle_violation_id = #{vehicleViolationId} </if>
+		  		  <if test="vehicleNo != null and vehicleNo != ''"> and vehicle_no = #{vehicleNo} </if>
+		  		  <if test="time != null and time != ''"> and time = #{time} </if>
+		  		  <if test="place != null and place != ''"> and place = #{place} </if>
+		  		  <if test="illegalCode != null and illegalCode != ''"> and illegal_code = #{illegalCode} </if>
+		  		  <if test="illegalDescribe != null and illegalDescribe != ''"> and illegal_describe = #{illegalDescribe} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		  <if test="status != null and status != ''"> and status = #{status} </if>
+		  		</where>
+        <choose>
+            <when test="sort != null and sort.trim() != ''">
+                order by ${sort} ${order}
+            </when>
+			<otherwise>
+                order by vehicle_violation_id desc
+			</otherwise>
+        </choose>
+		<if test="offset != null and limit != null">
+			limit #{offset}, #{limit}
+		</if>
+	</select>
+	
+ 	<select id="count" resultType="int">
+		select count(*) from hy_vehicle_violation_info
+		 <where>  
+		  		  <if test="vehicleViolationId != null and vehicleViolationId != ''"> and vehicle_violation_id = #{vehicleViolationId} </if>
+		  		  <if test="vehicleNo != null and vehicleNo != ''"> and vehicle_no = #{vehicleNo} </if>
+		  		  <if test="time != null and time != ''"> and time = #{time} </if>
+		  		  <if test="place != null and place != ''"> and place = #{place} </if>
+		  		  <if test="illegalCode != null and illegalCode != ''"> and illegal_code = #{illegalCode} </if>
+		  		  <if test="illegalDescribe != null and illegalDescribe != ''"> and illegal_describe = #{illegalDescribe} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		  <if test="status != null and status != ''"> and status = #{status} </if>
+		  		</where>
+	</select>
+	 
+	<insert id="save" parameterType="com.template.vehicle.domain.VehicleViolationInfoDO">
+		insert into hy_vehicle_violation_info
+		(
+			`vehicle_violation_id`, 
+			`vehicle_no`, 
+			`time`, 
+			`place`, 
+			`illegal_code`, 
+			`illegal_describe`, 
+			`create_user`, 
+			`create_time`, 
+			`last_modify_user`, 
+			`last_modify_time`, 
+			`status`
+		)
+		values
+		(
+			#{vehicleViolationId}, 
+			#{vehicleNo}, 
+			#{time}, 
+			#{place}, 
+			#{illegalCode}, 
+			#{illegalDescribe}, 
+			#{createUser}, 
+			#{createTime}, 
+			#{lastModifyUser}, 
+			#{lastModifyTime}, 
+			#{status}
+		)
+	</insert>
+	 
+	<update id="update" parameterType="com.template.vehicle.domain.VehicleViolationInfoDO">
+		update hy_vehicle_violation_info 
+		<set>
+			<if test="vehicleNo != null">`vehicle_no` = #{vehicleNo}, </if>
+			<if test="time != null">`time` = #{time}, </if>
+			<if test="place != null">`place` = #{place}, </if>
+			<if test="illegalCode != null">`illegal_code` = #{illegalCode}, </if>
+			<if test="illegalDescribe != null">`illegal_describe` = #{illegalDescribe}, </if>
+			<if test="createUser != null">`create_user` = #{createUser}, </if>
+			<if test="createTime != null">`create_time` = #{createTime}, </if>
+			<if test="lastModifyUser != null">`last_modify_user` = #{lastModifyUser}, </if>
+			<if test="lastModifyTime != null">`last_modify_time` = #{lastModifyTime}, </if>
+			<if test="status != null">`status` = #{status}</if>
+		</set>
+		where vehicle_violation_id = #{vehicleViolationId}
+	</update>
+	
+	<delete id="remove">
+		delete from hy_vehicle_violation_info where vehicle_violation_id = #{value}
+	</delete>
+	
+	<delete id="batchRemove">
+		delete from hy_vehicle_violation_info where vehicle_violation_id in 
+		<foreach item="vehicleViolationId" collection="array" open="(" separator="," close=")">
+			#{vehicleViolationId}
+		</foreach>
+	</delete>
+
+</mapper>

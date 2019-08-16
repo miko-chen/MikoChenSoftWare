@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.template.vehicle.domain.VehicleReviewInfoDO">
+
+	<select id="get" resultType="com.template.vehicle.domain.VehicleReviewInfoDO">
+		select `vehicle_review_id`,`vehicle_no`,`register_time`,`effective_time`,`people_count`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time`,`state` from hy_vehicle_review_info where vehicle_review_id = #{value}
+	</select>
+
+	<select id="list" resultType="com.template.vehicle.domain.VehicleReviewInfoDO">
+		select `vehicle_review_id`,`vehicle_no`,`register_time`,`effective_time`,`people_count`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time`,`state` from hy_vehicle_review_info
+        <where>  
+		  		  <if test="vehicleReviewId != null and vehicleReviewId != ''"> and vehicle_review_id = #{vehicleReviewId} </if>
+		  		  <if test="vehicleNo != null and vehicleNo != ''"> and vehicle_no = #{vehicleNo} </if>
+		  		  <if test="registerTime != null and registerTime != ''"> and register_time = #{registerTime} </if>
+		  		  <if test="effectiveTime != null and effectiveTime != ''"> and effective_time = #{effectiveTime} </if>
+		  		  <if test="peopleCount != null and peopleCount != ''"> and people_count = #{peopleCount} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		  <if test="state != null and state != ''"> and state = #{state} </if>
+		  		</where>
+        <choose>
+            <when test="sort != null and sort.trim() != ''">
+                order by ${sort} ${order}
+            </when>
+			<otherwise>
+                order by vehicle_review_id desc
+			</otherwise>
+        </choose>
+		<if test="offset != null and limit != null">
+			limit #{offset}, #{limit}
+		</if>
+	</select>
+	
+ 	<select id="count" resultType="int">
+		select count(*) from hy_vehicle_review_info
+		 <where>  
+		  		  <if test="vehicleReviewId != null and vehicleReviewId != ''"> and vehicle_review_id = #{vehicleReviewId} </if>
+		  		  <if test="vehicleNo != null and vehicleNo != ''"> and vehicle_no = #{vehicleNo} </if>
+		  		  <if test="registerTime != null and registerTime != ''"> and register_time = #{registerTime} </if>
+		  		  <if test="effectiveTime != null and effectiveTime != ''"> and effective_time = #{effectiveTime} </if>
+		  		  <if test="peopleCount != null and peopleCount != ''"> and people_count = #{peopleCount} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		  <if test="state != null and state != ''"> and state = #{state} </if>
+		  		</where>
+	</select>
+	 
+	<insert id="save" parameterType="com.template.vehicle.domain.VehicleReviewInfoDO">
+		insert into hy_vehicle_review_info
+		(
+			`vehicle_review_id`, 
+			`vehicle_no`, 
+			`register_time`, 
+			`effective_time`, 
+			`people_count`, 
+			`create_user`, 
+			`create_time`, 
+			`last_modify_user`, 
+			`last_modify_time`, 
+			`state`
+		)
+		values
+		(
+			#{vehicleReviewId}, 
+			#{vehicleNo}, 
+			#{registerTime}, 
+			#{effectiveTime}, 
+			#{peopleCount}, 
+			#{createUser}, 
+			#{createTime}, 
+			#{lastModifyUser}, 
+			#{lastModifyTime}, 
+			#{state}
+		)
+	</insert>
+	 
+	<update id="update" parameterType="com.template.vehicle.domain.VehicleReviewInfoDO">
+		update hy_vehicle_review_info 
+		<set>
+			<if test="vehicleNo != null">`vehicle_no` = #{vehicleNo}, </if>
+			<if test="registerTime != null">`register_time` = #{registerTime}, </if>
+			<if test="effectiveTime != null">`effective_time` = #{effectiveTime}, </if>
+			<if test="peopleCount != null">`people_count` = #{peopleCount}, </if>
+			<if test="createUser != null">`create_user` = #{createUser}, </if>
+			<if test="createTime != null">`create_time` = #{createTime}, </if>
+			<if test="lastModifyUser != null">`last_modify_user` = #{lastModifyUser}, </if>
+			<if test="lastModifyTime != null">`last_modify_time` = #{lastModifyTime}, </if>
+			<if test="state != null">`state` = #{state}</if>
+		</set>
+		where vehicle_review_id = #{vehicleReviewId}
+	</update>
+	
+	<delete id="remove">
+		delete from hy_vehicle_review_info where vehicle_review_id = #{value}
+	</delete>
+	
+	<delete id="batchRemove">
+		delete from hy_vehicle_review_info where vehicle_review_id in 
+		<foreach item="vehicleReviewId" collection="array" open="(" separator="," close=")">
+			#{vehicleReviewId}
+		</foreach>
+	</delete>
+
+</mapper>

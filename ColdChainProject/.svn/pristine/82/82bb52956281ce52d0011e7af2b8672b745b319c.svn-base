@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.template.vehicle.domain.VehicleInsuranceDO">
+
+	<select id="get" resultType="com.template.vehicle.domain.VehicleInsuranceDO">
+		select `vehicle_id`,`vehicle_no`,`insurance_type`,`company`,`start_date`,`end_date`,`money`,`policy_num`,`policy_status`,`agent`,`agent_tel`,`photo`,`remarks`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time`,`state` from hy_vehicle_insurance where vehicle_id = #{value}
+	</select>
+
+	<select id="list" resultType="com.template.vehicle.domain.VehicleInsuranceDO">
+		select `vehicle_id`,`vehicle_no`,`insurance_type`,`company`,`start_date`,`end_date`,`money`,`policy_num`,`policy_status`,`agent`,`agent_tel`,`photo`,`remarks`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time`,`state` from hy_vehicle_insurance
+        <where>  
+		  		  <if test="vehicleId != null and vehicleId != ''"> and vehicle_id = #{vehicleId} </if>
+		  		  <if test="vehicleNo != null and vehicleNo != ''"> and vehicle_no = #{vehicleNo} </if>
+		  		  <if test="insuranceType != null and insuranceType != ''"> and insurance_type = #{insuranceType} </if>
+		  		  <if test="company != null and company != ''"> and company = #{company} </if>
+		  		  <if test="startDate != null and startDate != ''"> and start_date = #{startDate} </if>
+		  		  <if test="endDate != null and endDate != ''"> and end_date = #{endDate} </if>
+		  		  <if test="money != null and money != ''"> and money = #{money} </if>
+		  		  <if test="policyNum != null and policyNum != ''"> and policy_num = #{policyNum} </if>
+		  		  <if test="policyStatus != null and policyStatus != ''"> and policy_status = #{policyStatus} </if>
+		  		  <if test="agent != null and agent != ''"> and agent = #{agent} </if>
+		  		  <if test="agentTel != null and agentTel != ''"> and agent_tel = #{agentTel} </if>
+		  		  <if test="photo != null and photo != ''"> and photo = #{photo} </if>
+		  		  <if test="remarks != null and remarks != ''"> and remarks = #{remarks} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		  <if test="state != null and state != ''"> and state = #{state} </if>
+		  		</where>
+        <choose>
+            <when test="sort != null and sort.trim() != ''">
+                order by ${sort} ${order}
+            </when>
+			<otherwise>
+                order by vehicle_id desc
+			</otherwise>
+        </choose>
+		<if test="offset != null and limit != null">
+			limit #{offset}, #{limit}
+		</if>
+	</select>
+	
+ 	<select id="count" resultType="int">
+		select count(*) from hy_vehicle_insurance
+		 <where>  
+		  		  <if test="vehicleId != null and vehicleId != ''"> and vehicle_id = #{vehicleId} </if>
+		  		  <if test="vehicleNo != null and vehicleNo != ''"> and vehicle_no = #{vehicleNo} </if>
+		  		  <if test="insuranceType != null and insuranceType != ''"> and insurance_type = #{insuranceType} </if>
+		  		  <if test="company != null and company != ''"> and company = #{company} </if>
+		  		  <if test="startDate != null and startDate != ''"> and start_date = #{startDate} </if>
+		  		  <if test="endDate != null and endDate != ''"> and end_date = #{endDate} </if>
+		  		  <if test="money != null and money != ''"> and money = #{money} </if>
+		  		  <if test="policyNum != null and policyNum != ''"> and policy_num = #{policyNum} </if>
+		  		  <if test="policyStatus != null and policyStatus != ''"> and policy_status = #{policyStatus} </if>
+		  		  <if test="agent != null and agent != ''"> and agent = #{agent} </if>
+		  		  <if test="agentTel != null and agentTel != ''"> and agent_tel = #{agentTel} </if>
+		  		  <if test="photo != null and photo != ''"> and photo = #{photo} </if>
+		  		  <if test="remarks != null and remarks != ''"> and remarks = #{remarks} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		  <if test="state != null and state != ''"> and state = #{state} </if>
+		  		</where>
+	</select>
+	 
+	<insert id="save" parameterType="com.template.vehicle.domain.VehicleInsuranceDO">
+		insert into hy_vehicle_insurance
+		(
+			`vehicle_id`, 
+			`vehicle_no`, 
+			`insurance_type`, 
+			`company`, 
+			`start_date`, 
+			`end_date`, 
+			`money`, 
+			`policy_num`, 
+			`policy_status`, 
+			`agent`, 
+			`agent_tel`, 
+			`photo`, 
+			`remarks`, 
+			`create_user`, 
+			`create_time`, 
+			`last_modify_user`, 
+			`last_modify_time`, 
+			`state`
+		)
+		values
+		(
+			#{vehicleId}, 
+			#{vehicleNo}, 
+			#{insuranceType}, 
+			#{company}, 
+			#{startDate}, 
+			#{endDate}, 
+			#{money}, 
+			#{policyNum}, 
+			#{policyStatus}, 
+			#{agent}, 
+			#{agentTel}, 
+			#{photo}, 
+			#{remarks}, 
+			#{createUser}, 
+			#{createTime}, 
+			#{lastModifyUser}, 
+			#{lastModifyTime}, 
+			#{state}
+		)
+	</insert>
+	 
+	<update id="update" parameterType="com.template.vehicle.domain.VehicleInsuranceDO">
+		update hy_vehicle_insurance 
+		<set>
+			<if test="vehicleNo != null">`vehicle_no` = #{vehicleNo}, </if>
+			<if test="insuranceType != null">`insurance_type` = #{insuranceType}, </if>
+			<if test="company != null">`company` = #{company}, </if>
+			<if test="startDate != null">`start_date` = #{startDate}, </if>
+			<if test="endDate != null">`end_date` = #{endDate}, </if>
+			<if test="money != null">`money` = #{money}, </if>
+			<if test="policyNum != null">`policy_num` = #{policyNum}, </if>
+			<if test="policyStatus != null">`policy_status` = #{policyStatus}, </if>
+			<if test="agent != null">`agent` = #{agent}, </if>
+			<if test="agentTel != null">`agent_tel` = #{agentTel}, </if>
+			<if test="photo != null">`photo` = #{photo}, </if>
+			<if test="remarks != null">`remarks` = #{remarks}, </if>
+			<if test="createUser != null">`create_user` = #{createUser}, </if>
+			<if test="createTime != null">`create_time` = #{createTime}, </if>
+			<if test="lastModifyUser != null">`last_modify_user` = #{lastModifyUser}, </if>
+			<if test="lastModifyTime != null">`last_modify_time` = #{lastModifyTime}, </if>
+			<if test="state != null">`state` = #{state}</if>
+		</set>
+		where vehicle_id = #{vehicleId}
+	</update>
+	
+	<delete id="remove">
+		delete from hy_vehicle_insurance where vehicle_id = #{value}
+	</delete>
+	
+	<delete id="batchRemove">
+		delete from hy_vehicle_insurance where vehicle_id in 
+		<foreach item="vehicleId" collection="array" open="(" separator="," close=")">
+			#{vehicleId}
+		</foreach>
+	</delete>
+
+</mapper>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.template.vehicle.domain.VehicleProtectInfoDO">
+
+	<select id="get" resultType="com.template.vehicle.domain.VehicleProtectInfoDO">
+		select `vehicle_protec_id`,`vehicle_no`,`protect_content`,`protect_place`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time` from hy_vehicle_protect_info where vehicle_protec_id = #{value}
+	</select>
+
+	<select id="list" resultType="com.template.vehicle.domain.VehicleProtectInfoDO">
+		select `vehicle_protec_id`,`vehicle_no`,`protect_content`,`protect_place`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time` from hy_vehicle_protect_info
+        <where>  
+		  		  <if test="vehicleProtecId != null and vehicleProtecId != ''"> and vehicle_protec_id = #{vehicleProtecId} </if>
+		  		  <if test="vehicleNo != null and vehicleNo != ''"> and vehicle_no = #{vehicleNo} </if>
+		  		  <if test="protectContent != null and protectContent != ''"> and protect_content = #{protectContent} </if>
+		  		  <if test="protectPlace != null and protectPlace != ''"> and protect_place = #{protectPlace} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		</where>
+        <choose>
+            <when test="sort != null and sort.trim() != ''">
+                order by ${sort} ${order}
+            </when>
+			<otherwise>
+                order by vehicle_protec_id desc
+			</otherwise>
+        </choose>
+		<if test="offset != null and limit != null">
+			limit #{offset}, #{limit}
+		</if>
+	</select>
+	
+ 	<select id="count" resultType="int">
+		select count(*) from hy_vehicle_protect_info
+		 <where>  
+		  		  <if test="vehicleProtecId != null and vehicleProtecId != ''"> and vehicle_protec_id = #{vehicleProtecId} </if>
+		  		  <if test="vehicleNo != null and vehicleNo != ''"> and vehicle_no = #{vehicleNo} </if>
+		  		  <if test="protectContent != null and protectContent != ''"> and protect_content = #{protectContent} </if>
+		  		  <if test="protectPlace != null and protectPlace != ''"> and protect_place = #{protectPlace} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		</where>
+	</select>
+	 
+	<insert id="save" parameterType="com.template.vehicle.domain.VehicleProtectInfoDO">
+		insert into hy_vehicle_protect_info
+		(
+			`vehicle_protec_id`, 
+			`vehicle_no`, 
+			`protect_content`, 
+			`protect_place`, 
+			`create_user`, 
+			`create_time`, 
+			`last_modify_user`, 
+			`last_modify_time`
+		)
+		values
+		(
+			#{vehicleProtecId}, 
+			#{vehicleNo}, 
+			#{protectContent}, 
+			#{protectPlace}, 
+			#{createUser}, 
+			#{createTime}, 
+			#{lastModifyUser}, 
+			#{lastModifyTime}
+		)
+	</insert>
+	 
+	<update id="update" parameterType="com.template.vehicle.domain.VehicleProtectInfoDO">
+		update hy_vehicle_protect_info 
+		<set>
+			<if test="vehicleNo != null">`vehicle_no` = #{vehicleNo}, </if>
+			<if test="protectContent != null">`protect_content` = #{protectContent}, </if>
+			<if test="protectPlace != null">`protect_place` = #{protectPlace}, </if>
+			<if test="createUser != null">`create_user` = #{createUser}, </if>
+			<if test="createTime != null">`create_time` = #{createTime}, </if>
+			<if test="lastModifyUser != null">`last_modify_user` = #{lastModifyUser}, </if>
+			<if test="lastModifyTime != null">`last_modify_time` = #{lastModifyTime}</if>
+		</set>
+		where vehicle_protec_id = #{vehicleProtecId}
+	</update>
+	
+	<delete id="remove">
+		delete from hy_vehicle_protect_info where vehicle_protec_id = #{value}
+	</delete>
+	
+	<delete id="batchRemove">
+		delete from hy_vehicle_protect_info where vehicle_protec_id in 
+		<foreach item="vehicleProtecId" collection="array" open="(" separator="," close=")">
+			#{vehicleProtecId}
+		</foreach>
+	</delete>
+
+</mapper>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.template.order.dao.OrderEvaluateDao">
+
+	<select id="get" resultType="com.template.order.domain.OrderEvaluateDO">
+		select `operator_evaluate_id`,`operator_no`,`order_no`,`delay_times`,`goods_error_times`,`score`,`information`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time` from hy_order_evaluate where operator_evaluate_id = #{value}
+	</select>
+
+	<select id="list" resultType="com.template.order.domain.OrderEvaluateDO">
+		select `operator_evaluate_id`,`operator_no`,`order_no`,`delay_times`,`goods_error_times`,`score`,`information`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time` from hy_order_evaluate
+        <where>  
+		  		  <if test="operatorEvaluateId != null and operatorEvaluateId != ''"> and operator_evaluate_id = #{operatorEvaluateId} </if>
+		  		  <if test="operatorNo != null and operatorNo != ''"> and operator_no = #{operatorNo} </if>
+		  		  <if test="orderNo != null and orderNo != ''"> and order_no = #{orderNo} </if>
+		  		  <if test="delayTimes != null and delayTimes != ''"> and delay_times = #{delayTimes} </if>
+		  		  <if test="goodsErrorTimes != null and goodsErrorTimes != ''"> and goods_error_times = #{goodsErrorTimes} </if>
+		  		  <if test="score != null and score != ''"> and score = #{score} </if>
+		  		  <if test="information != null and information != ''"> and information = #{information} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		</where>
+        <choose>
+            <when test="sort != null and sort.trim() != ''">
+                order by ${sort} ${order}
+            </when>
+			<otherwise>
+                order by operator_evaluate_id desc
+			</otherwise>
+        </choose>
+		<if test="offset != null and limit != null">
+			limit #{offset}, #{limit}
+		</if>
+	</select>
+	
+ 	<select id="count" resultType="int">
+		select count(*) from hy_order_evaluate
+		 <where>  
+		  		  <if test="operatorEvaluateId != null and operatorEvaluateId != ''"> and operator_evaluate_id = #{operatorEvaluateId} </if>
+		  		  <if test="operatorNo != null and operatorNo != ''"> and operator_no = #{operatorNo} </if>
+		  		  <if test="orderNo != null and orderNo != ''"> and order_no = #{orderNo} </if>
+		  		  <if test="delayTimes != null and delayTimes != ''"> and delay_times = #{delayTimes} </if>
+		  		  <if test="goodsErrorTimes != null and goodsErrorTimes != ''"> and goods_error_times = #{goodsErrorTimes} </if>
+		  		  <if test="score != null and score != ''"> and score = #{score} </if>
+		  		  <if test="information != null and information != ''"> and information = #{information} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		</where>
+	</select>
+	 
+	<insert id="save" parameterType="com.template.order.domain.OrderEvaluateDO">
+		insert into hy_order_evaluate
+		(
+			`operator_evaluate_id`, 
+			`operator_no`, 
+			`order_no`, 
+			`delay_times`, 
+			`goods_error_times`, 
+			`score`, 
+			`information`, 
+			`create_user`, 
+			`create_time`, 
+			`last_modify_user`, 
+			`last_modify_time`
+		)
+		values
+		(
+			#{operatorEvaluateId}, 
+			#{operatorNo}, 
+			#{orderNo}, 
+			#{delayTimes}, 
+			#{goodsErrorTimes}, 
+			#{score}, 
+			#{information}, 
+			#{createUser}, 
+			#{createTime}, 
+			#{lastModifyUser}, 
+			#{lastModifyTime}
+		)
+	</insert>
+	 
+	<update id="update" parameterType="com.template.order.domain.OrderEvaluateDO">
+		update hy_order_evaluate 
+		<set>
+			<if test="operatorNo != null">`operator_no` = #{operatorNo}, </if>
+			<if test="orderNo != null">`order_no` = #{orderNo}, </if>
+			<if test="delayTimes != null">`delay_times` = #{delayTimes}, </if>
+			<if test="goodsErrorTimes != null">`goods_error_times` = #{goodsErrorTimes}, </if>
+			<if test="score != null">`score` = #{score}, </if>
+			<if test="information != null">`information` = #{information}, </if>
+			<if test="createUser != null">`create_user` = #{createUser}, </if>
+			<if test="createTime != null">`create_time` = #{createTime}, </if>
+			<if test="lastModifyUser != null">`last_modify_user` = #{lastModifyUser}, </if>
+			<if test="lastModifyTime != null">`last_modify_time` = #{lastModifyTime}</if>
+		</set>
+		where operator_evaluate_id = #{operatorEvaluateId}
+	</update>
+	
+	<delete id="remove">
+		delete from hy_order_evaluate where operator_evaluate_id = #{value}
+	</delete>
+	
+	<delete id="batchRemove">
+		delete from hy_order_evaluate where operator_evaluate_id in 
+		<foreach item="operatorEvaluateId" collection="array" open="(" separator="," close=")">
+			#{operatorEvaluateId}
+		</foreach>
+	</delete>
+
+</mapper>

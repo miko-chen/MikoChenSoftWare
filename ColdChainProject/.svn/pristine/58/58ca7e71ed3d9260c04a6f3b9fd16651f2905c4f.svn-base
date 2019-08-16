@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.template.car.mapper.CarEvaluateDao">
+	<select id="get" resultType="com.template.car.domain.CarEvaluateDO">
+		select `car_evaluate_id`,`car_no`,`order_no`,`rapid_acceleration_times`,`over_speed_times`,`sharp_turn_times`,`brakes_times`,`score`,`information`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time` from hy_car_evaluate where car_evaluate_id = #{value}
+	</select>
+
+	<select id="list" resultType="com.template.car.domain.CarEvaluateDO">
+		select `car_evaluate_id`,`car_no`,`order_no`,`rapid_acceleration_times`,`over_speed_times`,`sharp_turn_times`,`brakes_times`,`score`,`information`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time` from hy_car_evaluate
+        <where>  
+		  		  <if test="carEvaluateId != null and carEvaluateId != ''"> and car_evaluate_id = #{carEvaluateId} </if>
+		  		  <if test="carNo != null and carNo != ''"> and car_no = #{carNo} </if>
+		  		  <if test="orderNo != null and orderNo != ''"> and order_no = #{orderNo} </if>
+		  		  <if test="rapidAccelerationTimes != null and rapidAccelerationTimes != ''"> and rapid_acceleration_times = #{rapidAccelerationTimes} </if>
+		  		  <if test="overSpeedTimes != null and overSpeedTimes != ''"> and over_speed_times = #{overSpeedTimes} </if>
+		  		  <if test="sharpTurnTimes != null and sharpTurnTimes != ''"> and sharp_turn_times = #{sharpTurnTimes} </if>
+		  		  <if test="brakesTimes != null and brakesTimes != ''"> and brakes_times = #{brakesTimes} </if>
+		  		  <if test="score != null and score != ''"> and score = #{score} </if>
+		  		  <if test="information != null and information != ''"> and information = #{information} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		</where>
+        <choose>
+            <when test="sort != null and sort.trim() != ''">
+                order by ${sort} ${order}
+            </when>
+			<otherwise>
+                order by car_evaluate_id desc
+			</otherwise>
+        </choose>
+		<if test="offset != null and limit != null">
+			limit #{offset}, #{limit}
+		</if>
+	</select>
+	
+ 	<select id="count" resultType="int">
+		select count(*) from hy_car_evaluate
+		 <where>  
+		  		  <if test="carEvaluateId != null and carEvaluateId != ''"> and car_evaluate_id = #{carEvaluateId} </if>
+		  		  <if test="carNo != null and carNo != ''"> and car_no = #{carNo} </if>
+		  		  <if test="orderNo != null and orderNo != ''"> and order_no = #{orderNo} </if>
+		  		  <if test="rapidAccelerationTimes != null and rapidAccelerationTimes != ''"> and rapid_acceleration_times = #{rapidAccelerationTimes} </if>
+		  		  <if test="overSpeedTimes != null and overSpeedTimes != ''"> and over_speed_times = #{overSpeedTimes} </if>
+		  		  <if test="sharpTurnTimes != null and sharpTurnTimes != ''"> and sharp_turn_times = #{sharpTurnTimes} </if>
+		  		  <if test="brakesTimes != null and brakesTimes != ''"> and brakes_times = #{brakesTimes} </if>
+		  		  <if test="score != null and score != ''"> and score = #{score} </if>
+		  		  <if test="information != null and information != ''"> and information = #{information} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		</where>
+	</select>
+	 
+	<insert id="save" parameterType="com.template.car.domain.CarEvaluateDO">
+		insert into hy_car_evaluate
+		(
+			`car_evaluate_id`, 
+			`car_no`, 
+			`order_no`, 
+			`rapid_acceleration_times`, 
+			`over_speed_times`, 
+			`sharp_turn_times`, 
+			`brakes_times`, 
+			`score`, 
+			`information`, 
+			`create_user`, 
+			`create_time`, 
+			`last_modify_user`, 
+			`last_modify_time`
+		)
+		values
+		(
+			#{carEvaluateId}, 
+			#{carNo}, 
+			#{orderNo}, 
+			#{rapidAccelerationTimes}, 
+			#{overSpeedTimes}, 
+			#{sharpTurnTimes}, 
+			#{brakesTimes}, 
+			#{score}, 
+			#{information}, 
+			#{createUser}, 
+			#{createTime}, 
+			#{lastModifyUser}, 
+			#{lastModifyTime}
+		)
+	</insert>
+	 
+	<update id="update" parameterType="com.template.car.domain.CarEvaluateDO">
+		update hy_car_evaluate 
+		<set>
+			<if test="carNo != null">`car_no` = #{carNo}, </if>
+			<if test="orderNo != null">`order_no` = #{orderNo}, </if>
+			<if test="rapidAccelerationTimes != null">`rapid_acceleration_times` = #{rapidAccelerationTimes}, </if>
+			<if test="overSpeedTimes != null">`over_speed_times` = #{overSpeedTimes}, </if>
+			<if test="sharpTurnTimes != null">`sharp_turn_times` = #{sharpTurnTimes}, </if>
+			<if test="brakesTimes != null">`brakes_times` = #{brakesTimes}, </if>
+			<if test="score != null">`score` = #{score}, </if>
+			<if test="information != null">`information` = #{information}, </if>
+			<if test="createUser != null">`create_user` = #{createUser}, </if>
+			<if test="createTime != null">`create_time` = #{createTime}, </if>
+			<if test="lastModifyUser != null">`last_modify_user` = #{lastModifyUser}, </if>
+			<if test="lastModifyTime != null">`last_modify_time` = #{lastModifyTime}</if>
+		</set>
+		where car_evaluate_id = #{carEvaluateId}
+	</update>
+	
+	<delete id="remove">
+		delete from hy_car_evaluate where car_evaluate_id = #{value}
+	</delete>
+	
+	<delete id="batchRemove">
+		delete from hy_car_evaluate where car_evaluate_id in 
+		<foreach item="carEvaluateId" collection="array" open="(" separator="," close=")">
+			#{carEvaluateId}
+		</foreach>
+	</delete>
+
+</mapper>

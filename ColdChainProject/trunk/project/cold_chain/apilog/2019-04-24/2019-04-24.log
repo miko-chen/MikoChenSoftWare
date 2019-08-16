@@ -1,0 +1,69 @@
+2019-04-24 13:30:03 -Starting ApiApplication on ZJComputer with PID 4736 (D:\simple-template\api\target\classes started by 11735 in D:\simple-template)
+2019-04-24 13:30:03 -The following profiles are active: dev
+2019-04-24 13:30:03 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@30b19518: startup date [Wed Apr 24 13:30:03 CST 2019]; root of context hierarchy
+2019-04-24 13:30:04 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$269739cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 13:30:04 -Tomcat initialized with port(s): 8080 (http)
+2019-04-24 13:30:04 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-24 13:30:04 -Starting service [Tomcat]
+2019-04-24 13:30:04 -Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-04-24 13:30:04 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\java\pac\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Python27\Scripts;C:\Users\11735\AppData\Roaming\Python\Scripts;C:\WINDOWS\System32\OpenSSH\;E:\java\pac\apache-maven-3.5.0\bin;E:\软件\Brackets\command;D:\soft\Microsoft SQL Server\100\Tools\Binn\;D:\soft\Microsoft SQL Server\100\DTS\Binn\;D:\soft\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Users\11735\AppData\Local\Microsoft\WindowsApps;;.]
+2019-04-24 13:30:05 -Initializing Spring embedded WebApplicationContext
+2019-04-24 13:30:05 -Root WebApplicationContext: initialization completed in 1549 ms
+2019-04-24 13:30:05 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-24 13:30:05 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-24 13:30:05 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-24 13:30:05 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-24 13:30:05 -Mapping filter: 'xssFilter' to urls: [/*]
+2019-04-24 13:30:05 -Servlet dispatcherServlet mapped to [/]
+2019-04-24 13:30:06 -Mapped "{[/api/login],methods=[POST]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiLoginController.login(com.template.api.form.LoginForm)
+2019-04-24 13:30:06 -Mapped "{[/api/logout],methods=[POST]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiLoginController.logout(long)
+2019-04-24 13:30:06 -Mapped "{[/api/register],methods=[POST]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiRegisterController.register(com.template.api.form.RegisterForm)
+2019-04-24 13:30:06 -Mapped "{[/api/userId],methods=[GET]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiTestController.userInfo(java.lang.Integer)
+2019-04-24 13:30:06 -Mapped "{[/api/userInfo],methods=[GET]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiTestController.userInfo(com.template.api.login.domain.TbUser)
+2019-04-24 13:30:06 -Mapped "{[/api/myTest],methods=[GET]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiTestController.myTest(java.lang.Integer,javax.servlet.http.HttpServletRequest)
+2019-04-24 13:30:06 -Mapped "{[/api/notToken],methods=[GET]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiTestController.notToken()
+2019-04-24 13:30:06 -Mapped "{[/oaNotify/list],methods=[GET]}" onto public java.lang.Object com.template.api.notify.controller.OaNotifyController.list()
+2019-04-24 13:30:06 -Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-04-24 13:30:06 -Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-04-24 13:30:06 -Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-04-24 13:30:06 -Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-04-24 13:30:06 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-24 13:30:06 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-24 13:30:06 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-24 13:30:06 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@30b19518: startup date [Wed Apr 24 13:30:03 CST 2019]; root of context hierarchy
+2019-04-24 13:30:06 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-24 13:30:06 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-24 13:30:06 -Detected @ExceptionHandler methods in RRExceptionHandler
+2019-04-24 13:30:06 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-04-24 13:30:06 -Registering beans for JMX exposure on startup
+2019-04-24 13:30:06 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-04-24 13:30:06 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-04-24 13:30:06 -Starting beans in phase 2147483647
+2019-04-24 13:30:06 -Context refreshed
+2019-04-24 13:30:06 -Found 1 custom documentation plugin(s)
+2019-04-24 13:30:07 -Scanning for api listing references
+2019-04-24 13:30:07 -Generating unique operation named: userInfoUsingGET_1
+2019-04-24 13:30:07 -Starting ProtocolHandler ["http-nio-8080"]
+2019-04-24 13:30:07 -Using a shared selector for servlet write/read
+2019-04-24 13:30:07 -Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-04-24 13:30:07 -Started ApiApplication in 4.359 seconds (JVM running for 5.564)
+2019-04-24 13:30:16 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-24 13:30:16 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-04-24 13:30:16 -FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2019-04-24 13:30:16 -请求地址 : http://localhost:8080/api/oaNotify/list
+2019-04-24 13:30:16 -HTTP METHOD : GET
+2019-04-24 13:30:16 -CLASS_METHOD : com.template.api.notify.controller.OaNotifyController.list
+2019-04-24 13:30:16 -参数 : []
+2019-04-24 13:30:16 -{dataSource-1} inited
+2019-04-24 13:30:16 -heheh,com.template.api.notify.domain.OaNotify@4ae23762,{
+   "id": 41,
+   "type": "3",
+   "title": "十九大召开了",
+   "content": "十九大召开了，竟然没邀请我",
+   "files": "",
+   "status": "1",
+   "createBy": 1,
+   "updateDate": "2017-10-10 17:21:11",
+   "remarks": ""
+}
+2019-04-24 13:30:16 -耗时 : 323

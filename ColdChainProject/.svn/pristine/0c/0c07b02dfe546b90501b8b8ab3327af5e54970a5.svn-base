@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.template.basic.domain.BasicEquipmentInfoDO">
+
+	<select id="get" resultType="com.template.basic.domain.BasicEquipmentInfoDO">
+		select `equipment_id`,`equipment_no`,`equipment_type_num`,`equipment_name`,`manufacturer`,`equipment_status`,`equipment_type`,`state`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time` from hy_basic_equipment_info where equipment_id = #{value}
+	</select>
+
+	<select id="list" resultType="com.template.basic.domain.BasicEquipmentInfoDO">
+		select `equipment_id`,`equipment_no`,`equipment_type_num`,`equipment_name`,`manufacturer`,`equipment_status`,`equipment_type`,`state`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time` from hy_basic_equipment_info
+        <where>  
+		  		  <if test="equipmentId != null and equipmentId != ''"> and equipment_id = #{equipmentId} </if>
+		  		  <if test="equipmentNo != null and equipmentNo != ''"> and equipment_no = #{equipmentNo} </if>
+		  		  <if test="equipmentTypeNum != null and equipmentTypeNum != ''"> and equipment_type_num = #{equipmentTypeNum} </if>
+		  		  <if test="equipmentName != null and equipmentName != ''"> and equipment_name = #{equipmentName} </if>
+		  		  <if test="manufacturer != null and manufacturer != ''"> and manufacturer = #{manufacturer} </if>
+		  		  <if test="equipmentStatus != null and equipmentStatus != ''"> and equipment_status = #{equipmentStatus} </if>
+		  		  <if test="equipmentType != null and equipmentType != ''"> and equipment_type = #{equipmentType} </if>
+		  		  <if test="state != null and state != ''"> and state = #{state} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		</where>
+        <choose>
+            <when test="sort != null and sort.trim() != ''">
+                order by ${sort} ${order}
+            </when>
+			<otherwise>
+                order by equipment_id desc
+			</otherwise>
+        </choose>
+		<if test="offset != null and limit != null">
+			limit #{offset}, #{limit}
+		</if>
+	</select>
+	
+ 	<select id="count" resultType="int">
+		select count(*) from hy_basic_equipment_info
+		 <where>  
+		  		  <if test="equipmentId != null and equipmentId != ''"> and equipment_id = #{equipmentId} </if>
+		  		  <if test="equipmentNo != null and equipmentNo != ''"> and equipment_no = #{equipmentNo} </if>
+		  		  <if test="equipmentTypeNum != null and equipmentTypeNum != ''"> and equipment_type_num = #{equipmentTypeNum} </if>
+		  		  <if test="equipmentName != null and equipmentName != ''"> and equipment_name = #{equipmentName} </if>
+		  		  <if test="manufacturer != null and manufacturer != ''"> and manufacturer = #{manufacturer} </if>
+		  		  <if test="equipmentStatus != null and equipmentStatus != ''"> and equipment_status = #{equipmentStatus} </if>
+		  		  <if test="equipmentType != null and equipmentType != ''"> and equipment_type = #{equipmentType} </if>
+		  		  <if test="state != null and state != ''"> and state = #{state} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		</where>
+	</select>
+	 
+	<insert id="save" parameterType="com.template.basic.domain.BasicEquipmentInfoDO">
+		insert into hy_basic_equipment_info
+		(
+			`equipment_id`, 
+			`equipment_no`, 
+			`equipment_type_num`, 
+			`equipment_name`, 
+			`manufacturer`, 
+			`equipment_status`, 
+			`equipment_type`, 
+			`state`, 
+			`create_user`, 
+			`create_time`, 
+			`last_modify_user`, 
+			`last_modify_time`
+		)
+		values
+		(
+			#{equipmentId}, 
+			#{equipmentNo}, 
+			#{equipmentTypeNum}, 
+			#{equipmentName}, 
+			#{manufacturer}, 
+			#{equipmentStatus}, 
+			#{equipmentType}, 
+			#{state}, 
+			#{createUser}, 
+			#{createTime}, 
+			#{lastModifyUser}, 
+			#{lastModifyTime}
+		)
+	</insert>
+	 
+	<update id="update" parameterType="com.template.basic.domain.BasicEquipmentInfoDO">
+		update hy_basic_equipment_info 
+		<set>
+			<if test="equipmentNo != null">`equipment_no` = #{equipmentNo}, </if>
+			<if test="equipmentTypeNum != null">`equipment_type_num` = #{equipmentTypeNum}, </if>
+			<if test="equipmentName != null">`equipment_name` = #{equipmentName}, </if>
+			<if test="manufacturer != null">`manufacturer` = #{manufacturer}, </if>
+			<if test="equipmentStatus != null">`equipment_status` = #{equipmentStatus}, </if>
+			<if test="equipmentType != null">`equipment_type` = #{equipmentType}, </if>
+			<if test="state != null">`state` = #{state}, </if>
+			<if test="createUser != null">`create_user` = #{createUser}, </if>
+			<if test="createTime != null">`create_time` = #{createTime}, </if>
+			<if test="lastModifyUser != null">`last_modify_user` = #{lastModifyUser}, </if>
+			<if test="lastModifyTime != null">`last_modify_time` = #{lastModifyTime}</if>
+		</set>
+		where equipment_id = #{equipmentId}
+	</update>
+	
+	<delete id="remove">
+		delete from hy_basic_equipment_info where equipment_id = #{value}
+	</delete>
+	
+	<delete id="batchRemove">
+		delete from hy_basic_equipment_info where equipment_id in 
+		<foreach item="equipmentId" collection="array" open="(" separator="," close=")">
+			#{equipmentId}
+		</foreach>
+	</delete>
+
+</mapper>

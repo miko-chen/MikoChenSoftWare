@@ -1,0 +1,549 @@
+2019-04-24 13:28:52 -Starting TemplateApplication on ZJComputer with PID 15128 (D:\simple-template\template\target\classes started by 11735 in D:\simple-template)
+2019-04-24 13:28:52 -Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2019-04-24 13:28:52 -The following profiles are active: dev
+2019-04-24 13:28:52 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@10c626be: startup date [Wed Apr 24 13:28:52 CST 2019]; root of context hierarchy
+2019-04-24 13:28:53 -No MyBatis mapper was found in '[com.template.*.mapper]' package. Please check your configuration.
+2019-04-24 13:28:53 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-24 13:28:54 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$38385643] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 13:28:54 -Bean 'shiroConfig' of type [com.template.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$86ea8387] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 13:28:54 -Bean 'userRealm' of type [com.template.system.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 13:28:54 -Bean 'cacheManager2' of type [net.sf.ehcache.CacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 13:28:54 -Bean 'ehCacheManager' of type [org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 13:28:54 -Cache with name 'com.template.system.shiro.UserRealm.authorizationCache' does not yet exist.  Creating now.
+2019-04-24 13:28:54 -Added EhCache named [com.template.system.shiro.UserRealm.authorizationCache]
+2019-04-24 13:28:54 -Bean 'sessionDAO' of type [org.apache.shiro.session.mgt.eis.MemorySessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 13:28:54 -Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 13:28:54 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 13:28:54 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 13:28:55 -Tomcat initialized with port(s): 8080 (http)
+2019-04-24 13:28:55 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-24 13:28:55 -Starting service [Tomcat]
+2019-04-24 13:28:55 -Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-04-24 13:28:55 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\java\pac\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Python27\Scripts;C:\Users\11735\AppData\Roaming\Python\Scripts;C:\WINDOWS\System32\OpenSSH\;E:\java\pac\apache-maven-3.5.0\bin;E:\软件\Brackets\command;D:\soft\Microsoft SQL Server\100\Tools\Binn\;D:\soft\Microsoft SQL Server\100\DTS\Binn\;D:\soft\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Users\11735\AppData\Local\Microsoft\WindowsApps;;.]
+2019-04-24 13:28:55 -Initializing Spring embedded WebApplicationContext
+2019-04-24 13:28:55 -Root WebApplicationContext: initialization completed in 2840 ms
+2019-04-24 13:28:55 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-24 13:28:55 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-24 13:28:55 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-24 13:28:55 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-24 13:28:55 -Filter xssFilter was not registered (disabled)
+2019-04-24 13:28:55 -Mapping filter: 'webStatFilter' to urls: [/*]
+2019-04-24 13:28:55 -Mapping filter: 'shiroFilterFactoryBean' to: [/*]
+2019-04-24 13:28:55 -Servlet statViewServlet mapped to [/druid/*]
+2019-04-24 13:28:55 -Servlet dispatcherServlet mapped to [/]
+2019-04-24 13:28:56 -{dataSource-1} inited
+2019-04-24 13:28:56 -ApplicationContext registed-->org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@10c626be: startup date [Wed Apr 24 13:28:52 CST 2019]; root of context hierarchy
+2019-04-24 13:28:56 -Using default implementation for ThreadExecutor
+2019-04-24 13:28:56 -Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-04-24 13:28:56 -Quartz Scheduler v.2.2.1 created.
+2019-04-24 13:28:56 -RAMJobStore initialized.
+2019-04-24 13:28:56 -Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-04-24 13:28:56 -Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2019-04-24 13:28:56 -Quartz scheduler version: 2.2.1
+2019-04-24 13:28:56 -JobFactory set to: com.template.common.quartz.factory.JobFactory@7b3c0ecb
+2019-04-24 13:28:57 -Initializing ExecutorService  'clientInboundChannelExecutor'
+2019-04-24 13:28:57 -Initializing ExecutorService  'clientOutboundChannelExecutor'
+2019-04-24 13:28:57 -Mapped "{[/common/dict/add],methods=[GET]}" onto java.lang.String com.template.common.controller.DictController.add()
+2019-04-24 13:28:57 -Mapped "{[/common/dict/remove],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.DictController.remove(java.lang.Long)
+2019-04-24 13:28:57 -Mapped "{[/common/dict/batchRemove],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.DictController.remove(java.lang.Long[])
+2019-04-24 13:28:57 -Mapped "{[/common/dict/update]}" onto public com.template.common.utils.R com.template.common.controller.DictController.update(com.template.common.domain.DictDO)
+2019-04-24 13:28:57 -Mapped "{[/common/dict/list],methods=[GET]}" onto public com.template.common.utils.PageUtils com.template.common.controller.DictController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-24 13:28:57 -Mapped "{[/common/dict/save],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.DictController.save(com.template.common.domain.DictDO)
+2019-04-24 13:28:57 -Mapped "{[/common/dict/type],methods=[GET]}" onto public java.util.List<com.template.common.domain.DictDO> com.template.common.controller.DictController.listType()
+2019-04-24 13:28:57 -Mapped "{[/common/dict/add/{type}/{description}],methods=[GET]}" onto java.lang.String com.template.common.controller.DictController.addD(org.springframework.ui.Model,java.lang.String,java.lang.String)
+2019-04-24 13:28:57 -Mapped "{[/common/dict],methods=[GET]}" onto java.lang.String com.template.common.controller.DictController.dict()
+2019-04-24 13:28:57 -Mapped "{[/common/dict/edit/{id}],methods=[GET]}" onto java.lang.String com.template.common.controller.DictController.edit(java.lang.Long,org.springframework.ui.Model)
+2019-04-24 13:28:57 -Mapped "{[/common/dict/list/{type}],methods=[GET]}" onto public java.util.List<com.template.common.domain.DictDO> com.template.common.controller.DictController.listByType(java.lang.String)
+2019-04-24 13:28:57 -Mapped "{[/common/sysFile/add],methods=[GET]}" onto java.lang.String com.template.common.controller.FileController.add()
+2019-04-24 13:28:57 -Mapped "{[/common/sysFile/remove],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.FileController.remove(java.lang.Long,javax.servlet.http.HttpServletRequest)
+2019-04-24 13:28:57 -Mapped "{[/common/sysFile/batchRemove],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.FileController.remove(java.lang.Long[])
+2019-04-24 13:28:57 -Mapped "{[/common/sysFile/update]}" onto public com.template.common.utils.R com.template.common.controller.FileController.update(com.template.common.domain.FileDO)
+2019-04-24 13:28:57 -Mapped "{[/common/sysFile/list],methods=[GET]}" onto public com.template.common.utils.PageUtils com.template.common.controller.FileController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-24 13:28:57 -Mapped "{[/common/sysFile/save],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.FileController.save(com.template.common.domain.FileDO)
+2019-04-24 13:28:57 -Mapped "{[/common/sysFile/info/{id}]}" onto public com.template.common.utils.R com.template.common.controller.FileController.info(java.lang.Long)
+2019-04-24 13:28:57 -Mapped "{[/common/sysFile],methods=[GET]}" onto java.lang.String com.template.common.controller.FileController.sysFile(org.springframework.ui.Model)
+2019-04-24 13:28:57 -Mapped "{[/common/sysFile/upload],methods=[POST]}" onto com.template.common.utils.R com.template.common.controller.FileController.upload(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2019-04-24 13:28:57 -Mapped "{[/common/sysFile/edit],methods=[GET]}" onto java.lang.String com.template.common.controller.FileController.edit(java.lang.Long,org.springframework.ui.Model)
+2019-04-24 13:28:57 -Mapped "{[/common/generator/update],methods=[POST]}" onto com.template.common.utils.R com.template.common.controller.GeneratorController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-24 13:28:57 -Mapped "{[/common/generator/list],methods=[GET]}" onto java.util.List<java.util.Map<java.lang.String, java.lang.Object>> com.template.common.controller.GeneratorController.list()
+2019-04-24 13:28:57 -Mapped "{[/common/generator/code/{tableName}]}" onto public void com.template.common.controller.GeneratorController.code(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.io.IOException
+2019-04-24 13:28:57 -Mapped "{[/common/generator],methods=[GET]}" onto java.lang.String com.template.common.controller.GeneratorController.generator()
+2019-04-24 13:28:57 -Mapped "{[/common/generator/edit],methods=[GET]}" onto public java.lang.String com.template.common.controller.GeneratorController.edit(org.springframework.ui.Model)
+2019-04-24 13:28:57 -Mapped "{[/common/generator/batchCode]}" onto public void com.template.common.controller.GeneratorController.batchCode(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.io.IOException
+2019-04-24 13:28:57 -Mapped "{[/common/job/add],methods=[GET]}" onto java.lang.String com.template.common.controller.JobController.add()
+2019-04-24 13:28:57 -Mapped "{[/common/job/remove],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.JobController.remove(java.lang.Long)
+2019-04-24 13:28:57 -Mapped "{[/common/job/batchRemove],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.JobController.remove(java.lang.Long[])
+2019-04-24 13:28:57 -Mapped "{[/common/job/update],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.JobController.update(com.template.common.domain.TaskDO)
+2019-04-24 13:28:57 -Mapped "{[/common/job/list],methods=[GET]}" onto public com.template.common.utils.PageUtils com.template.common.controller.JobController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-24 13:28:57 -Mapped "{[/common/job/save],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.JobController.save(com.template.common.domain.TaskDO)
+2019-04-24 13:28:57 -Mapped "{[/common/job/info/{id}]}" onto public com.template.common.utils.R com.template.common.controller.JobController.info(java.lang.Long)
+2019-04-24 13:28:57 -Mapped "{[/common/job/edit/{id}],methods=[GET]}" onto java.lang.String com.template.common.controller.JobController.edit(java.lang.Long,org.springframework.ui.Model)
+2019-04-24 13:28:57 -Mapped "{[/common/job],methods=[GET]}" onto java.lang.String com.template.common.controller.JobController.taskScheduleJob()
+2019-04-24 13:28:57 -Mapped "{[/common/job/changeJobStatus],methods=[POST]}" onto public com.template.common.utils.R com.template.common.controller.JobController.changeJobStatus(java.lang.Long,java.lang.String)
+2019-04-24 13:28:57 -Mapped "{[/common/log/remove],methods=[POST]}" onto com.template.common.utils.R com.template.common.controller.LogController.remove(java.lang.Long)
+2019-04-24 13:28:57 -Mapped "{[/common/log],methods=[GET]}" onto java.lang.String com.template.common.controller.LogController.log()
+2019-04-24 13:28:57 -Mapped "{[/common/log/list],methods=[GET]}" onto com.template.common.domain.PageDO<com.template.common.domain.LogDO> com.template.common.controller.LogController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-24 13:28:57 -Mapped "{[/common/log/batchRemove],methods=[POST]}" onto com.template.common.utils.R com.template.common.controller.LogController.batchRemove(java.lang.Long[])
+2019-04-24 13:28:57 -Mapped "{[/error]}" onto public com.template.common.utils.R com.template.common.exception.MainsiteErrorController.handleError(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-24 13:28:57 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.template.common.exception.MainsiteErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-24 13:28:57 -Mapped "{[/oa/notify/add],methods=[GET]}" onto java.lang.String com.template.oa.controller.NotifyController.add()
+2019-04-24 13:28:57 -Mapped "{[/oa/notify/remove],methods=[POST]}" onto public com.template.common.utils.R com.template.oa.controller.NotifyController.remove(java.lang.Long)
+2019-04-24 13:28:57 -Mapped "{[/oa/notify/batchRemove],methods=[POST]}" onto public com.template.common.utils.R com.template.oa.controller.NotifyController.remove(java.lang.Long[])
+2019-04-24 13:28:57 -Mapped "{[/oa/notify/update]}" onto public com.template.common.utils.R com.template.oa.controller.NotifyController.update(com.template.oa.domain.NotifyDO)
+2019-04-24 13:28:57 -Mapped "{[/oa/notify/read/{id}],methods=[GET]}" onto java.lang.String com.template.oa.controller.NotifyController.read(java.lang.Long,org.springframework.ui.Model)
+2019-04-24 13:28:57 -Mapped "{[/oa/notify/list],methods=[GET]}" onto public com.template.common.utils.PageUtils com.template.oa.controller.NotifyController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-24 13:28:57 -Mapped "{[/oa/notify/save],methods=[POST]}" onto public com.template.common.utils.R com.template.oa.controller.NotifyController.save(com.template.oa.domain.NotifyDO)
+2019-04-24 13:28:57 -Mapped "{[/oa/notify/message],methods=[GET]}" onto com.template.common.utils.PageUtils com.template.oa.controller.NotifyController.message()
+2019-04-24 13:28:57 -Mapped "{[/oa/notify/edit/{id}],methods=[GET]}" onto java.lang.String com.template.oa.controller.NotifyController.edit(java.lang.Long,org.springframework.ui.Model)
+2019-04-24 13:28:57 -Mapped "{[/oa/notify],methods=[GET]}" onto java.lang.String com.template.oa.controller.NotifyController.oaNotify()
+2019-04-24 13:28:57 -Mapped "{[/oa/notify/selfList],methods=[GET]}" onto com.template.common.utils.PageUtils com.template.oa.controller.NotifyController.selfList(java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-24 13:28:57 -Mapped "{[/oa/notify/selfNotify],methods=[GET]}" onto java.lang.String com.template.oa.controller.NotifyController.selefNotify()
+2019-04-24 13:28:57 -Mapped "{[/system/sysDept/add/{pId}],methods=[GET]}" onto java.lang.String com.template.system.controller.DeptController.add(java.lang.Long,org.springframework.ui.Model)
+2019-04-24 13:28:57 -Mapped "{[/system/sysDept/remove],methods=[POST]}" onto public com.template.common.utils.R com.template.system.controller.DeptController.remove(java.lang.Long)
+2019-04-24 13:28:57 -Mapped "{[/system/sysDept/batchRemove],methods=[POST]}" onto public com.template.common.utils.R com.template.system.controller.DeptController.remove(java.lang.Long[])
+2019-04-24 13:28:57 -Mapped "{[/system/sysDept/update]}" onto public com.template.common.utils.R com.template.system.controller.DeptController.update(com.template.system.domain.DeptDO)
+2019-04-24 13:28:57 -Mapped "{[/system/sysDept/list],methods=[GET]}" onto public java.util.List<com.template.system.domain.DeptDO> com.template.system.controller.DeptController.list()
+2019-04-24 13:28:57 -Mapped "{[/system/sysDept/save],methods=[POST]}" onto public com.template.common.utils.R com.template.system.controller.DeptController.save(com.template.system.domain.DeptDO)
+2019-04-24 13:28:57 -Mapped "{[/system/sysDept/tree],methods=[GET]}" onto public com.template.common.domain.Tree<com.template.system.domain.DeptDO> com.template.system.controller.DeptController.tree()
+2019-04-24 13:28:57 -Mapped "{[/system/sysDept/edit/{deptId}],methods=[GET]}" onto java.lang.String com.template.system.controller.DeptController.edit(java.lang.Long,org.springframework.ui.Model)
+2019-04-24 13:28:57 -Mapped "{[/system/sysDept],methods=[GET]}" onto java.lang.String com.template.system.controller.DeptController.dept()
+2019-04-24 13:28:57 -Mapped "{[/system/sysDept/treeView],methods=[GET]}" onto java.lang.String com.template.system.controller.DeptController.treeView()
+2019-04-24 13:28:57 -Mapped "{[/index],methods=[GET]}" onto java.lang.String com.template.system.controller.LoginController.index(org.springframework.ui.Model)
+2019-04-24 13:28:57 -Mapped "{[/main],methods=[GET]}" onto java.lang.String com.template.system.controller.LoginController.main()
+2019-04-24 13:28:57 -Mapped "{[/login],methods=[GET]}" onto java.lang.String com.template.system.controller.LoginController.login(org.springframework.ui.Model)
+2019-04-24 13:28:57 -Mapped "{[/logout],methods=[GET]}" onto java.lang.String com.template.system.controller.LoginController.logout()
+2019-04-24 13:28:57 -Mapped "{[/login],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.LoginController.ajaxLogin(java.lang.String,java.lang.String)
+2019-04-24 13:28:57 -Mapped "{[/ || ],methods=[GET]}" onto java.lang.String com.template.system.controller.LoginController.welcome(org.springframework.ui.Model)
+2019-04-24 13:28:57 -Mapped "{[/sys/menu/add/{pId}],methods=[GET]}" onto java.lang.String com.template.system.controller.MenuController.add(org.springframework.ui.Model,java.lang.Long)
+2019-04-24 13:28:57 -Mapped "{[/sys/menu/remove],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.MenuController.remove(java.lang.Long)
+2019-04-24 13:28:57 -Mapped "{[/sys/menu/update],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.MenuController.update(com.template.system.domain.MenuDO)
+2019-04-24 13:28:57 -Mapped "{[/sys/menu/list]}" onto java.util.List<com.template.system.domain.MenuDO> com.template.system.controller.MenuController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-24 13:28:57 -Mapped "{[/sys/menu/save],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.MenuController.save(com.template.system.domain.MenuDO)
+2019-04-24 13:28:57 -Mapped "{[/sys/menu/tree/{roleId}],methods=[GET]}" onto com.template.common.domain.Tree<com.template.system.domain.MenuDO> com.template.system.controller.MenuController.tree(java.lang.Long)
+2019-04-24 13:28:57 -Mapped "{[/sys/menu/tree],methods=[GET]}" onto com.template.common.domain.Tree<com.template.system.domain.MenuDO> com.template.system.controller.MenuController.tree()
+2019-04-24 13:28:57 -Mapped "{[/sys/menu/edit/{id}],methods=[GET]}" onto java.lang.String com.template.system.controller.MenuController.edit(org.springframework.ui.Model,java.lang.Long)
+2019-04-24 13:28:57 -Mapped "{[/sys/menu],methods=[GET]}" onto java.lang.String com.template.system.controller.MenuController.menu(org.springframework.ui.Model)
+2019-04-24 13:28:57 -Mapped "{[/sys/role/add],methods=[GET]}" onto java.lang.String com.template.system.controller.RoleController.add()
+2019-04-24 13:28:57 -Mapped "{[/sys/role/update],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.RoleController.update(com.template.system.domain.RoleDO)
+2019-04-24 13:28:57 -Mapped "{[/sys/role/list],methods=[GET]}" onto java.util.List<com.template.system.domain.RoleDO> com.template.system.controller.RoleController.list()
+2019-04-24 13:28:57 -Mapped "{[/sys/role/remove],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.RoleController.save(java.lang.Long)
+2019-04-24 13:28:57 -Mapped "{[/sys/role/save],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.RoleController.save(com.template.system.domain.RoleDO)
+2019-04-24 13:28:57 -Mapped "{[/sys/role/batchRemove],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.RoleController.batchRemove(java.lang.Long[])
+2019-04-24 13:28:57 -Mapped "{[/sys/role],methods=[GET]}" onto java.lang.String com.template.system.controller.RoleController.role()
+2019-04-24 13:28:57 -Mapped "{[/sys/role/edit/{id}],methods=[GET]}" onto java.lang.String com.template.system.controller.RoleController.edit(java.lang.Long,org.springframework.ui.Model)
+2019-04-24 13:28:57 -Mapped "{[/sys/online/list]}" onto public java.util.List<com.template.system.domain.UserOnline> com.template.system.controller.SessionController.list()
+2019-04-24 13:28:57 -Mapped "{[/sys/online/forceLogout/{sessionId}]}" onto public com.template.common.utils.R com.template.system.controller.SessionController.forceLogout(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-04-24 13:28:57 -Mapped "{[/sys/online/sessionList]}" onto public java.util.Collection<org.apache.shiro.session.Session> com.template.system.controller.SessionController.sessionList()
+2019-04-24 13:28:57 -Mapped "{[/sys/online],methods=[GET]}" onto public java.lang.String com.template.system.controller.SessionController.online()
+2019-04-24 13:28:57 -Mapped "{[/sys/user/exit],methods=[POST]}" onto boolean com.template.system.controller.UserController.exit(java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-24 13:28:57 -Mapped "{[/sys/user/add],methods=[GET]}" onto java.lang.String com.template.system.controller.UserController.add(org.springframework.ui.Model)
+2019-04-24 13:28:57 -Mapped "{[/sys/user/remove],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.UserController.remove(java.lang.Long)
+2019-04-24 13:28:57 -Mapped "{[/sys/user/update],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.UserController.update(com.template.system.domain.UserDO)
+2019-04-24 13:28:57 -Mapped "{[/sys/user/list],methods=[GET]}" onto com.template.common.utils.PageUtils com.template.system.controller.UserController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-24 13:28:57 -Mapped "{[/sys/user/save],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.UserController.save(com.template.system.domain.UserDO)
+2019-04-24 13:28:57 -Mapped "{[/sys/user/batchRemove],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.UserController.batchRemove(java.lang.Long[])
+2019-04-24 13:28:57 -Mapped "{[/sys/user/tree],methods=[GET]}" onto public com.template.common.domain.Tree<com.template.system.domain.DeptDO> com.template.system.controller.UserController.tree()
+2019-04-24 13:28:57 -Mapped "{[/sys/user],methods=[GET]}" onto java.lang.String com.template.system.controller.UserController.user(org.springframework.ui.Model)
+2019-04-24 13:28:57 -Mapped "{[/sys/user/personal],methods=[GET]}" onto java.lang.String com.template.system.controller.UserController.personal(org.springframework.ui.Model)
+2019-04-24 13:28:57 -Mapped "{[/sys/user/uploadImg],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.UserController.uploadImg(org.springframework.web.multipart.MultipartFile,java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-04-24 13:28:57 -Mapped "{[/sys/user/edit/{id}],methods=[GET]}" onto java.lang.String com.template.system.controller.UserController.edit(org.springframework.ui.Model,java.lang.Long)
+2019-04-24 13:28:57 -Mapped "{[/sys/user/resetPwd],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.UserController.resetPwd(com.template.system.vo.UserVO)
+2019-04-24 13:28:57 -Mapped "{[/sys/user/resetPwd/{id}],methods=[GET]}" onto java.lang.String com.template.system.controller.UserController.resetPwd(java.lang.Long,org.springframework.ui.Model)
+2019-04-24 13:28:57 -Mapped "{[/sys/user/treeView],methods=[GET]}" onto java.lang.String com.template.system.controller.UserController.treeView()
+2019-04-24 13:28:57 -Mapped "{[/sys/user/adminResetPwd],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.UserController.adminResetPwd(com.template.system.vo.UserVO)
+2019-04-24 13:28:57 -Mapped "{[/sys/user/updatePeronal],methods=[POST]}" onto com.template.common.utils.R com.template.system.controller.UserController.updatePeronal(com.template.system.domain.UserDO)
+2019-04-24 13:28:57 -Mapped "{[/test/test/add],methods=[GET]}" onto java.lang.String com.template.test.controller.TestController.add()
+2019-04-24 13:28:57 -Mapped "{[/test/test/remove],methods=[POST]}" onto public com.template.common.utils.R com.template.test.controller.TestController.remove(java.lang.Integer)
+2019-04-24 13:28:57 -Mapped "{[/test/test/batchRemove],methods=[POST]}" onto public com.template.common.utils.R com.template.test.controller.TestController.remove(java.lang.Integer[])
+2019-04-24 13:28:57 -Mapped "{[/test/test/update]}" onto public com.template.common.utils.R com.template.test.controller.TestController.update(com.template.test.domain.TestDO)
+2019-04-24 13:28:57 -Mapped "{[/test/test/list],methods=[GET]}" onto public com.template.common.utils.PageUtils com.template.test.controller.TestController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-24 13:28:57 -Mapped "{[/test/test/save],methods=[POST]}" onto public com.template.common.utils.R com.template.test.controller.TestController.save(com.template.test.domain.TestDO)
+2019-04-24 13:28:57 -Mapped "{[/test/test/test]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> com.template.test.controller.TestController.test()
+2019-04-24 13:28:57 -Mapped "{[/test/test/edit/{id}],methods=[GET]}" onto java.lang.String com.template.test.controller.TestController.edit(java.lang.Integer,org.springframework.ui.Model)
+2019-04-24 13:28:57 -Mapped "{[/test/test],methods=[GET]}" onto java.lang.String com.template.test.controller.TestController.Test()
+2019-04-24 13:28:57 -Mapped "{[/test/test/go],methods=[GET]}" onto public java.lang.String com.template.test.controller.TestController.go()
+2019-04-24 13:28:57 -Mapped "{[/test/test/go1],methods=[GET]}" onto public java.lang.Object com.template.test.controller.TestController.gettest1(java.lang.Integer,java.lang.String,java.lang.Integer)
+2019-04-24 13:28:57 -Mapped "{[/test/test/testId]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.template.test.controller.TestController.testId(java.lang.Integer)
+2019-04-24 13:28:57 -Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-04-24 13:28:57 -Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-04-24 13:28:57 -Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-04-24 13:28:57 -Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-04-24 13:28:58 -Initializing ExecutorService  'messageBrokerTaskScheduler'
+2019-04-24 13:28:58 -Mapped URL path [/endpointChat/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2019-04-24 13:28:58 -Initializing ExecutorService  'brokerChannelExecutor'
+2019-04-24 13:28:58 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-24 13:28:58 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@10c626be: startup date [Wed Apr 24 13:28:52 CST 2019]; root of context hierarchy
+2019-04-24 13:28:58 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-24 13:28:58 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-24 13:28:58 -Mapped URL path [/files/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-24 13:28:58 -Detected @ExceptionHandler methods in BDExceptionHandler
+2019-04-24 13:28:58 -[THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-04-24 13:28:59 -Registering beans for JMX exposure on startup
+2019-04-24 13:28:59 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-04-24 13:28:59 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-04-24 13:28:59 -Starting beans in phase 2147483647
+2019-04-24 13:28:59 -Context refreshed
+2019-04-24 13:28:59 -Found 1 custom documentation plugin(s)
+2019-04-24 13:28:59 -Scanning for api listing references
+2019-04-24 13:29:00 -Generating unique operation named: removeUsingPOST_1
+2019-04-24 13:29:00 -Generating unique operation named: addUsingGET_1
+2019-04-24 13:29:00 -Generating unique operation named: editUsingGET_1
+2019-04-24 13:29:00 -Generating unique operation named: listUsingGET_1
+2019-04-24 13:29:00 -Generating unique operation named: removeUsingPOST_2
+2019-04-24 13:29:00 -Generating unique operation named: removeUsingPOST_3
+2019-04-24 13:29:00 -Generating unique operation named: saveUsingPOST_1
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingGET_1
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingHEAD_1
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingPOST_1
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingPUT_1
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingPATCH_1
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingDELETE_1
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingOPTIONS_1
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingTRACE_1
+2019-04-24 13:29:00 -Generating unique operation named: addUsingGET_2
+2019-04-24 13:29:00 -Generating unique operation named: editUsingGET_2
+2019-04-24 13:29:00 -Generating unique operation named: listUsingGET_2
+2019-04-24 13:29:00 -Generating unique operation named: removeUsingPOST_4
+2019-04-24 13:29:00 -Generating unique operation named: removeUsingPOST_5
+2019-04-24 13:29:00 -Generating unique operation named: saveUsingPOST_2
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingGET_2
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingHEAD_2
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingPOST_2
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingPUT_2
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingPATCH_2
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingDELETE_2
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingOPTIONS_2
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingTRACE_2
+2019-04-24 13:29:00 -Generating unique operation named: editUsingGET_3
+2019-04-24 13:29:00 -Generating unique operation named: listUsingGET_3
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingPOST_3
+2019-04-24 13:29:00 -Generating unique operation named: addUsingGET_3
+2019-04-24 13:29:00 -Generating unique operation named: editUsingGET_4
+2019-04-24 13:29:00 -Generating unique operation named: infoUsingGET_1
+2019-04-24 13:29:00 -Generating unique operation named: infoUsingHEAD_1
+2019-04-24 13:29:00 -Generating unique operation named: infoUsingPOST_1
+2019-04-24 13:29:00 -Generating unique operation named: infoUsingPUT_1
+2019-04-24 13:29:00 -Generating unique operation named: infoUsingPATCH_1
+2019-04-24 13:29:00 -Generating unique operation named: infoUsingDELETE_1
+2019-04-24 13:29:00 -Generating unique operation named: infoUsingOPTIONS_1
+2019-04-24 13:29:00 -Generating unique operation named: infoUsingTRACE_1
+2019-04-24 13:29:00 -Generating unique operation named: listUsingGET_4
+2019-04-24 13:29:00 -Generating unique operation named: removeUsingPOST_6
+2019-04-24 13:29:00 -Generating unique operation named: removeUsingPOST_7
+2019-04-24 13:29:00 -Generating unique operation named: saveUsingPOST_3
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingPOST_4
+2019-04-24 13:29:00 -Generating unique operation named: listUsingGET_5
+2019-04-24 13:29:00 -Generating unique operation named: removeUsingPOST_8
+2019-04-24 13:29:00 -Generating unique operation named: welcomeUsingGET_1
+2019-04-24 13:29:00 -Generating unique operation named: addUsingGET_4
+2019-04-24 13:29:00 -Generating unique operation named: editUsingGET_5
+2019-04-24 13:29:00 -Generating unique operation named: listUsingGET_6
+2019-04-24 13:29:00 -Generating unique operation named: removeUsingPOST_9
+2019-04-24 13:29:00 -Generating unique operation named: saveUsingPOST_4
+2019-04-24 13:29:00 -Generating unique operation named: treeUsingGET_1
+2019-04-24 13:29:00 -Generating unique operation named: treeUsingGET_2
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingPOST_5
+2019-04-24 13:29:00 -Generating unique operation named: addUsingGET_5
+2019-04-24 13:29:00 -Generating unique operation named: editUsingGET_6
+2019-04-24 13:29:00 -Generating unique operation named: listUsingGET_7
+2019-04-24 13:29:00 -Generating unique operation named: removeUsingPOST_10
+2019-04-24 13:29:00 -Generating unique operation named: removeUsingPOST_11
+2019-04-24 13:29:00 -Generating unique operation named: saveUsingPOST_5
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingGET_3
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingHEAD_3
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingPOST_6
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingPUT_3
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingPATCH_3
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingDELETE_3
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingOPTIONS_3
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingTRACE_3
+2019-04-24 13:29:00 -Generating unique operation named: addUsingGET_6
+2019-04-24 13:29:00 -Generating unique operation named: batchRemoveUsingPOST_1
+2019-04-24 13:29:00 -Generating unique operation named: editUsingGET_7
+2019-04-24 13:29:00 -Generating unique operation named: listUsingGET_8
+2019-04-24 13:29:00 -Generating unique operation named: saveUsingPOST_6
+2019-04-24 13:29:00 -Generating unique operation named: saveUsingPOST_7
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingPOST_7
+2019-04-24 13:29:00 -Generating unique operation named: listUsingGET_9
+2019-04-24 13:29:00 -Generating unique operation named: listUsingHEAD_1
+2019-04-24 13:29:00 -Generating unique operation named: listUsingPOST_1
+2019-04-24 13:29:00 -Generating unique operation named: listUsingPUT_1
+2019-04-24 13:29:00 -Generating unique operation named: listUsingPATCH_1
+2019-04-24 13:29:00 -Generating unique operation named: listUsingDELETE_1
+2019-04-24 13:29:00 -Generating unique operation named: listUsingOPTIONS_1
+2019-04-24 13:29:00 -Generating unique operation named: listUsingTRACE_1
+2019-04-24 13:29:00 -Generating unique operation named: addUsingGET_7
+2019-04-24 13:29:00 -Generating unique operation named: editUsingGET_8
+2019-04-24 13:29:00 -Generating unique operation named: listUsingGET_10
+2019-04-24 13:29:00 -Generating unique operation named: removeUsingPOST_12
+2019-04-24 13:29:00 -Generating unique operation named: removeUsingPOST_13
+2019-04-24 13:29:00 -Generating unique operation named: saveUsingPOST_8
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingGET_4
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingHEAD_4
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingPOST_8
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingPUT_4
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingPATCH_4
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingDELETE_4
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingOPTIONS_4
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingTRACE_4
+2019-04-24 13:29:00 -Generating unique operation named: addUsingGET_8
+2019-04-24 13:29:00 -Generating unique operation named: batchRemoveUsingPOST_2
+2019-04-24 13:29:00 -Generating unique operation named: editUsingGET_9
+2019-04-24 13:29:00 -Generating unique operation named: listUsingGET_11
+2019-04-24 13:29:00 -Generating unique operation named: removeUsingPOST_14
+2019-04-24 13:29:00 -Generating unique operation named: saveUsingPOST_9
+2019-04-24 13:29:00 -Generating unique operation named: treeUsingGET_3
+2019-04-24 13:29:00 -Generating unique operation named: treeViewUsingGET_1
+2019-04-24 13:29:00 -Generating unique operation named: updateUsingPOST_9
+2019-04-24 13:29:01 -Starting Quartz Scheduler now
+2019-04-24 13:29:01 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2019-04-24 13:29:01 -Starting...
+2019-04-24 13:29:01 -BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-04-24 13:29:01 -Started.
+2019-04-24 13:29:01 -Starting ProtocolHandler ["http-nio-8080"]
+2019-04-24 13:29:01 -Using a shared selector for servlet write/read
+2019-04-24 13:29:01 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-24 13:29:01 -Started TemplateApplication in 9.273 seconds (JVM running for 11.456)
+2019-04-24 13:29:01 -==>  Preparing: select `id`,`cron_expression`,`method_name`,`is_concurrent`,`description`,`update_by`,`bean_class`,`create_date`,`job_status`,`job_group`,`update_date`,`create_by`,`spring_bean`,`job_name` from sys_task order by id desc 
+2019-04-24 13:29:01 -==> Parameters: 
+2019-04-24 13:29:01 -<==      Total: 1
+2019-04-24 13:29:11 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-24 13:29:11 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-04-24 13:29:11 -FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2019-04-24 13:29:11 -Enabling session validation scheduler...
+2019-04-24 13:29:11 -请求地址 : http://localhost:8080/
+2019-04-24 13:29:11 -HTTP METHOD : GET
+2019-04-24 13:29:11 -CLASS_METHOD : com.template.system.controller.LoginController.welcome
+2019-04-24 13:29:11 -参数 : [{}]
+2019-04-24 13:29:11 -耗时 : 2
+2019-04-24 13:29:11 -返回值 : redirect:/index
+2019-04-24 13:29:11 -请求地址 : http://localhost:8080/login;JSESSIONID=7472c6f0-7f75-44b0-9c57-92431b430f5d
+2019-04-24 13:29:11 -HTTP METHOD : GET
+2019-04-24 13:29:11 -CLASS_METHOD : com.template.system.controller.LoginController.login
+2019-04-24 13:29:11 -参数 : [{}]
+2019-04-24 13:29:11 -耗时 : 0
+2019-04-24 13:29:11 -返回值 : login
+2019-04-24 13:29:11 -请求地址 : http://localhost:8080/login
+2019-04-24 13:29:11 -HTTP METHOD : GET
+2019-04-24 13:29:11 -CLASS_METHOD : com.template.system.controller.LoginController.login
+2019-04-24 13:29:11 -参数 : [{}]
+2019-04-24 13:29:11 -耗时 : 0
+2019-04-24 13:29:11 -返回值 : login
+2019-04-24 13:29:13 -请求地址 : http://localhost:8080/login
+2019-04-24 13:29:13 -HTTP METHOD : POST
+2019-04-24 13:29:13 -CLASS_METHOD : com.template.system.controller.LoginController.ajaxLogin
+2019-04-24 13:29:13 -参数 : [admin, 111111]
+2019-04-24 13:29:13 -==>  Preparing: select `user_id`,`username`,`name`,`password`,`dept_id`,`email`,`mobile`,`status`,`user_id_create`,`gmt_create`,`gmt_modified`,`sex`,`birth`,`pic_id`,`live_address`,`hobby`,`province`,`city`,`district` from sys_user WHERE username = ? order by user_id desc 
+2019-04-24 13:29:13 -==> Parameters: admin(String)
+2019-04-24 13:29:13 -<==      Total: 1
+2019-04-24 13:29:13 -耗时 : 48
+2019-04-24 13:29:13 -返回值 : {msg=操作成功, code=0}
+2019-04-24 13:29:13 -More than one TaskExecutor bean found within the context, and none is named 'taskExecutor'. Mark one of them as primary or name it 'taskExecutor' (possibly as an alias) in order to use it for async processing: [clientInboundChannelExecutor, clientOutboundChannelExecutor, brokerChannelExecutor, messageBrokerTaskScheduler]
+2019-04-24 13:29:13 -==>  Preparing: insert into sys_log ( `user_id`, `username`, `operation`, `time`, `method`, `params`, `ip`, `gmt_create` ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2019-04-24 13:29:13 -==> Parameters: 1(Long), admin(String), 登录(String), 49(Integer), com.template.system.controller.LoginController.ajaxLogin()(String), null, 127.0.0.1(String), 2019-04-24 13:29:13.409(Timestamp)
+2019-04-24 13:29:13 -<==    Updates: 1
+2019-04-24 13:29:13 -请求地址 : http://localhost:8080/index
+2019-04-24 13:29:13 -HTTP METHOD : GET
+2019-04-24 13:29:13 -CLASS_METHOD : com.template.system.controller.LoginController.index
+2019-04-24 13:29:13 -参数 : [{}]
+2019-04-24 13:29:13 -==>  Preparing: select distinct m.menu_id , parent_id, name, url, perms,`type`,icon,order_num,gmt_create, gmt_modified from sys_menu m left join sys_role_menu rm on m.menu_id = rm.menu_id left join sys_user_role ur on rm.role_id =ur.role_id where ur.user_id = ? and m.type in(0,1) order by m.order_num 
+2019-04-24 13:29:13 -==> Parameters: 1(Long)
+2019-04-24 13:29:13 -<==      Total: 21
+2019-04-24 13:29:13 -==>  Preparing: select `id`,`type`,`url`,`create_date` from sys_file where id = ? 
+2019-04-24 13:29:13 -==> Parameters: 150(Long)
+2019-04-24 13:29:13 -<==      Total: 1
+2019-04-24 13:29:13 -耗时 : 48
+2019-04-24 13:29:13 -返回值 : index_v1
+2019-04-24 13:29:13 -==>  Preparing: insert into sys_log ( `user_id`, `username`, `operation`, `time`, `method`, `params`, `ip`, `gmt_create` ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2019-04-24 13:29:13 -==> Parameters: 1(Long), admin(String), 请求访问主页(String), 48(Integer), com.template.system.controller.LoginController.index()(String), null, 127.0.0.1(String), 2019-04-24 13:29:13.524(Timestamp)
+2019-04-24 13:29:13 -<==    Updates: 1
+2019-04-24 13:29:13 -请求地址 : http://localhost:8080/main
+2019-04-24 13:29:13 -HTTP METHOD : GET
+2019-04-24 13:29:13 -CLASS_METHOD : com.template.system.controller.LoginController.main
+2019-04-24 13:29:13 -参数 : []
+2019-04-24 13:29:13 -耗时 : 0
+2019-04-24 13:29:13 -返回值 : main
+2019-04-24 13:29:13 -请求地址 : http://localhost:8080/oa/notify/message
+2019-04-24 13:29:13 -HTTP METHOD : GET
+2019-04-24 13:29:13 -CLASS_METHOD : com.template.oa.controller.NotifyController.message
+2019-04-24 13:29:13 -参数 : []
+2019-04-24 13:29:13 -==>  Preparing: select DISTINCT n.id ,`type`,`title`,`content`,`files`,r.is_read,`status`,`create_by`,`create_date`,`update_by`,`update_date`,`remarks`,`del_flag` from oa_notify_record r right JOIN oa_notify n on r.notify_id = n.id WHERE r.is_read = ? and r.user_id = ? order by is_read ASC, update_date DESC limit ?, ? 
+2019-04-24 13:29:13 -==> Parameters: 0(String), 1(Long), 0(Integer), 3(Integer)
+2019-04-24 13:29:13 -<==      Total: 0
+2019-04-24 13:29:13 -==>  Preparing: select count(*) from oa_notify_record r right JOIN oa_notify n on r.notify_id = n.id where r.user_id =? and r.is_read = ? 
+2019-04-24 13:29:13 -==> Parameters: 1(Long), 0(String)
+2019-04-24 13:29:13 -<==      Total: 1
+2019-04-24 13:29:13 -耗时 : 26
+2019-04-24 13:29:13 -返回值 : com.template.common.utils.PageUtils@7cfefd9a
+2019-04-24 13:29:13 -请求地址 : http://localhost:8080/main
+2019-04-24 13:29:13 -HTTP METHOD : GET
+2019-04-24 13:29:13 -CLASS_METHOD : com.template.system.controller.LoginController.main
+2019-04-24 13:29:13 -参数 : []
+2019-04-24 13:29:13 -耗时 : 1
+2019-04-24 13:29:13 -返回值 : main
+2019-04-24 13:29:15 -请求地址 : http://localhost:8080/main
+2019-04-24 13:29:15 -HTTP METHOD : GET
+2019-04-24 13:29:15 -CLASS_METHOD : com.template.system.controller.LoginController.main
+2019-04-24 13:29:15 -参数 : []
+2019-04-24 13:29:15 -耗时 : 1
+2019-04-24 13:29:15 -返回值 : main
+2019-04-24 13:29:16 -==>  Preparing: select distinct m.perms from sys_menu m left join sys_role_menu rm on m.menu_id = rm.menu_id left join sys_user_role ur on rm.role_id = ur.role_id where ur.user_id = ? 
+2019-04-24 13:29:16 -==> Parameters: 1(Long)
+2019-04-24 13:29:16 -<==      Total: 45
+2019-04-24 13:29:16 -请求地址 : http://localhost:8080/common/dict
+2019-04-24 13:29:16 -HTTP METHOD : GET
+2019-04-24 13:29:16 -CLASS_METHOD : com.template.common.controller.DictController.dict
+2019-04-24 13:29:16 -参数 : []
+2019-04-24 13:29:16 -耗时 : 0
+2019-04-24 13:29:16 -返回值 : common/dict/dict
+2019-04-24 13:29:17 -请求地址 : http://localhost:8080/common/dict/type
+2019-04-24 13:29:17 -HTTP METHOD : GET
+2019-04-24 13:29:17 -CLASS_METHOD : com.template.common.controller.DictController.listType
+2019-04-24 13:29:17 -参数 : []
+2019-04-24 13:29:17 -==>  Preparing: select distinct `type` , description from sys_dict 
+2019-04-24 13:29:17 -==> Parameters: 
+2019-04-24 13:29:17 -<==      Total: 31
+2019-04-24 13:29:17 -耗时 : 11
+2019-04-24 13:29:17 -返回值 : [DictDO{id=null, name='null', value='null', type='del_flag', description='删除标记', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='show_hide', description='显示/隐藏', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='yes_no', description='是/否', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='color', description='颜色值', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='theme', description='主题方案', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='sys_area_type', description='区域类型', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='sys_office_type', description='机构类型', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='sys_office_common', description='快捷通用部门', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='sys_office_grade', description='机构等级', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='sys_data_scope', description='数据范围', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='sys_user_type', description='用户类型', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='cms_theme', description='站点主题', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='cms_module', description='栏目模型', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='cms_show_modes', description='展现方式', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='cms_del_flag', description='内容状态', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='cms_posid', description='推荐位', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='cms_guestbook', description='留言板分类', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='oa_leave_type', description='请假类型', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='sys_log_type', description='日志类型', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='act_type', description='流程类型', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='act_category', description='流程分类', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='gen_category', description='代码生成分类', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='gen_query_type', description='查询方式', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='gen_show_type', description='字段生成方案', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='gen_java_type', description='Java类型', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='sex', description='性别', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='oa_notify_type', description='通知通告类型', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='oa_notify_status', description='通知通告状态', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='oa_notify_read', description='通知通告状态', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='blog_type', description='博客类型', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}, DictDO{id=null, name='null', value='null', type='hobby', description='爱好', sort=null, parentId=null, createBy=null, createDate=null, updateBy=null, updateDate=null, remarks='null', delFlag='null'}]
+2019-04-24 13:29:17 -请求地址 : http://localhost:8080/common/dict/list
+2019-04-24 13:29:17 -HTTP METHOD : GET
+2019-04-24 13:29:17 -CLASS_METHOD : com.template.common.controller.DictController.list
+2019-04-24 13:29:17 -参数 : [{limit=10, offset=0}]
+2019-04-24 13:29:17 -==>  Preparing: select `id`,`name`,`value`,`type`,`description`,`sort`,`parent_id`,`create_by`,`create_date`,`update_by`,`update_date`,`remarks`,`del_flag` from sys_dict order by id desc limit ?, ? 
+2019-04-24 13:29:17 -==> Parameters: 0(Integer), 10(Integer)
+2019-04-24 13:29:17 -<==      Total: 10
+2019-04-24 13:29:17 -==>  Preparing: select count(*) from sys_dict 
+2019-04-24 13:29:17 -==> Parameters: 
+2019-04-24 13:29:17 -<==      Total: 1
+2019-04-24 13:29:17 -耗时 : 8
+2019-04-24 13:29:17 -返回值 : com.template.common.utils.PageUtils@123f5eb5
+2019-04-24 13:29:17 -请求地址 : http://localhost:8080/common/sysFile
+2019-04-24 13:29:17 -HTTP METHOD : GET
+2019-04-24 13:29:17 -CLASS_METHOD : com.template.common.controller.FileController.sysFile
+2019-04-24 13:29:17 -参数 : [{}]
+2019-04-24 13:29:17 -耗时 : 1
+2019-04-24 13:29:17 -返回值 : common/file/file
+2019-04-24 13:29:17 -请求地址 : http://localhost:8080/common/sysFile/list
+2019-04-24 13:29:17 -HTTP METHOD : GET
+2019-04-24 13:29:17 -CLASS_METHOD : com.template.common.controller.FileController.list
+2019-04-24 13:29:17 -参数 : [{limit=12, offset=0, type=}]
+2019-04-24 13:29:17 -==>  Preparing: select `id`,`type`,`url`,`create_date` from sys_file order by id desc limit ?, ? 
+2019-04-24 13:29:17 -==> Parameters: 0(Integer), 12(Integer)
+2019-04-24 13:29:17 -<==      Total: 8
+2019-04-24 13:29:17 -==>  Preparing: select count(*) from sys_file 
+2019-04-24 13:29:17 -==> Parameters: 
+2019-04-24 13:29:17 -<==      Total: 1
+2019-04-24 13:29:17 -耗时 : 9
+2019-04-24 13:29:17 -返回值 : com.template.common.utils.PageUtils@3d7ed164
+2019-04-24 13:29:19 -请求地址 : http://localhost:8080/sys/user/
+2019-04-24 13:29:19 -HTTP METHOD : GET
+2019-04-24 13:29:19 -CLASS_METHOD : com.template.system.controller.UserController.user
+2019-04-24 13:29:19 -参数 : [{}]
+2019-04-24 13:29:19 -耗时 : 1
+2019-04-24 13:29:19 -返回值 : system/user/user
+2019-04-24 13:29:19 -请求地址 : http://localhost:8080/system/sysDept/tree
+2019-04-24 13:29:19 -HTTP METHOD : GET
+2019-04-24 13:29:19 -CLASS_METHOD : com.template.system.controller.DeptController.tree
+2019-04-24 13:29:19 -参数 : []
+2019-04-24 13:29:19 -==>  Preparing: select `dept_id`,`parent_id`,`name`,`order_num`,`del_flag` from sys_dept order by dept_id desc 
+2019-04-24 13:29:19 -==> Parameters: 
+2019-04-24 13:29:19 -<==      Total: 12
+2019-04-24 13:29:19 -耗时 : 12
+2019-04-24 13:29:19 -返回值 : {"checked":true,"children":[{"checked":false,"children":[{"checked":false,"children":[],"hasChildren":false,"hasParent":true,"id":"19","parentId":"18","state":{"opened":true},"text":"在测试1"}],"hasChildren":true,"hasParent":false,"id":"18","parentId":"0","state":{"opened":true},"text":"再测试"},{"checked":false,"children":[{"checked":false,"children":[],"hasChildren":false,"hasParent":true,"id":"15","parentId":"13","state":{"opened":true},"text":"测试二部"},{"checked":false,"children":[],"hasChildren":false,"hasParent":true,"id":"14","parentId":"13","state":{"opened":true},"text":"测试一部"}],"hasChildren":true,"hasParent":false,"id":"13","parentId":"0","state":{"opened":true},"text":"测试部"},{"checked":false,"children":[{"checked":false,"children":[],"hasChildren":false,"hasParent":true,"id":"12","parentId":"11","state":{"opened":true},"text":"产品一部"}],"hasChildren":true,"hasParent":false,"id":"11","parentId":"0","state":{"opened":true},"text":"产品部"},{"checked":false,"children":[{"checked":false,"children":[],"hasChildren":false,"hasParent":true,"id":"10","parentId":"9","state":{"opened":true},"text":"销售一部"}],"hasChildren":true,"hasParent":false,"id":"9","parentId":"0","state":{"opened":true},"text":"销售部"},{"checked":false,"children":[{"checked":false,"children":[],"hasChildren":false,"hasParent":true,"id":"8","parentId":"6","state":{"opened":true},"text":"研发二部"},{"checked":false,"children":[],"hasChildren":false,"hasParent":true,"id":"7","parentId":"6","state":{"opened":true},"text":"研發一部"}],"hasChildren":true,"hasParent":false,"id":"6","parentId":"0","state":{"opened":true},"text":"研发部"}],"hasChildren":true,"hasParent":false,"id":"-1","parentId":"","state":{"opened":true},"text":"顶级节点"}
+2019-04-24 13:29:19 -请求地址 : http://localhost:8080/sys/user/list
+2019-04-24 13:29:19 -HTTP METHOD : GET
+2019-04-24 13:29:19 -CLASS_METHOD : com.template.system.controller.UserController.list
+2019-04-24 13:29:19 -参数 : [{limit=10, offset=0, name=, deptId=}]
+2019-04-24 13:29:19 -==>  Preparing: select `user_id`,`username`,`name`,`password`,`dept_id`,`email`,`mobile`,`status`,`user_id_create`,`gmt_create`,`gmt_modified`,`sex`,`birth`,`pic_id`,`live_address`,`hobby`,`province`,`city`,`district` from sys_user order by user_id desc limit ?, ? 
+2019-04-24 13:29:19 -==> Parameters: 0(Integer), 10(Integer)
+2019-04-24 13:29:19 -<==      Total: 10
+2019-04-24 13:29:19 -==>  Preparing: select count(*) from sys_user 
+2019-04-24 13:29:19 -==> Parameters: 
+2019-04-24 13:29:19 -<==      Total: 1
+2019-04-24 13:29:19 -耗时 : 16
+2019-04-24 13:29:19 -返回值 : com.template.common.utils.PageUtils@4ae8a432
+2019-04-24 13:29:20 -请求地址 : http://localhost:8080/sys/role
+2019-04-24 13:29:20 -HTTP METHOD : GET
+2019-04-24 13:29:20 -CLASS_METHOD : com.template.system.controller.RoleController.role
+2019-04-24 13:29:20 -参数 : []
+2019-04-24 13:29:20 -耗时 : 0
+2019-04-24 13:29:20 -返回值 : system/role/role
+2019-04-24 13:29:20 -请求地址 : http://localhost:8080/sys/role/list
+2019-04-24 13:29:20 -HTTP METHOD : GET
+2019-04-24 13:29:20 -CLASS_METHOD : com.template.system.controller.RoleController.list
+2019-04-24 13:29:20 -参数 : []
+2019-04-24 13:29:20 -==>  Preparing: select `role_id`,`role_name`,`role_sign`,`remark`,`user_id_create`,`gmt_create`,`gmt_modified` from sys_role order by role_id desc 
+2019-04-24 13:29:20 -==> Parameters: 
+2019-04-24 13:29:20 -<==      Total: 3
+2019-04-24 13:29:20 -耗时 : 15
+2019-04-24 13:29:20 -返回值 : [RoleDO{roleId=60, roleName='测试用户', roleSign='null', remark='', userIdCreate=null, gmtCreate=null, gmtModified=null, menuIds=null}, RoleDO{roleId=59, roleName='普通用户', roleSign='null', remark='基本用户权限', userIdCreate=null, gmtCreate=null, gmtModified=null, menuIds=null}, RoleDO{roleId=1, roleName='超级用户角色', roleSign='admin', remark='拥有最高权限', userIdCreate=2, gmtCreate=2017-08-12 00:43:52.0, gmtModified=2017-08-12 19:14:59.0, menuIds=null}]
+2019-04-24 13:29:20 -请求地址 : http://localhost:8080/sys/menu/
+2019-04-24 13:29:20 -HTTP METHOD : GET
+2019-04-24 13:29:20 -CLASS_METHOD : com.template.system.controller.MenuController.menu
+2019-04-24 13:29:20 -参数 : [{}]
+2019-04-24 13:29:20 -耗时 : 0
+2019-04-24 13:29:20 -返回值 : system/menu/menu
+2019-04-24 13:29:20 -请求地址 : http://localhost:8080/sys/menu/list
+2019-04-24 13:29:20 -HTTP METHOD : GET
+2019-04-24 13:29:20 -CLASS_METHOD : com.template.system.controller.MenuController.list
+2019-04-24 13:29:20 -参数 : [{sort=order_num}]
+2019-04-24 13:29:20 -==>  Preparing: select `menu_id`,`parent_id`,`name`,`url`,`perms`,`type`,`icon`,`order_num`,`gmt_create`,`gmt_modified` from sys_menu order by order_num 
+2019-04-24 13:29:20 -==> Parameters: 
+2019-04-24 13:29:20 -<==      Total: 53
+2019-04-24 13:29:20 -耗时 : 20
+2019-04-24 13:29:20 -返回值 : [MenuDO{menuId=55, parentId=7, name='编辑', url='', perms='sys:role:edit', type=2, icon='', orderNum=null, gmtCreate=null, gmtModified=null}, MenuDO{menuId=56, parentId=7, name='删除', url='', perms='sys:role:remove', type=2, icon='null', orderNum=null, gmtCreate=null, gmtModified=null}, MenuDO{menuId=61, parentId=2, name='批量删除', url='', perms='sys:menu:batchRemove', type=2, icon='null', orderNum=null, gmtCreate=null, gmtModified=null}, MenuDO{menuId=62, parentId=7, name='批量删除', url='', perms='sys:role:batchRemove', type=2, icon='null', orderNum=null, gmtCreate=null, gmtModified=null}, MenuDO{menuId=85, parentId=84, name='通知公告', url='oa/notify', perms='oa:notify:notify', type=1, icon='fa fa-pencil-square', orderNum=null, gmtCreate=null, gmtModified=null}, MenuDO{menuId=88, parentId=85, name='删除', url='oa/notify/remove', perms='oa:notify:remove', type=2, icon='fa fa-minus', orderNum=null, gmtCreate=null, gmtModified=null}, MenuDO{menuId=89, parentId=85, name='批量删除', url='oa/notify/batchRemove', perms='oa:notify:batchRemove', type=2, icon='', orderNum=null, gmtCreate=null, gmtModified=null}, MenuDO{menuId=90, parentId=84, name='我的通知', url='oa/notify/selfNotify', perms='', type=1, icon='fa fa-envelope-square', orderNum=null, gmtCreate=null, gmtModified=null}, MenuDO{menuId=92, parentId=91, name='在线用户', url='sys/online', perms='', type=1, icon='fa fa-user', orderNum=null, gmtCreate=null, gmtModified=null}, MenuDO{menuId=107, parentId=106, name='测试菜单', url='http://www.baidu.com', perms='', type=1, icon='fa fa-area-chart', orderNum=null, gmtCreate=null, gmtModified=null}, MenuDO{menuId=108, parentId=106, name='测试', url='/test/test', perms='test:test:test', type=1, icon='fa fa-lemon-o', orderNum=null, gmtCreate=null, gmtModified=null}, MenuDO{menuId=109, parentId=108, name='新增', url='', perms='test:test:add', type=2, icon='', orderNum=null, gmtCreate=null, gmtModified=null}, MenuDO{menuId=110, parentId=108, name='编辑', url='', perms='test:test:edit', type=2, icon='', orderNum=null, gmtCreate=null, gmtModified=null}, MenuDO{menuId=111, parentId=108, name='删除', url='', perms='test:test:remove', type=2, icon='', orderNum=null, gmtCreate=null, gmtModified=null}, MenuDO{menuId=112, parentId=108, name='批量删除', url='', perms='test:test:batchRemove', type=2, icon='', orderNum=null, gmtCreate=null, gmtModified=null}, MenuDO{menuId=1, parentId=0, name='基础管理', url='', perms='', type=0, icon='fa fa-bars', orderNum=0, gmtCreate=Wed Aug 09 22:49:47 CST 2017, gmtModified=null}, MenuDO{menuId=6, parentId=3, name='用户管理', url='sys/user/', perms='sys:user:user', type=1, icon='fa fa-user', orderNum=0, gmtCreate=Thu Aug 10 14:12:11 CST 2017, gmtModified=null}, MenuDO{menuId=12, parentId=6, name='新增', url='', perms='sys:user:add', type=2, icon='', orderNum=0, gmtCreate=Mon Aug 14 10:51:35 CST 2017, gmtModified=null}, MenuDO{menuId=13, parentId=6, name='编辑', url='', perms='sys:user:edit', type=2, icon='', orderNum=0, gmtCreate=Mon Aug 14 10:52:06 CST 2017, gmtModified=null}, MenuDO{menuId=14, parentId=6, name='删除', url='null', perms='sys:user:remove', type=2, icon='null', orderNum=0, gmtCreate=Mon Aug 14 10:52:24 CST 2017, gmtModified=null}, MenuDO{menuId=15, parentId=7, name='新增', url='', perms='sys:role:add', type=2, icon='', orderNum=0, gmtCreate=Mon Aug 14 10:56:37 CST 2017, gmtModified=null}, MenuDO{menuId=20, parentId=2, name='新增', url='', perms='sys:menu:add', type=2, icon='', orderNum=0, gmtCreate=Mon Aug 14 10:59:32 CST 2017, gmtModified=null}, MenuDO{menuId=21, parentId=2, name='编辑', url='', perms='sys:menu:edit', type=2, icon='', orderNum=0, gmtCreate=Mon Aug 14 10:59:56 CST 2017, gmtModified=null}, MenuDO{menuId=22, parentId=2, name='删除', url='', perms='sys:menu:remove', type=2, icon='', orderNum=0, gmtCreate=Mon Aug 14 11:00:26 CST 2017, gmtModified=null}, MenuDO{menuId=24, parentId=6, name='批量删除', url='', perms='sys:user:batchRemove', type=2, icon='', orderNum=0, gmtCreate=Mon Aug 14 17:27:18 CST 2017, gmtModified=null}, MenuDO{menuId=25, parentId=6, name='停用', url='null', perms='sys:user:disable', type=2, icon='null', orderNum=0, gmtCreate=Mon Aug 14 17:27:43 CST 2017, gmtModified=null}, MenuDO{menuId=26, parentId=6, name='重置密码', url='', perms='sys:user:resetPwd', type=2, icon='', orderNum=0, gmtCreate=Mon Aug 14 17:28:34 CST 2017, gmtModified=null}, MenuDO{menuId=27, parentId=91, name='系统日志', url='common/log', perms='common:log', type=1, icon='fa fa-warning', orderNum=0, gmtCreate=Mon Aug 14 22:11:53 CST 2017, gmtModified=null}, MenuDO{menuId=28, parentId=27, name='刷新', url='null', perms='sys:log:list', type=2, icon='null', orderNum=0, gmtCreate=Mon Aug 14 22:30:22 CST 2017, gmtModified=null}, MenuDO{menuId=29, parentId=27, name='删除', url='null', perms='sys:log:remove', type=2, icon='null', orderNum=0, gmtCreate=Mon Aug 14 22:30:43 CST 2017, gmtModified=null}, MenuDO{menuId=30, parentId=27, name='清空', url='null', perms='sys:log:clear', type=2, icon='null', orderNum=0, gmtCreate=Mon Aug 14 22:31:02 CST 2017, gmtModified=null}, MenuDO{menuId=3, parentId=0, name='系统管理', url='null', perms='null', type=0, icon='fa fa-desktop', orderNum=1, gmtCreate=Wed Aug 09 23:06:55 CST 2017, gmtModified=Mon Aug 14 14:13:43 CST 2017}, MenuDO{menuId=7, parentId=3, name='角色管理', url='sys/role', perms='sys:role:role', type=1, icon='fa fa-paw', orderNum=1, gmtCreate=Thu Aug 10 14:13:19 CST 2017, gmtModified=null}, MenuDO{menuId=57, parentId=91, name='运行监控', url='/druid/index.html', perms='', type=1, icon='fa fa-caret-square-o-right', orderNum=1, gmtCreate=null, gmtModified=null}, MenuDO{menuId=74, parentId=73, name='增加', url='/system/sysDept/add', perms='system:sysDept:add', type=2, icon='null', orderNum=1, gmtCreate=null, gmtModified=null}, MenuDO{menuId=78, parentId=1, name='数据字典', url='/common/dict', perms='common:dict:dict', type=1, icon='fa fa-book', orderNum=1, gmtCreate=null, gmtModified=null}, MenuDO{menuId=86, parentId=85, name='新增', url='oa/notify/add', perms='oa:notify:add', type=2, icon='fa fa-plus', orderNum=1, gmtCreate=null, gmtModified=null}, MenuDO{menuId=2, parentId=3, name='系统菜单', url='sys/menu/', perms='sys:menu:menu', type=1, icon='fa fa-th-list', orderNum=2, gmtCreate=Wed Aug 09 22:55:15 CST 2017, gmtModified=null}, MenuDO{menuId=71, parentId=1, name='文件管理', url='/common/sysFile', perms='common:sysFile:sysFile', type=1, icon='fa fa-folder-open', orderNum=2, gmtCreate=null, gmtModified=null}, MenuDO{menuId=75, parentId=73, name='刪除', url='system/sysDept/remove', perms='system:sysDept:remove', type=2, icon='null', orderNum=2, gmtCreate=null, gmtModified=null}, MenuDO{menuId=79, parentId=78, name='增加', url='/common/dict/add', perms='common:dict:add', type=2, icon='null', orderNum=2, gmtCreate=null, gmtModified=null}, MenuDO{menuId=80, parentId=78, name='编辑', url='/common/dict/edit', perms='common:dict:edit', type=2, icon='null', orderNum=2, gmtCreate=null, gmtModified=null}, MenuDO{menuId=87, parentId=85, name='编辑', url='oa/notify/edit', perms='oa:notify:edit', type=2, icon='fa fa-pencil-square-o', orderNum=2, gmtCreate=null, gmtModified=null}, MenuDO{menuId=48, parentId=77, name='代码生成', url='common/generator', perms='common:generator', type=1, icon='fa fa-code', orderNum=3, gmtCreate=null, gmtModified=null}, MenuDO{menuId=73, parentId=3, name='部门管理', url='/system/sysDept', perms='system:sysDept:sysDept', type=1, icon='fa fa-users', orderNum=3, gmtCreate=null, gmtModified=null}, MenuDO{menuId=76, parentId=73, name='编辑', url='/system/sysDept/edit', perms='system:sysDept:edit', type=2, icon='null', orderNum=3, gmtCreate=null, gmtModified=null}, MenuDO{menuId=81, parentId=78, name='删除', url='/common/dict/remove', perms='common:dict:remove', type=2, icon='', orderNum=3, gmtCreate=null, gmtModified=null}, MenuDO{menuId=72, parentId=77, name='计划任务', url='common/job', perms='common:taskScheduleJob', type=1, icon='fa fa-hourglass-1', orderNum=4, gmtCreate=null, gmtModified=null}, MenuDO{menuId=77, parentId=0, name='系统工具', url='', perms='', type=0, icon='fa fa-gear', orderNum=4, gmtCreate=null, gmtModified=null}, MenuDO{menuId=83, parentId=78, name='批量删除', url='/common/dict/batchRemove', perms='common:dict:batchRemove', type=2, icon='', orderNum=4, gmtCreate=null, gmtModified=null}, MenuDO{menuId=84, parentId=0, name='办公管理', url='', perms='', type=0, icon='fa fa-laptop', orderNum=5, gmtCreate=null, gmtModified=null}, MenuDO{menuId=91, parentId=0, name='系统监控', url='', perms='', type=0, icon='fa fa-video-camera', orderNum=5, gmtCreate=null, gmtModified=null}, MenuDO{menuId=106, parentId=0, name='测试管理', url='', perms='', type=0, icon='fa fa-arrows', orderNum=10, gmtCreate=null, gmtModified=null}]
+2019-04-24 13:29:21 -请求地址 : http://localhost:8080/system/sysDept
+2019-04-24 13:29:21 -HTTP METHOD : GET
+2019-04-24 13:29:21 -CLASS_METHOD : com.template.system.controller.DeptController.dept
+2019-04-24 13:29:21 -参数 : []
+2019-04-24 13:29:21 -耗时 : 1
+2019-04-24 13:29:21 -返回值 : system/dept/dept
+2019-04-24 13:29:21 -请求地址 : http://localhost:8080/system/sysDept/list
+2019-04-24 13:29:21 -HTTP METHOD : GET
+2019-04-24 13:29:21 -CLASS_METHOD : com.template.system.controller.DeptController.list
+2019-04-24 13:29:21 -参数 : []
+2019-04-24 13:29:21 -==>  Preparing: select `dept_id`,`parent_id`,`name`,`order_num`,`del_flag` from sys_dept order by dept_id desc 
+2019-04-24 13:29:21 -==> Parameters: 
+2019-04-24 13:29:21 -<==      Total: 12
+2019-04-24 13:29:21 -耗时 : 4
+2019-04-24 13:29:21 -返回值 : [DeptDO{deptId=19, parentId=18, name='在测试1', orderNum=null, delFlag=1}, DeptDO{deptId=18, parentId=0, name='再测试', orderNum=9, delFlag=1}, DeptDO{deptId=15, parentId=13, name='测试二部', orderNum=2, delFlag=1}, DeptDO{deptId=14, parentId=13, name='测试一部', orderNum=1, delFlag=1}, DeptDO{deptId=13, parentId=0, name='测试部', orderNum=5, delFlag=1}, DeptDO{deptId=12, parentId=11, name='产品一部', orderNum=1, delFlag=1}, DeptDO{deptId=11, parentId=0, name='产品部', orderNum=3, delFlag=1}, DeptDO{deptId=10, parentId=9, name='销售一部', orderNum=1, delFlag=1}, DeptDO{deptId=9, parentId=0, name='销售部', orderNum=2, delFlag=1}, DeptDO{deptId=8, parentId=6, name='研发二部', orderNum=2, delFlag=1}, DeptDO{deptId=7, parentId=6, name='研發一部', orderNum=1, delFlag=1}, DeptDO{deptId=6, parentId=0, name='研发部', orderNum=1, delFlag=1}]
+2019-04-24 13:29:24 -请求地址 : http://localhost:8080/common/generator
+2019-04-24 13:29:24 -HTTP METHOD : GET
+2019-04-24 13:29:24 -CLASS_METHOD : com.template.common.controller.GeneratorController.generator
+2019-04-24 13:29:24 -参数 : []
+2019-04-24 13:29:24 -耗时 : 0
+2019-04-24 13:29:24 -返回值 : common/generator/list
+2019-04-24 13:29:24 -请求地址 : http://localhost:8080/common/generator/list
+2019-04-24 13:29:24 -HTTP METHOD : GET
+2019-04-24 13:29:24 -CLASS_METHOD : com.template.common.controller.GeneratorController.list
+2019-04-24 13:29:24 -参数 : []
+2019-04-24 13:29:24 -==>  Preparing: select table_name tableName, engine, table_comment tableComment, create_time createTime from information_schema.tables where table_schema = (select database()) 
+2019-04-24 13:29:24 -==> Parameters: 
+2019-04-24 13:29:24 -<==      Total: 16
+2019-04-24 13:29:24 -耗时 : 22
+2019-04-24 13:29:24 -返回值 : [{engine=InnoDB, createTime=2019-02-20 10:51:39.0, tableComment=通知通告, tableName=oa_notify}, {engine=InnoDB, createTime=2019-02-20 10:51:39.0, tableComment=通知通告发送记录, tableName=oa_notify_record}, {engine=InnoDB, createTime=2019-02-20 10:51:40.0, tableComment=部门管理, tableName=sys_dept}, {engine=InnoDB, createTime=2019-02-20 10:51:41.0, tableComment=字典表, tableName=sys_dict}, {engine=InnoDB, createTime=2019-02-20 10:51:41.0, tableComment=文件上传, tableName=sys_file}, {engine=InnoDB, createTime=2019-02-20 10:51:42.0, tableComment=系统日志, tableName=sys_log}, {engine=InnoDB, createTime=2019-02-20 10:51:43.0, tableComment=菜单管理, tableName=sys_menu}, {engine=InnoDB, createTime=2019-02-20 10:51:43.0, tableComment=角色, tableName=sys_role}, {engine=InnoDB, createTime=2019-02-20 10:51:44.0, tableComment=角色与菜单对应关系, tableName=sys_role_menu}, {engine=MyISAM, createTime=2019-02-20 10:51:45.0, tableComment=, tableName=sys_task}, {engine=InnoDB, createTime=2019-02-20 10:51:45.0, tableComment=, tableName=sys_user}, {engine=InnoDB, createTime=2019-02-20 10:51:46.0, tableComment=用户与角色对应关系, tableName=sys_user_role}, {engine=InnoDB, createTime=2019-04-22 10:45:59.0, tableComment=用户Token, tableName=tb_token}, {engine=InnoDB, createTime=2019-04-22 10:45:59.0, tableComment=用户, tableName=tb_user}, {engine=InnoDB, createTime=2019-04-22 11:15:26.0, tableComment=测试表, tableName=test}, {engine=InnoDB, createTime=2019-04-22 11:16:15.0, tableComment=测试表, tableName=test_copy}]
+2019-04-24 13:29:24 -请求地址 : http://localhost:8080/common/job
+2019-04-24 13:29:24 -HTTP METHOD : GET
+2019-04-24 13:29:24 -CLASS_METHOD : com.template.common.controller.JobController.taskScheduleJob
+2019-04-24 13:29:24 -参数 : []
+2019-04-24 13:29:24 -耗时 : 1
+2019-04-24 13:29:24 -返回值 : common/job/job
+2019-04-24 13:29:24 -请求地址 : http://localhost:8080/common/job/list
+2019-04-24 13:29:24 -HTTP METHOD : GET
+2019-04-24 13:29:24 -CLASS_METHOD : com.template.common.controller.JobController.list
+2019-04-24 13:29:24 -参数 : [{limit=10, offset=0}]
+2019-04-24 13:29:25 -==>  Preparing: select `id`,`cron_expression`,`method_name`,`is_concurrent`,`description`,`update_by`,`bean_class`,`create_date`,`job_status`,`job_group`,`update_date`,`create_by`,`spring_bean`,`job_name` from sys_task order by id desc limit ?, ? 
+2019-04-24 13:29:25 -==> Parameters: 0(Integer), 10(Integer)
+2019-04-24 13:29:25 -<==      Total: 1
+2019-04-24 13:29:25 -==>  Preparing: select count(*) from sys_task 
+2019-04-24 13:29:25 -==> Parameters: 
+2019-04-24 13:29:25 -<==      Total: 1
+2019-04-24 13:29:25 -耗时 : 8
+2019-04-24 13:29:25 -返回值 : com.template.common.utils.PageUtils@317cd98

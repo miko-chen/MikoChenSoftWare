@@ -1,0 +1,32 @@
+2019-05-24 08:42:39 -Starting ApiApplication on LAPTOP-N86DJV10 with PID 3464 (started by ASUS in E:\项目代码\cold_chain)
+2019-05-24 08:42:39 -The following profiles are active: dev
+2019-05-24 08:42:40 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a01c409] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-24 08:42:40 -Tomcat initialized with port(s): 8080 (http)
+2019-05-24 08:42:40 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-24 08:42:40 -Starting service [Tomcat]
+2019-05-24 08:42:40 -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-24 08:42:40 -Initializing Spring embedded WebApplicationContext
+2019-05-24 08:42:40 -Root WebApplicationContext: initialization completed in 1437 ms
+2019-05-24 08:42:41 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-24 08:42:42 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-05-24 08:42:42 -Context refreshed
+2019-05-24 08:42:42 -Found 1 custom documentation plugin(s)
+2019-05-24 08:42:42 -Scanning for api listing references
+2019-05-24 08:42:42 -Generating unique operation named: userInfoUsingGET_1
+2019-05-24 08:42:42 -Starting ProtocolHandler ["http-nio-8080"]
+2019-05-24 08:42:42 -Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-05-24 08:42:42 -Started ApiApplication in 3.609 seconds (JVM running for 4.471)
+2019-05-24 08:46:30 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-24 08:46:30 -Initializing Servlet 'dispatcherServlet'
+2019-05-24 08:46:30 -Completed initialization in 10 ms
+2019-05-24 08:47:07 -请求地址 : http://localhost:8080/api/api/login
+2019-05-24 08:47:07 -HTTP METHOD : POST
+2019-05-24 08:47:07 -CLASS_METHOD : com.template.api.login.controller.ApiLoginController.login
+2019-05-24 08:47:07 -参数 : [LoginForm(mobile=17699999999, password=111111)]
+2019-05-24 08:47:07 -{dataSource-1} inited
+2019-05-24 09:13:36 -请求地址 : http://localhost:8080/api/api/login
+2019-05-24 09:13:36 -HTTP METHOD : POST
+2019-05-24 09:13:36 -CLASS_METHOD : com.template.api.login.controller.ApiLoginController.login
+2019-05-24 09:13:36 -参数 : [LoginForm(mobile=17699999999, password=111111)]
+2019-05-24 13:18:28 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-24 13:18:28 -{dataSource-1} closed

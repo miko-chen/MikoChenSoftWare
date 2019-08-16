@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.template.basic.domain.BasicVehicleInfoDO">
+
+	<select id="get" resultType="com.template.basic.domain.BasicVehicleInfoDO">
+		select `vehicle_id`,`vehicle_no`,`vehicle_num`,`vehicle_color`,`vehicle_type`,`org_structure`,`vehicle_oper_status`,`vehicle_oper_type`,`terminal_num`,`network_type`,`Business_route`,`is_truck`,`Driver_name`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time`,`state` from hy_basic_vehicle_info where vehicle_id = #{value}
+	</select>
+
+	<select id="list" resultType="com.template.basic.domain.BasicVehicleInfoDO">
+		select `vehicle_id`,`vehicle_no`,`vehicle_num`,`vehicle_color`,`vehicle_type`,`org_structure`,`vehicle_oper_status`,`vehicle_oper_type`,`terminal_num`,`network_type`,`Business_route`,`is_truck`,`Driver_name`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time`,`state` from hy_basic_vehicle_info
+        <where>  
+		  		  <if test="vehicleId != null and vehicleId != ''"> and vehicle_id = #{vehicleId} </if>
+		  		  <if test="vehicleNo != null and vehicleNo != ''"> and vehicle_no = #{vehicleNo} </if>
+		  		  <if test="vehicleNum != null and vehicleNum != ''"> and vehicle_num = #{vehicleNum} </if>
+		  		  <if test="vehicleColor != null and vehicleColor != ''"> and vehicle_color = #{vehicleColor} </if>
+		  		  <if test="vehicleType != null and vehicleType != ''"> and vehicle_type = #{vehicleType} </if>
+		  		  <if test="orgStructure != null and orgStructure != ''"> and org_structure = #{orgStructure} </if>
+		  		  <if test="vehicleOperStatus != null and vehicleOperStatus != ''"> and vehicle_oper_status = #{vehicleOperStatus} </if>
+		  		  <if test="vehicleOperType != null and vehicleOperType != ''"> and vehicle_oper_type = #{vehicleOperType} </if>
+		  		  <if test="terminalNum != null and terminalNum != ''"> and terminal_num = #{terminalNum} </if>
+		  		  <if test="networkType != null and networkType != ''"> and network_type = #{networkType} </if>
+		  		  <if test="businessRoute != null and businessRoute != ''"> and Business_route = #{businessRoute} </if>
+		  		  <if test="isTruck != null and isTruck != ''"> and is_truck = #{isTruck} </if>
+		  		  <if test="driverName != null and driverName != ''"> and Driver_name = #{driverName} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		  <if test="state != null and state != ''"> and state = #{state} </if>
+		  		</where>
+        <choose>
+            <when test="sort != null and sort.trim() != ''">
+                order by ${sort} ${order}
+            </when>
+			<otherwise>
+                order by vehicle_id desc
+			</otherwise>
+        </choose>
+		<if test="offset != null and limit != null">
+			limit #{offset}, #{limit}
+		</if>
+	</select>
+	
+ 	<select id="count" resultType="int">
+		select count(*) from hy_basic_vehicle_info
+		 <where>  
+		  		  <if test="vehicleId != null and vehicleId != ''"> and vehicle_id = #{vehicleId} </if>
+		  		  <if test="vehicleNo != null and vehicleNo != ''"> and vehicle_no = #{vehicleNo} </if>
+		  		  <if test="vehicleNum != null and vehicleNum != ''"> and vehicle_num = #{vehicleNum} </if>
+		  		  <if test="vehicleColor != null and vehicleColor != ''"> and vehicle_color = #{vehicleColor} </if>
+		  		  <if test="vehicleType != null and vehicleType != ''"> and vehicle_type = #{vehicleType} </if>
+		  		  <if test="orgStructure != null and orgStructure != ''"> and org_structure = #{orgStructure} </if>
+		  		  <if test="vehicleOperStatus != null and vehicleOperStatus != ''"> and vehicle_oper_status = #{vehicleOperStatus} </if>
+		  		  <if test="vehicleOperType != null and vehicleOperType != ''"> and vehicle_oper_type = #{vehicleOperType} </if>
+		  		  <if test="terminalNum != null and terminalNum != ''"> and terminal_num = #{terminalNum} </if>
+		  		  <if test="networkType != null and networkType != ''"> and network_type = #{networkType} </if>
+		  		  <if test="businessRoute != null and businessRoute != ''"> and Business_route = #{businessRoute} </if>
+		  		  <if test="isTruck != null and isTruck != ''"> and is_truck = #{isTruck} </if>
+		  		  <if test="driverName != null and driverName != ''"> and Driver_name = #{driverName} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		  <if test="state != null and state != ''"> and state = #{state} </if>
+		  		</where>
+	</select>
+	 
+	<insert id="save" parameterType="com.template.basic.domain.BasicVehicleInfoDO">
+		insert into hy_basic_vehicle_info
+		(
+			`vehicle_id`, 
+			`vehicle_no`, 
+			`vehicle_num`, 
+			`vehicle_color`, 
+			`vehicle_type`, 
+			`org_structure`, 
+			`vehicle_oper_status`, 
+			`vehicle_oper_type`, 
+			`terminal_num`, 
+			`network_type`, 
+			`Business_route`, 
+			`is_truck`, 
+			`Driver_name`, 
+			`create_user`, 
+			`create_time`, 
+			`last_modify_user`, 
+			`last_modify_time`, 
+			`state`
+		)
+		values
+		(
+			#{vehicleId}, 
+			#{vehicleNo}, 
+			#{vehicleNum}, 
+			#{vehicleColor}, 
+			#{vehicleType}, 
+			#{orgStructure}, 
+			#{vehicleOperStatus}, 
+			#{vehicleOperType}, 
+			#{terminalNum}, 
+			#{networkType}, 
+			#{businessRoute}, 
+			#{isTruck}, 
+			#{driverName}, 
+			#{createUser}, 
+			#{createTime}, 
+			#{lastModifyUser}, 
+			#{lastModifyTime}, 
+			#{state}
+		)
+	</insert>
+	 
+	<update id="update" parameterType="com.template.basic.domain.BasicVehicleInfoDO">
+		update hy_basic_vehicle_info 
+		<set>
+			<if test="vehicleNo != null">`vehicle_no` = #{vehicleNo}, </if>
+			<if test="vehicleNum != null">`vehicle_num` = #{vehicleNum}, </if>
+			<if test="vehicleColor != null">`vehicle_color` = #{vehicleColor}, </if>
+			<if test="vehicleType != null">`vehicle_type` = #{vehicleType}, </if>
+			<if test="orgStructure != null">`org_structure` = #{orgStructure}, </if>
+			<if test="vehicleOperStatus != null">`vehicle_oper_status` = #{vehicleOperStatus}, </if>
+			<if test="vehicleOperType != null">`vehicle_oper_type` = #{vehicleOperType}, </if>
+			<if test="terminalNum != null">`terminal_num` = #{terminalNum}, </if>
+			<if test="networkType != null">`network_type` = #{networkType}, </if>
+			<if test="businessRoute != null">`Business_route` = #{businessRoute}, </if>
+			<if test="isTruck != null">`is_truck` = #{isTruck}, </if>
+			<if test="driverName != null">`Driver_name` = #{driverName}, </if>
+			<if test="createUser != null">`create_user` = #{createUser}, </if>
+			<if test="createTime != null">`create_time` = #{createTime}, </if>
+			<if test="lastModifyUser != null">`last_modify_user` = #{lastModifyUser}, </if>
+			<if test="lastModifyTime != null">`last_modify_time` = #{lastModifyTime}, </if>
+			<if test="state != null">`state` = #{state}</if>
+		</set>
+		where vehicle_id = #{vehicleId}
+	</update>
+	
+	<delete id="remove">
+		delete from hy_basic_vehicle_info where vehicle_id = #{value}
+	</delete>
+	
+	<delete id="batchRemove">
+		delete from hy_basic_vehicle_info where vehicle_id in 
+		<foreach item="vehicleId" collection="array" open="(" separator="," close=")">
+			#{vehicleId}
+		</foreach>
+	</delete>
+
+</mapper>

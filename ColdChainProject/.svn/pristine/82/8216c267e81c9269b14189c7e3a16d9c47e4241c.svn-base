@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.template.order.dao.OrderInfoDao">
+
+	<select id="get" resultType="com.template.order.domain.OrderInfoDO">
+		select `order_id`,`order_no`,`consignor_no`,`consignor_name`,`consignor_phone`,`operator_no`,`start_area`,`end_area`,`receiver_name`,`receiver_phone`,`receive_error_remark`,`order_remark`,`plan_start_time`,`plan_end_time`,`payable_amount`,`real_amount`,`real_start_time`,`real_end_time`,`order_status`,`signatory`,`is_split`,`dispatch_id`,`is_child`,`main_order_id`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time` from hy_order_info where order_id = #{value}
+	</select>
+
+	<select id="list" resultType="com.template.order.domain.OrderInfoDO">
+		select `order_id`,`order_no`,`consignor_no`,`consignor_name`,`consignor_phone`,`operator_no`,`start_area`,`end_area`,`receiver_name`,`receiver_phone`,`receive_error_remark`,`order_remark`,`plan_start_time`,`plan_end_time`,`payable_amount`,`real_amount`,`real_start_time`,`real_end_time`,`order_status`,`signatory`,`is_split`,`dispatch_id`,`is_child`,`main_order_id`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time` from hy_order_info
+        <where>  
+		  		  <if test="orderId != null and orderId != ''"> and order_id = #{orderId} </if>
+		  		  <if test="orderNo != null and orderNo != ''"> and order_no = #{orderNo} </if>
+		  		  <if test="consignorNo != null and consignorNo != ''"> and consignor_no = #{consignorNo} </if>
+		  		  <if test="consignorName != null and consignorName != ''"> and consignor_name = #{consignorName} </if>
+		  		  <if test="consignorPhone != null and consignorPhone != ''"> and consignor_phone = #{consignorPhone} </if>
+		  		  <if test="operatorNo != null and operatorNo != ''"> and operator_no = #{operatorNo} </if>
+		  		  <if test="startArea != null and startArea != ''"> and start_area = #{startArea} </if>
+		  		  <if test="endArea != null and endArea != ''"> and end_area = #{endArea} </if>
+		  		  <if test="receiverName != null and receiverName != ''"> and receiver_name = #{receiverName} </if>
+		  		  <if test="receiverPhone != null and receiverPhone != ''"> and receiver_phone = #{receiverPhone} </if>
+		  		  <if test="receiveErrorRemark != null and receiveErrorRemark != ''"> and receive_error_remark = #{receiveErrorRemark} </if>
+		  		  <if test="orderRemark != null and orderRemark != ''"> and order_remark = #{orderRemark} </if>
+		  		  <if test="planStartTime != null and planStartTime != ''"> and plan_start_time = #{planStartTime} </if>
+		  		  <if test="planEndTime != null and planEndTime != ''"> and plan_end_time = #{planEndTime} </if>
+		  		  <if test="payableAmount != null and payableAmount != ''"> and payable_amount = #{payableAmount} </if>
+		  		  <if test="realAmount != null and realAmount != ''"> and real_amount = #{realAmount} </if>
+		  		  <if test="realStartTime != null and realStartTime != ''"> and real_start_time = #{realStartTime} </if>
+		  		  <if test="realEndTime != null and realEndTime != ''"> and real_end_time = #{realEndTime} </if>
+		  		  <if test="orderStatus != null and orderStatus != ''"> and order_status = #{orderStatus} </if>
+		  		  <if test="signatory != null and signatory != ''"> and signatory = #{signatory} </if>
+		  		  <if test="isSplit != null and isSplit != ''"> and is_split = #{isSplit} </if>
+		  		  <if test="dispatchId != null and dispatchId != ''"> and dispatch_id = #{dispatchId} </if>
+		  		  <if test="isChild != null and isChild != ''"> and is_child = #{isChild} </if>
+		  		  <if test="mainOrderId != null and mainOrderId != ''"> and main_order_id = #{mainOrderId} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		</where>
+        <choose>
+            <when test="sort != null and sort.trim() != ''">
+                order by ${sort} ${order}
+            </when>
+			<otherwise>
+                order by order_id desc
+			</otherwise>
+        </choose>
+		<if test="offset != null and limit != null">
+			limit #{offset}, #{limit}
+		</if>
+	</select>
+	
+ 	<select id="count" resultType="int">
+		select count(*) from hy_order_info
+		 <where>  
+		  		  <if test="orderId != null and orderId != ''"> and order_id = #{orderId} </if>
+		  		  <if test="orderNo != null and orderNo != ''"> and order_no = #{orderNo} </if>
+		  		  <if test="consignorNo != null and consignorNo != ''"> and consignor_no = #{consignorNo} </if>
+		  		  <if test="consignorName != null and consignorName != ''"> and consignor_name = #{consignorName} </if>
+		  		  <if test="consignorPhone != null and consignorPhone != ''"> and consignor_phone = #{consignorPhone} </if>
+		  		  <if test="operatorNo != null and operatorNo != ''"> and operator_no = #{operatorNo} </if>
+		  		  <if test="startArea != null and startArea != ''"> and start_area = #{startArea} </if>
+		  		  <if test="endArea != null and endArea != ''"> and end_area = #{endArea} </if>
+		  		  <if test="receiverName != null and receiverName != ''"> and receiver_name = #{receiverName} </if>
+		  		  <if test="receiverPhone != null and receiverPhone != ''"> and receiver_phone = #{receiverPhone} </if>
+		  		  <if test="receiveErrorRemark != null and receiveErrorRemark != ''"> and receive_error_remark = #{receiveErrorRemark} </if>
+		  		  <if test="orderRemark != null and orderRemark != ''"> and order_remark = #{orderRemark} </if>
+		  		  <if test="planStartTime != null and planStartTime != ''"> and plan_start_time = #{planStartTime} </if>
+		  		  <if test="planEndTime != null and planEndTime != ''"> and plan_end_time = #{planEndTime} </if>
+		  		  <if test="payableAmount != null and payableAmount != ''"> and payable_amount = #{payableAmount} </if>
+		  		  <if test="realAmount != null and realAmount != ''"> and real_amount = #{realAmount} </if>
+		  		  <if test="realStartTime != null and realStartTime != ''"> and real_start_time = #{realStartTime} </if>
+		  		  <if test="realEndTime != null and realEndTime != ''"> and real_end_time = #{realEndTime} </if>
+		  		  <if test="orderStatus != null and orderStatus != ''"> and order_status = #{orderStatus} </if>
+		  		  <if test="signatory != null and signatory != ''"> and signatory = #{signatory} </if>
+		  		  <if test="isSplit != null and isSplit != ''"> and is_split = #{isSplit} </if>
+		  		  <if test="dispatchId != null and dispatchId != ''"> and dispatch_id = #{dispatchId} </if>
+		  		  <if test="isChild != null and isChild != ''"> and is_child = #{isChild} </if>
+		  		  <if test="mainOrderId != null and mainOrderId != ''"> and main_order_id = #{mainOrderId} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		</where>
+	</select>
+	 
+	<insert id="save" parameterType="com.template.order.domain.OrderInfoDO">
+		insert into hy_order_info
+		(
+			`order_id`, 
+			`order_no`, 
+			`consignor_no`, 
+			`consignor_name`, 
+			`consignor_phone`, 
+			`operator_no`, 
+			`start_area`, 
+			`end_area`, 
+			`receiver_name`, 
+			`receiver_phone`, 
+			`receive_error_remark`, 
+			`order_remark`, 
+			`plan_start_time`, 
+			`plan_end_time`, 
+			`payable_amount`, 
+			`real_amount`, 
+			`real_start_time`, 
+			`real_end_time`, 
+			`order_status`, 
+			`signatory`, 
+			`is_split`, 
+			`dispatch_id`, 
+			`is_child`, 
+			`main_order_id`, 
+			`create_user`, 
+			`create_time`, 
+			`last_modify_user`, 
+			`last_modify_time`
+		)
+		values
+		(
+			#{orderId}, 
+			#{orderNo}, 
+			#{consignorNo}, 
+			#{consignorName}, 
+			#{consignorPhone}, 
+			#{operatorNo}, 
+			#{startArea}, 
+			#{endArea}, 
+			#{receiverName}, 
+			#{receiverPhone}, 
+			#{receiveErrorRemark}, 
+			#{orderRemark}, 
+			#{planStartTime}, 
+			#{planEndTime}, 
+			#{payableAmount}, 
+			#{realAmount}, 
+			#{realStartTime}, 
+			#{realEndTime}, 
+			#{orderStatus}, 
+			#{signatory}, 
+			#{isSplit}, 
+			#{dispatchId}, 
+			#{isChild}, 
+			#{mainOrderId}, 
+			#{createUser}, 
+			#{createTime}, 
+			#{lastModifyUser}, 
+			#{lastModifyTime}
+		)
+	</insert>
+	 
+	<update id="update" parameterType="com.template.order.domain.OrderInfoDO">
+		update hy_order_info 
+		<set>
+			<if test="orderNo != null">`order_no` = #{orderNo}, </if>
+			<if test="consignorNo != null">`consignor_no` = #{consignorNo}, </if>
+			<if test="consignorName != null">`consignor_name` = #{consignorName}, </if>
+			<if test="consignorPhone != null">`consignor_phone` = #{consignorPhone}, </if>
+			<if test="operatorNo != null">`operator_no` = #{operatorNo}, </if>
+			<if test="startArea != null">`start_area` = #{startArea}, </if>
+			<if test="endArea != null">`end_area` = #{endArea}, </if>
+			<if test="receiverName != null">`receiver_name` = #{receiverName}, </if>
+			<if test="receiverPhone != null">`receiver_phone` = #{receiverPhone}, </if>
+			<if test="receiveErrorRemark != null">`receive_error_remark` = #{receiveErrorRemark}, </if>
+			<if test="orderRemark != null">`order_remark` = #{orderRemark}, </if>
+			<if test="planStartTime != null">`plan_start_time` = #{planStartTime}, </if>
+			<if test="planEndTime != null">`plan_end_time` = #{planEndTime}, </if>
+			<if test="payableAmount != null">`payable_amount` = #{payableAmount}, </if>
+			<if test="realAmount != null">`real_amount` = #{realAmount}, </if>
+			<if test="realStartTime != null">`real_start_time` = #{realStartTime}, </if>
+			<if test="realEndTime != null">`real_end_time` = #{realEndTime}, </if>
+			<if test="orderStatus != null">`order_status` = #{orderStatus}, </if>
+			<if test="signatory != null">`signatory` = #{signatory}, </if>
+			<if test="isSplit != null">`is_split` = #{isSplit}, </if>
+			<if test="dispatchId != null">`dispatch_id` = #{dispatchId}, </if>
+			<if test="isChild != null">`is_child` = #{isChild}, </if>
+			<if test="mainOrderId != null">`main_order_id` = #{mainOrderId}, </if>
+			<if test="createUser != null">`create_user` = #{createUser}, </if>
+			<if test="createTime != null">`create_time` = #{createTime}, </if>
+			<if test="lastModifyUser != null">`last_modify_user` = #{lastModifyUser}, </if>
+			<if test="lastModifyTime != null">`last_modify_time` = #{lastModifyTime}</if>
+		</set>
+		where order_id = #{orderId}
+	</update>
+	
+	<delete id="remove">
+		delete from hy_order_info where order_id = #{value}
+	</delete>
+	
+	<delete id="batchRemove">
+		delete from hy_order_info where order_id in 
+		<foreach item="orderId" collection="array" open="(" separator="," close=")">
+			#{orderId}
+		</foreach>
+	</delete>
+
+</mapper>

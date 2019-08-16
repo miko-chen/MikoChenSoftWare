@@ -1,0 +1,106 @@
+2019-05-10 14:55:15 -Starting ApiApplication on HY-PC with PID 7144 (D:\simple\simple-template-2.0\simple-template\api\target\classes started by Administrator in D:\simple\simple-template-2.0\simple-template)
+2019-05-10 14:55:15 -The following profiles are active: dev
+2019-05-10 14:55:15 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2d6f11: startup date [Fri May 10 14:55:15 CST 2019]; root of context hierarchy
+2019-05-10 14:55:16 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$35aa1178] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-10 14:55:16 -Tomcat initialized with port(s): 8080 (http)
+2019-05-10 14:55:16 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-10 14:55:16 -Starting service [Tomcat]
+2019-05-10 14:55:16 -Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-05-10 14:55:16 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files (x86)\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\GtkSharp\2.12\bin;D:\Work\mongo-cxx-driver-legacy-1.1.2\build\win32\32\dynamic-windows;D:\Work\mongo-cxx-driver-legacy-1.1.2\build\win32\32\dbg_on\dynamic-windows;D:\Work\mongo-cxx-driver-legacy-1.1.2\src;D:\Work\boost_1_60_0;D:\Work\boost_1_60_0\boost;D:\Work\kafka-gj\librdkafka-master\src;D:\Work\kafka-gj\librdkafka-master\src-cpp;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;D:\mongodb\bin;C:\Program Files\TortoiseGit\bin;D:\Program Files (x86)\Java\jdk1.8.0_73\bin;D:\Program Files (x86)\Java\jdk1.8.0_73\jre\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\IntelliJ IDEA 2019.1\bin;;.]
+2019-05-10 14:55:16 -Initializing Spring embedded WebApplicationContext
+2019-05-10 14:55:16 -Root WebApplicationContext: initialization completed in 1860 ms
+2019-05-10 14:55:17 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-10 14:55:17 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-10 14:55:17 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-10 14:55:17 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-10 14:55:17 -Mapping filter: 'xssFilter' to urls: [/*]
+2019-05-10 14:55:17 -Servlet dispatcherServlet mapped to [/]
+2019-05-10 14:55:18 -Mapped "{[/api/login],methods=[POST]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiLoginController.login(com.template.api.form.LoginForm)
+2019-05-10 14:55:18 -Mapped "{[/api/logout],methods=[POST]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiLoginController.logout(long)
+2019-05-10 14:55:18 -Mapped "{[/api/register],methods=[POST]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiRegisterController.register(com.template.api.form.RegisterForm)
+2019-05-10 14:55:18 -Mapped "{[/api/userId],methods=[GET]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiTestController.userInfo(java.lang.Integer)
+2019-05-10 14:55:18 -Mapped "{[/api/userInfo],methods=[GET]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiTestController.userInfo(com.template.api.login.domain.TbUser)
+2019-05-10 14:55:18 -Mapped "{[/api/notToken],methods=[GET]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiTestController.notToken()
+2019-05-10 14:55:18 -Mapped "{[/api/myTest],methods=[GET]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiTestController.myTest(java.lang.Integer,javax.servlet.http.HttpServletRequest)
+2019-05-10 14:55:18 -Mapped "{[/oaNotify/list],methods=[GET]}" onto public java.lang.Object com.template.api.notify.controller.OaNotifyController.list()
+2019-05-10 14:55:18 -Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-05-10 14:55:18 -Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-05-10 14:55:18 -Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-05-10 14:55:18 -Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-05-10 14:55:18 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-10 14:55:18 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-10 14:55:18 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-10 14:55:18 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2d6f11: startup date [Fri May 10 14:55:15 CST 2019]; root of context hierarchy
+2019-05-10 14:55:18 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-10 14:55:18 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-10 14:55:18 -Detected @ExceptionHandler methods in RRExceptionHandler
+2019-05-10 14:55:19 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-05-10 14:55:19 -Registering beans for JMX exposure on startup
+2019-05-10 14:55:19 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-10 14:55:19 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-05-10 14:55:19 -Starting beans in phase 2147483647
+2019-05-10 14:55:19 -Context refreshed
+2019-05-10 14:55:19 -Found 1 custom documentation plugin(s)
+2019-05-10 14:55:19 -Scanning for api listing references
+2019-05-10 14:55:19 -Generating unique operation named: userInfoUsingGET_1
+2019-05-10 14:55:19 -Starting ProtocolHandler ["http-nio-8080"]
+2019-05-10 14:55:19 -Using a shared selector for servlet write/read
+2019-05-10 14:55:19 -Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-05-10 14:55:19 -Started ApiApplication in 5.306 seconds (JVM running for 7.203)
+2019-05-10 15:29:08 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2d6f11: startup date [Fri May 10 14:55:15 CST 2019]; root of context hierarchy
+2019-05-10 15:29:08 -Stopping beans in phase 2147483647
+2019-05-10 15:29:08 -Unregistering JMX-exposed beans on shutdown
+2019-05-10 15:29:08 -Unregistering JMX-exposed beans
+2019-05-10 15:29:13 -Starting ApiApplication on HY-PC with PID 13012 (D:\simple\simple-template-2.0\simple-template\api\target\classes started by Administrator in D:\simple\simple-template-2.0\simple-template)
+2019-05-10 15:29:13 -The following profiles are active: dev
+2019-05-10 15:29:13 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@116e95f: startup date [Fri May 10 15:29:13 CST 2019]; root of context hierarchy
+2019-05-10 15:29:14 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bb441281] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-10 15:29:14 -Tomcat initialized with port(s): 8080 (http)
+2019-05-10 15:29:14 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-10 15:29:14 -Starting service [Tomcat]
+2019-05-10 15:29:14 -Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-05-10 15:29:14 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files (x86)\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\GtkSharp\2.12\bin;D:\Work\mongo-cxx-driver-legacy-1.1.2\build\win32\32\dynamic-windows;D:\Work\mongo-cxx-driver-legacy-1.1.2\build\win32\32\dbg_on\dynamic-windows;D:\Work\mongo-cxx-driver-legacy-1.1.2\src;D:\Work\boost_1_60_0;D:\Work\boost_1_60_0\boost;D:\Work\kafka-gj\librdkafka-master\src;D:\Work\kafka-gj\librdkafka-master\src-cpp;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;D:\mongodb\bin;C:\Program Files\TortoiseGit\bin;D:\Program Files (x86)\Java\jdk1.8.0_73\bin;D:\Program Files (x86)\Java\jdk1.8.0_73\jre\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\IntelliJ IDEA 2019.1\bin;;.]
+2019-05-10 15:29:14 -Initializing Spring embedded WebApplicationContext
+2019-05-10 15:29:14 -Root WebApplicationContext: initialization completed in 1763 ms
+2019-05-10 15:29:15 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-10 15:29:15 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-10 15:29:15 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-10 15:29:15 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-10 15:29:15 -Mapping filter: 'xssFilter' to urls: [/*]
+2019-05-10 15:29:15 -Servlet dispatcherServlet mapped to [/]
+2019-05-10 15:29:16 -Mapped "{[/api/login],methods=[POST]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiLoginController.login(com.template.api.form.LoginForm)
+2019-05-10 15:29:16 -Mapped "{[/api/logout],methods=[POST]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiLoginController.logout(long)
+2019-05-10 15:29:16 -Mapped "{[/api/register],methods=[POST]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiRegisterController.register(com.template.api.form.RegisterForm)
+2019-05-10 15:29:16 -Mapped "{[/api/userId],methods=[GET]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiTestController.userInfo(java.lang.Integer)
+2019-05-10 15:29:16 -Mapped "{[/api/userInfo],methods=[GET]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiTestController.userInfo(com.template.api.login.domain.TbUser)
+2019-05-10 15:29:16 -Mapped "{[/api/notToken],methods=[GET]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiTestController.notToken()
+2019-05-10 15:29:16 -Mapped "{[/api/myTest],methods=[GET]}" onto public com.template.api.utils.R com.template.api.login.controller.ApiTestController.myTest(java.lang.Integer,javax.servlet.http.HttpServletRequest)
+2019-05-10 15:29:16 -Mapped "{[/oaNotify/list],methods=[GET]}" onto public java.lang.Object com.template.api.notify.controller.OaNotifyController.list()
+2019-05-10 15:29:16 -Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-05-10 15:29:16 -Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-05-10 15:29:16 -Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-05-10 15:29:16 -Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-05-10 15:29:16 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-10 15:29:16 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-05-10 15:29:16 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-10 15:29:16 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@116e95f: startup date [Fri May 10 15:29:13 CST 2019]; root of context hierarchy
+2019-05-10 15:29:16 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-10 15:29:16 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-10 15:29:16 -Detected @ExceptionHandler methods in RRExceptionHandler
+2019-05-10 15:29:16 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-05-10 15:29:17 -Registering beans for JMX exposure on startup
+2019-05-10 15:29:17 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-05-10 15:29:17 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-05-10 15:29:17 -Starting beans in phase 2147483647
+2019-05-10 15:29:17 -Context refreshed
+2019-05-10 15:29:17 -Found 1 custom documentation plugin(s)
+2019-05-10 15:29:17 -Scanning for api listing references
+2019-05-10 15:29:17 -Generating unique operation named: userInfoUsingGET_1
+2019-05-10 15:29:17 -Starting ProtocolHandler ["http-nio-8080"]
+2019-05-10 15:29:17 -Using a shared selector for servlet write/read
+2019-05-10 15:29:17 -Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-05-10 15:29:17 -Started ApiApplication in 5.122 seconds (JVM running for 6.475)
+2019-05-10 15:30:18 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@116e95f: startup date [Fri May 10 15:29:13 CST 2019]; root of context hierarchy
+2019-05-10 15:30:18 -Stopping beans in phase 2147483647
+2019-05-10 15:30:18 -Unregistering JMX-exposed beans on shutdown
+2019-05-10 15:30:18 -Unregistering JMX-exposed beans

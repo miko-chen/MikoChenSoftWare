@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.template.event.domain.EventRecordDO">
+
+	<select id="get" resultType="com.template.event.domain.EventRecordDO">
+		select `event_id`,`vehicle_no`,`vehicle_color`,`alarm_type`,`alarm_level`,`drive_start_time`,`event_start_time`,`drive_end_time`,`event_length`,`event_status`,`area`,`operation_type`,`company_name`,`deal_status`,`receipt_infor`,`event_infor`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time`,`status` from hy_event_record where event_id = #{value}
+	</select>
+
+	<select id="list" resultType="com.template.event.domain.EventRecordDO">
+		select `event_id`,`vehicle_no`,`vehicle_color`,`alarm_type`,`alarm_level`,`drive_start_time`,`event_start_time`,`drive_end_time`,`event_length`,`event_status`,`area`,`operation_type`,`company_name`,`deal_status`,`receipt_infor`,`event_infor`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time`,`status` from hy_event_record
+        <where>  
+		  		  <if test="eventId != null and eventId != ''"> and event_id = #{eventId} </if>
+		  		  <if test="vehicleNo != null and vehicleNo != ''"> and vehicle_no = #{vehicleNo} </if>
+		  		  <if test="vehicleColor != null and vehicleColor != ''"> and vehicle_color = #{vehicleColor} </if>
+		  		  <if test="alarmType != null and alarmType != ''"> and alarm_type = #{alarmType} </if>
+		  		  <if test="alarmLevel != null and alarmLevel != ''"> and alarm_level = #{alarmLevel} </if>
+		  		  <if test="driveStartTime != null and driveStartTime != ''"> and drive_start_time = #{driveStartTime} </if>
+		  		  <if test="eventStartTime != null and eventStartTime != ''"> and event_start_time = #{eventStartTime} </if>
+		  		  <if test="driveEndTime != null and driveEndTime != ''"> and drive_end_time = #{driveEndTime} </if>
+		  		  <if test="eventLength != null and eventLength != ''"> and event_length = #{eventLength} </if>
+		  		  <if test="eventStatus != null and eventStatus != ''"> and event_status = #{eventStatus} </if>
+		  		  <if test="area != null and area != ''"> and area = #{area} </if>
+		  		  <if test="operationType != null and operationType != ''"> and operation_type = #{operationType} </if>
+		  		  <if test="companyName != null and companyName != ''"> and company_name = #{companyName} </if>
+		  		  <if test="dealStatus != null and dealStatus != ''"> and deal_status = #{dealStatus} </if>
+		  		  <if test="receiptInfor != null and receiptInfor != ''"> and receipt_infor = #{receiptInfor} </if>
+		  		  <if test="eventInfor != null and eventInfor != ''"> and event_infor = #{eventInfor} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		  <if test="status != null and status != ''"> and status = #{status} </if>
+		  		</where>
+        <choose>
+            <when test="sort != null and sort.trim() != ''">
+                order by ${sort} ${order}
+            </when>
+			<otherwise>
+                order by event_id desc
+			</otherwise>
+        </choose>
+		<if test="offset != null and limit != null">
+			limit #{offset}, #{limit}
+		</if>
+	</select>
+	
+ 	<select id="count" resultType="int">
+		select count(*) from hy_event_record
+		 <where>  
+		  		  <if test="eventId != null and eventId != ''"> and event_id = #{eventId} </if>
+		  		  <if test="vehicleNo != null and vehicleNo != ''"> and vehicle_no = #{vehicleNo} </if>
+		  		  <if test="vehicleColor != null and vehicleColor != ''"> and vehicle_color = #{vehicleColor} </if>
+		  		  <if test="alarmType != null and alarmType != ''"> and alarm_type = #{alarmType} </if>
+		  		  <if test="alarmLevel != null and alarmLevel != ''"> and alarm_level = #{alarmLevel} </if>
+		  		  <if test="driveStartTime != null and driveStartTime != ''"> and drive_start_time = #{driveStartTime} </if>
+		  		  <if test="eventStartTime != null and eventStartTime != ''"> and event_start_time = #{eventStartTime} </if>
+		  		  <if test="driveEndTime != null and driveEndTime != ''"> and drive_end_time = #{driveEndTime} </if>
+		  		  <if test="eventLength != null and eventLength != ''"> and event_length = #{eventLength} </if>
+		  		  <if test="eventStatus != null and eventStatus != ''"> and event_status = #{eventStatus} </if>
+		  		  <if test="area != null and area != ''"> and area = #{area} </if>
+		  		  <if test="operationType != null and operationType != ''"> and operation_type = #{operationType} </if>
+		  		  <if test="companyName != null and companyName != ''"> and company_name = #{companyName} </if>
+		  		  <if test="dealStatus != null and dealStatus != ''"> and deal_status = #{dealStatus} </if>
+		  		  <if test="receiptInfor != null and receiptInfor != ''"> and receipt_infor = #{receiptInfor} </if>
+		  		  <if test="eventInfor != null and eventInfor != ''"> and event_infor = #{eventInfor} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		  <if test="status != null and status != ''"> and status = #{status} </if>
+		  		</where>
+	</select>
+	 
+	<insert id="save" parameterType="com.template.event.domain.EventRecordDO">
+		insert into hy_event_record
+		(
+			`event_id`, 
+			`vehicle_no`, 
+			`vehicle_color`, 
+			`alarm_type`, 
+			`alarm_level`, 
+			`drive_start_time`, 
+			`event_start_time`, 
+			`drive_end_time`, 
+			`event_length`, 
+			`event_status`, 
+			`area`, 
+			`operation_type`, 
+			`company_name`, 
+			`deal_status`, 
+			`receipt_infor`, 
+			`event_infor`, 
+			`create_user`, 
+			`create_time`, 
+			`last_modify_user`, 
+			`last_modify_time`, 
+			`status`
+		)
+		values
+		(
+			#{eventId}, 
+			#{vehicleNo}, 
+			#{vehicleColor}, 
+			#{alarmType}, 
+			#{alarmLevel}, 
+			#{driveStartTime}, 
+			#{eventStartTime}, 
+			#{driveEndTime}, 
+			#{eventLength}, 
+			#{eventStatus}, 
+			#{area}, 
+			#{operationType}, 
+			#{companyName}, 
+			#{dealStatus}, 
+			#{receiptInfor}, 
+			#{eventInfor}, 
+			#{createUser}, 
+			#{createTime}, 
+			#{lastModifyUser}, 
+			#{lastModifyTime}, 
+			#{status}
+		)
+	</insert>
+	 
+	<update id="update" parameterType="com.template.event.domain.EventRecordDO">
+		update hy_event_record 
+		<set>
+			<if test="vehicleNo != null">`vehicle_no` = #{vehicleNo}, </if>
+			<if test="vehicleColor != null">`vehicle_color` = #{vehicleColor}, </if>
+			<if test="alarmType != null">`alarm_type` = #{alarmType}, </if>
+			<if test="alarmLevel != null">`alarm_level` = #{alarmLevel}, </if>
+			<if test="driveStartTime != null">`drive_start_time` = #{driveStartTime}, </if>
+			<if test="eventStartTime != null">`event_start_time` = #{eventStartTime}, </if>
+			<if test="driveEndTime != null">`drive_end_time` = #{driveEndTime}, </if>
+			<if test="eventLength != null">`event_length` = #{eventLength}, </if>
+			<if test="eventStatus != null">`event_status` = #{eventStatus}, </if>
+			<if test="area != null">`area` = #{area}, </if>
+			<if test="operationType != null">`operation_type` = #{operationType}, </if>
+			<if test="companyName != null">`company_name` = #{companyName}, </if>
+			<if test="dealStatus != null">`deal_status` = #{dealStatus}, </if>
+			<if test="receiptInfor != null">`receipt_infor` = #{receiptInfor}, </if>
+			<if test="eventInfor != null">`event_infor` = #{eventInfor}, </if>
+			<if test="createUser != null">`create_user` = #{createUser}, </if>
+			<if test="createTime != null">`create_time` = #{createTime}, </if>
+			<if test="lastModifyUser != null">`last_modify_user` = #{lastModifyUser}, </if>
+			<if test="lastModifyTime != null">`last_modify_time` = #{lastModifyTime}, </if>
+			<if test="status != null">`status` = #{status}</if>
+		</set>
+		where event_id = #{eventId}
+	</update>
+	
+	<delete id="remove">
+		delete from hy_event_record where event_id = #{value}
+	</delete>
+	
+	<delete id="batchRemove">
+		delete from hy_event_record where event_id in 
+		<foreach item="eventId" collection="array" open="(" separator="," close=")">
+			#{eventId}
+		</foreach>
+	</delete>
+
+</mapper>

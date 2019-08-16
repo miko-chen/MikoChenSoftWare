@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.template.ic.domain.IcCardInfoDO">
+
+	<select id="get" resultType="com.template.ic.domain.IcCardInfoDO">
+		select `ic_id`,`ic_card_number`,`ic_id_num`,`state`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time` from hy_ic_card_info where ic_id = #{value}
+	</select>
+
+	<select id="list" resultType="com.template.ic.domain.IcCardInfoDO">
+		select `ic_id`,`ic_card_number`,`ic_id_num`,`state`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time` from hy_ic_card_info
+        <where>  
+		  		  <if test="icId != null and icId != ''"> and ic_id = #{icId} </if>
+		  		  <if test="icCardNumber != null and icCardNumber != ''"> and ic_card_number = #{icCardNumber} </if>
+		  		  <if test="icIdNum != null and icIdNum != ''"> and ic_id_num = #{icIdNum} </if>
+		  		  <if test="state != null and state != ''"> and state = #{state} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		</where>
+        <choose>
+            <when test="sort != null and sort.trim() != ''">
+                order by ${sort} ${order}
+            </when>
+			<otherwise>
+                order by ic_id desc
+			</otherwise>
+        </choose>
+		<if test="offset != null and limit != null">
+			limit #{offset}, #{limit}
+		</if>
+	</select>
+	
+ 	<select id="count" resultType="int">
+		select count(*) from hy_ic_card_info
+		 <where>  
+		  		  <if test="icId != null and icId != ''"> and ic_id = #{icId} </if>
+		  		  <if test="icCardNumber != null and icCardNumber != ''"> and ic_card_number = #{icCardNumber} </if>
+		  		  <if test="icIdNum != null and icIdNum != ''"> and ic_id_num = #{icIdNum} </if>
+		  		  <if test="state != null and state != ''"> and state = #{state} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		</where>
+	</select>
+	 
+	<insert id="save" parameterType="com.template.ic.domain.IcCardInfoDO">
+		insert into hy_ic_card_info
+		(
+			`ic_id`, 
+			`ic_card_number`, 
+			`ic_id_num`, 
+			`state`, 
+			`create_user`, 
+			`create_time`, 
+			`last_modify_user`, 
+			`last_modify_time`
+		)
+		values
+		(
+			#{icId}, 
+			#{icCardNumber}, 
+			#{icIdNum}, 
+			#{state}, 
+			#{createUser}, 
+			#{createTime}, 
+			#{lastModifyUser}, 
+			#{lastModifyTime}
+		)
+	</insert>
+	 
+	<update id="update" parameterType="com.template.ic.domain.IcCardInfoDO">
+		update hy_ic_card_info 
+		<set>
+			<if test="icCardNumber != null">`ic_card_number` = #{icCardNumber}, </if>
+			<if test="icIdNum != null">`ic_id_num` = #{icIdNum}, </if>
+			<if test="state != null">`state` = #{state}, </if>
+			<if test="createUser != null">`create_user` = #{createUser}, </if>
+			<if test="createTime != null">`create_time` = #{createTime}, </if>
+			<if test="lastModifyUser != null">`last_modify_user` = #{lastModifyUser}, </if>
+			<if test="lastModifyTime != null">`last_modify_time` = #{lastModifyTime}</if>
+		</set>
+		where ic_id = #{icId}
+	</update>
+	
+	<delete id="remove">
+		delete from hy_ic_card_info where ic_id = #{value}
+	</delete>
+	
+	<delete id="batchRemove">
+		delete from hy_ic_card_info where ic_id in 
+		<foreach item="icId" collection="array" open="(" separator="," close=")">
+			#{icId}
+		</foreach>
+	</delete>
+
+</mapper>

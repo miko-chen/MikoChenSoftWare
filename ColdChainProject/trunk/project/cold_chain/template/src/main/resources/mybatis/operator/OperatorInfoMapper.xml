@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.template.operator.dao.OperatorInfoDao">
+
+	<select id="get" resultType="com.template.operator.domain.OperatorInfoDO">
+		select `operator_id`,`operator_no`,`user_no`,`operator_name`,`leader_no`,`email`,`address`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time`,`status` from hy_operator_info where operator_id = #{value}
+	</select>
+
+	<select id="list" resultType="com.template.operator.domain.OperatorInfoDO">
+		select `operator_id`,`operator_no`,`user_no`,`operator_name`,`leader_no`,`email`,`address`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time`,`status` from hy_operator_info
+        <where>  
+		  		  <if test="operatorId != null and operatorId != ''"> and operator_id = #{operatorId} </if>
+		  		  <if test="operatorNo != null and operatorNo != ''"> and operator_no = #{operatorNo} </if>
+		  		  <if test="userNo != null and userNo != ''"> and user_no = #{userNo} </if>
+		  		  <if test="operatorName != null and operatorName != ''"> and operator_name = #{operatorName} </if>
+		  		  <if test="leaderNo != null and leaderNo != ''"> and leader_no = #{leaderNo} </if>
+		  		  <if test="email != null and email != ''"> and email = #{email} </if>
+		  		  <if test="address != null and address != ''"> and address = #{address} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		  <if test="status != null and status != ''"> and status = #{status} </if>
+		  		</where>
+        <choose>
+            <when test="sort != null and sort.trim() != ''">
+                order by ${sort} ${order}
+            </when>
+			<otherwise>
+                order by operator_id desc
+			</otherwise>
+        </choose>
+		<if test="offset != null and limit != null">
+			limit #{offset}, #{limit}
+		</if>
+	</select>
+	
+ 	<select id="count" resultType="int">
+		select count(*) from hy_operator_info
+		 <where>  
+		  		  <if test="operatorId != null and operatorId != ''"> and operator_id = #{operatorId} </if>
+		  		  <if test="operatorNo != null and operatorNo != ''"> and operator_no = #{operatorNo} </if>
+		  		  <if test="userNo != null and userNo != ''"> and user_no = #{userNo} </if>
+		  		  <if test="operatorName != null and operatorName != ''"> and operator_name = #{operatorName} </if>
+		  		  <if test="leaderNo != null and leaderNo != ''"> and leader_no = #{leaderNo} </if>
+		  		  <if test="email != null and email != ''"> and email = #{email} </if>
+		  		  <if test="address != null and address != ''"> and address = #{address} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		  <if test="status != null and status != ''"> and status = #{status} </if>
+		  		</where>
+	</select>
+	 
+	<insert id="save" parameterType="com.template.operator.domain.OperatorInfoDO">
+		insert into hy_operator_info
+		(
+			`operator_id`, 
+			`operator_no`, 
+			`user_no`, 
+			`operator_name`, 
+			`leader_no`, 
+			`email`, 
+			`address`, 
+			`create_user`, 
+			`create_time`, 
+			`last_modify_user`, 
+			`last_modify_time`, 
+			`status`
+		)
+		values
+		(
+			#{operatorId}, 
+			#{operatorNo}, 
+			#{userNo}, 
+			#{operatorName}, 
+			#{leaderNo}, 
+			#{email}, 
+			#{address}, 
+			#{createUser}, 
+			#{createTime}, 
+			#{lastModifyUser}, 
+			#{lastModifyTime}, 
+			#{status}
+		)
+	</insert>
+	 
+	<update id="update" parameterType="com.template.operator.domain.OperatorInfoDO">
+		update hy_operator_info 
+		<set>
+			<if test="operatorNo != null">`operator_no` = #{operatorNo}, </if>
+			<if test="userNo != null">`user_no` = #{userNo}, </if>
+			<if test="operatorName != null">`operator_name` = #{operatorName}, </if>
+			<if test="leaderNo != null">`leader_no` = #{leaderNo}, </if>
+			<if test="email != null">`email` = #{email}, </if>
+			<if test="address != null">`address` = #{address}, </if>
+			<if test="createUser != null">`create_user` = #{createUser}, </if>
+			<if test="createTime != null">`create_time` = #{createTime}, </if>
+			<if test="lastModifyUser != null">`last_modify_user` = #{lastModifyUser}, </if>
+			<if test="lastModifyTime != null">`last_modify_time` = #{lastModifyTime}, </if>
+			<if test="status != null">`status` = #{status}</if>
+		</set>
+		where operator_id = #{operatorId}
+	</update>
+	
+	<delete id="remove">
+		delete from hy_operator_info where operator_id = #{value}
+	</delete>
+	
+	<delete id="batchRemove">
+		delete from hy_operator_info where operator_id in 
+		<foreach item="operatorId" collection="array" open="(" separator="," close=")">
+			#{operatorId}
+		</foreach>
+	</delete>
+
+</mapper>

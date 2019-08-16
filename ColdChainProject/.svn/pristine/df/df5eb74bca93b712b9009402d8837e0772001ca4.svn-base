@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.template.vehicle.domain.VehicleAccidentInfoDO">
+
+	<select id="get" resultType="com.template.vehicle.domain.VehicleAccidentInfoDO">
+		select `vehicle_acciden_key`,`vehicle_no`,`time`,`place`,`accident_describe`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time`,`status` from hy_vehicle_accident_info where vehicle_acciden_key = #{value}
+	</select>
+
+	<select id="list" resultType="com.template.vehicle.domain.VehicleAccidentInfoDO">
+		select `vehicle_acciden_key`,`vehicle_no`,`time`,`place`,`accident_describe`,`create_user`,`create_time`,`last_modify_user`,`last_modify_time`,`status` from hy_vehicle_accident_info
+        <where>  
+		  		  <if test="vehicleAccidenKey != null and vehicleAccidenKey != ''"> and vehicle_acciden_key = #{vehicleAccidenKey} </if>
+		  		  <if test="vehicleNo != null and vehicleNo != ''"> and vehicle_no = #{vehicleNo} </if>
+		  		  <if test="time != null and time != ''"> and time = #{time} </if>
+		  		  <if test="place != null and place != ''"> and place = #{place} </if>
+		  		  <if test="accidentDescribe != null and accidentDescribe != ''"> and accident_describe = #{accidentDescribe} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		  <if test="status != null and status != ''"> and status = #{status} </if>
+		  		</where>
+        <choose>
+            <when test="sort != null and sort.trim() != ''">
+                order by ${sort} ${order}
+            </when>
+			<otherwise>
+                order by vehicle_acciden_key desc
+			</otherwise>
+        </choose>
+		<if test="offset != null and limit != null">
+			limit #{offset}, #{limit}
+		</if>
+	</select>
+	
+ 	<select id="count" resultType="int">
+		select count(*) from hy_vehicle_accident_info
+		 <where>  
+		  		  <if test="vehicleAccidenKey != null and vehicleAccidenKey != ''"> and vehicle_acciden_key = #{vehicleAccidenKey} </if>
+		  		  <if test="vehicleNo != null and vehicleNo != ''"> and vehicle_no = #{vehicleNo} </if>
+		  		  <if test="time != null and time != ''"> and time = #{time} </if>
+		  		  <if test="place != null and place != ''"> and place = #{place} </if>
+		  		  <if test="accidentDescribe != null and accidentDescribe != ''"> and accident_describe = #{accidentDescribe} </if>
+		  		  <if test="createUser != null and createUser != ''"> and create_user = #{createUser} </if>
+		  		  <if test="createTime != null and createTime != ''"> and create_time = #{createTime} </if>
+		  		  <if test="lastModifyUser != null and lastModifyUser != ''"> and last_modify_user = #{lastModifyUser} </if>
+		  		  <if test="lastModifyTime != null and lastModifyTime != ''"> and last_modify_time = #{lastModifyTime} </if>
+		  		  <if test="status != null and status != ''"> and status = #{status} </if>
+		  		</where>
+	</select>
+	 
+	<insert id="save" parameterType="com.template.vehicle.domain.VehicleAccidentInfoDO">
+		insert into hy_vehicle_accident_info
+		(
+			`vehicle_acciden_key`, 
+			`vehicle_no`, 
+			`time`, 
+			`place`, 
+			`accident_describe`, 
+			`create_user`, 
+			`create_time`, 
+			`last_modify_user`, 
+			`last_modify_time`, 
+			`status`
+		)
+		values
+		(
+			#{vehicleAccidenKey}, 
+			#{vehicleNo}, 
+			#{time}, 
+			#{place}, 
+			#{accidentDescribe}, 
+			#{createUser}, 
+			#{createTime}, 
+			#{lastModifyUser}, 
+			#{lastModifyTime}, 
+			#{status}
+		)
+	</insert>
+	 
+	<update id="update" parameterType="com.template.vehicle.domain.VehicleAccidentInfoDO">
+		update hy_vehicle_accident_info 
+		<set>
+			<if test="vehicleNo != null">`vehicle_no` = #{vehicleNo}, </if>
+			<if test="time != null">`time` = #{time}, </if>
+			<if test="place != null">`place` = #{place}, </if>
+			<if test="accidentDescribe != null">`accident_describe` = #{accidentDescribe}, </if>
+			<if test="createUser != null">`create_user` = #{createUser}, </if>
+			<if test="createTime != null">`create_time` = #{createTime}, </if>
+			<if test="lastModifyUser != null">`last_modify_user` = #{lastModifyUser}, </if>
+			<if test="lastModifyTime != null">`last_modify_time` = #{lastModifyTime}, </if>
+			<if test="status != null">`status` = #{status}</if>
+		</set>
+		where vehicle_acciden_key = #{vehicleAccidenKey}
+	</update>
+	
+	<delete id="remove">
+		delete from hy_vehicle_accident_info where vehicle_acciden_key = #{value}
+	</delete>
+	
+	<delete id="batchRemove">
+		delete from hy_vehicle_accident_info where vehicle_acciden_key in 
+		<foreach item="vehicleAccidenKey" collection="array" open="(" separator="," close=")">
+			#{vehicleAccidenKey}
+		</foreach>
+	</delete>
+
+</mapper>
